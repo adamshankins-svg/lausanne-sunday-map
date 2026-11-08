@@ -409,6 +409,74 @@ window.RESEARCHED_HOURS = {
    "checked": "2026-11-08",
    "note": "free access 5h-23h every day"
   },
+  "n6464693670": {
+   "name": "MadHouse",
+   "oh": "Mo-Su 07:00-24:00",
+   "url": "https://www.mad.club/madhouse/",
+   "checked": "2026-11-08",
+   "note": "Bar of the ibis Styles hotel."
+  },
+  "n12251099039": {
+   "name": "Pavillon Bar & Kitchen",
+   "oh": "Mo 16:00-24:00; Tu,We 16:30-24:00; Th 16:30-01:00; Fr 15:30-02:00; Sa 09:00-02:00; Su off",
+   "url": "http://pavillonbar.ch/",
+   "checked": "2026-11-08",
+   "note": "The site lists Tuesday twice; Wednesday assumed the same as Tuesday."
+  },
+  "n11450063014": {
+   "name": "Dong Fang",
+   "oh": "Mo,We-Su 10:00-14:30,18:00-22:30; Tu 18:00-22:30",
+   "url": "https://www.dongfanglausanne.ch/",
+   "checked": "2026-11-08"
+  },
+  "n2368737807": {
+   "name": "Brasserie des Sauges",
+   "oh": "Mo-Sa unknown; Su,PH off",
+   "url": "https://brasserie-des-sauges.com/contact/",
+   "checked": "2026-11-08",
+   "note": "Closed Sundays and public holidays; kitchen until 22:30. Weekday opening times not published."
+  },
+  "n8380255820": {
+   "name": "Eclipse Pizza",
+   "oh": "Mo-Sa 11:00-13:30,17:00-22:00; Su 11:30-14:00,17:00-22:00",
+   "url": "https://eclipsepizza.ch/",
+   "checked": "2026-11-08",
+   "note": "Also delivers."
+  },
+  "n864613725": {
+   "name": "Trattoria du Commerce",
+   "oh": "Mo 10:00-15:00; Tu-Th 10:00-15:00,17:30-23:30; Fr 10:00-15:00,17:00-24:00; Sa 10:00-15:00,17:30-24:00; Su 10:00-15:00,17:30-23:30",
+   "url": "https://www.trattoriaducommerce.ch/#contact",
+   "checked": "2026-11-08"
+  },
+  "n12052799809": {
+   "name": "Le Local Pop-Up",
+   "oh": "Tu-Fr 11:30-17:30; Sa 11:00-18:30; Su,Mo off",
+   "url": "https://www.lausanne.ch/local-pop-up",
+   "checked": "2026-11-08",
+   "note": "City-run rotating pop-up shop (Escaliers du Marché 2); current occupant L'Éclair de Pâtisseries 14 Oct-29 Nov 2026; hours apply to that occupant only, will change after 29 Nov Hours of the current pop-up tenant (until 29 Nov 2026); they change with each tenant."
+  },
+  "w44421305": {
+   "name": "Le Kiosque",
+   "oh": "Mo-Fr 07:00-19:30; Sa 08:00-19:00; Su off",
+   "url": "https://www.lausanne.ch/officiel/administration/logement-environnement-et-architecture/architecture-et-logement/etablissements-publics/le-kiosque-saint-francois.html",
+   "checked": "2026-11-08",
+   "note": "Le Kiosque Saint-François; hours from City of Lausanne (owner) page; operator site www.kiosque-stfrancois.ch listed there"
+  },
+  "n417877592": {
+   "name": "Cafétéria de l'Anthropole",
+   "oh": "Mo-Fr 07:30-18:00; Sa,Su off",
+   "url": "https://unil.ch/unil/en/home/menuinst/campus/restaurants-et-commerces/restaurants/horaires.html",
+   "checked": "2026-11-08",
+   "note": "UNIL official page, undated 'course period' hours (Nov 2026 is in semester); off-semester Mo-Fr 08:00-17:00; only weekdays listed, weekends treated as closed; closed end-of-year period"
+  },
+  "w584895970": {
+   "name": "La Vaudaire",
+   "oh": "Mo-Fr off; Sa,Su 11:00-16:00",
+   "url": "https://www.lausanne.ch/officiel/administration/logement-environnement-et-architecture/architecture-et-logement/etablissements-publics/la-vaudaire.html",
+   "checked": "2026-11-08",
+   "note": "Hours from the City of Lausanne (owner) page for this public establishment: autumn-winter Sa-Su 11h-16h, closed Mo-Fr (spring-summer Mo-Fr 11-23, Sa 10-23, Su 10-19). Undated seasonal schedule; lavaudaire.com is listed there but was not fetched."
+  },
   "n6105457417": {
    "name": "Le Cyrano",
    "oh": "off",
