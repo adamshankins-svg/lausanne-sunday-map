@@ -1,8 +1,17 @@
 // Generated weekly by scripts/update_data.py from All the Places (CC0), chains' own store data.
 window.CHAIN_HOURS = {
-"ts": "2026-11-08T14:55+00:00",
+"ts": "2026-11-08T14:57+00:00",
 "run": "2026-10-31-13-32-34",
 "places": {
+"n266499584": {
+"name": "avec",
+"oh": "Mo-Fr 06:00-22:00; Sa-Su 06:30-22:00",
+"brand": "avec",
+"spider": "valora",
+"url": "https://bazaar.valoraapis.com/public/stores",
+"collected": "2026-11-05",
+"dist_m": 19
+},
 "n266542839": {
 "name": "BP",
 "oh": "Mo-Su 06:00-22:00",
@@ -21,6 +30,15 @@ window.CHAIN_HOURS = {
 "collected": "2026-10-31",
 "dist_m": 7
 },
+"n603706611": {
+"name": "k kiosk",
+"oh": "Mo-Fr 07:30-19:00; Sa 08:00-18:00",
+"brand": "k kiosk",
+"spider": "valora",
+"url": "https://bazaar.valoraapis.com/public/stores",
+"collected": "2026-11-05",
+"dist_m": 13
+},
 "n1283828394": {
 "name": "Shell",
 "oh": "Mo-Su 00:00-24:00",
@@ -29,6 +47,15 @@ window.CHAIN_HOURS = {
 "url": "https://find.shell.com/ch/fuel/13154557-evpass-parking-mon-repos",
 "collected": "2026-11-05",
 "dist_m": 32
+},
+"n2464429533": {
+"name": "k kiosk",
+"oh": "Mo-Fr 07:30-19:00; Sa 07:30-18:00",
+"brand": "k kiosk",
+"spider": "valora",
+"url": "https://bazaar.valoraapis.com/public/stores",
+"collected": "2026-11-05",
+"dist_m": 21
 },
 "n2490794259": {
 "name": "Denner",
@@ -48,15 +75,6 @@ window.CHAIN_HOURS = {
 "collected": "2026-11-05",
 "dist_m": 28
 },
-"n4608580384": {
-"name": "Café du Pont",
-"oh": "Mo-Fr 09:00-19:00; Sa 08:30-18:00",
-"brand": "Fielmann",
-"spider": "fielmann_ch",
-"url": "https://www.fielmann.ch/niederlassungen/lausanne/1003-rue-du-pont-22/",
-"collected": "2026-11-02",
-"dist_m": 27
-},
 "n5098287125": {
 "name": "Denner",
 "oh": "Mo-Th 08:00-19:00; Fr 08:00-20:00; Sa 07:30-18:00; Su closed",
@@ -75,14 +93,41 @@ window.CHAIN_HOURS = {
 "collected": "2026-11-02",
 "dist_m": 28
 },
+"n7456988129": {
+"name": "k kiosk",
+"oh": "Mo-Th 07:30-18:30; Fr 07:30-18:45; Sa 07:30-17:00",
+"brand": "k kiosk",
+"spider": "valora",
+"url": "https://bazaar.valoraapis.com/public/stores",
+"collected": "2026-11-05",
+"dist_m": 2
+},
+"n9397788760": {
+"name": "Brezelkönig",
+"oh": "Mo-Fr 05:20-21:00; Sa-Su 07:00-21:00",
+"brand": "Brezelkönig",
+"spider": "valora",
+"url": "https://bazaar.valoraapis.com/public/stores",
+"collected": "2026-11-05",
+"dist_m": 19
+},
 "n10166069166": {
 "name": "Migros Take Away",
-"oh": "Mo-Th 08:00-19:00; Fr 08:00-20:30; Sa 08:00-18:00",
-"brand": "Migros",
+"oh": "Mo-Th 07:30-19:00; Fr 07:30-20:30; Sa 07:30-18:00",
+"brand": "Migros Café",
 "spider": "migros_ch",
 "url": "https://api.migros.ch/migros/sales/branches/v1/graphql",
 "collected": "2026-11-03",
 "dist_m": 75
+},
+"n11859336903": {
+"name": "Brezelkönig",
+"oh": "Mo-Fr 05:00-21:00; Sa-Su 06:00-20:00",
+"brand": "Brezelkönig",
+"spider": "valora",
+"url": "https://bazaar.valoraapis.com/public/stores",
+"collected": "2026-11-05",
+"dist_m": 15
 },
 "n14079788701": {
 "name": "Migros Romanel MMM",
@@ -147,6 +192,15 @@ window.CHAIN_HOURS = {
 "collected": "2026-11-01",
 "dist_m": 4
 },
+"w780266081": {
+"name": "k kiosk",
+"oh": "Mo-Th 08:30-19:00; Fr 08:30-20:30; Sa 08:00-18:00",
+"brand": "k kiosk",
+"spider": "valora",
+"url": "https://bazaar.valoraapis.com/public/stores",
+"collected": "2026-11-05",
+"dist_m": 92
+},
 "w780266083": {
 "name": "Denner",
 "oh": "Mo-Th 08:00-19:00; Fr 08:00-20:30; Sa 08:00-18:00; Su closed",
@@ -167,8 +221,8 @@ window.CHAIN_HOURS = {
 },
 "w780266103": {
 "name": "Migros Restaurant",
-"oh": "Mo-Th 08:00-19:00; Fr 08:00-20:30; Sa 08:00-18:00",
-"brand": "Migros",
+"oh": "Mo-Th 07:30-19:00; Fr 07:30-20:30; Sa 07:30-18:00",
+"brand": "Migros Café",
 "spider": "migros_ch",
 "url": "https://api.migros.ch/migros/sales/branches/v1/graphql",
 "collected": "2026-11-03",
