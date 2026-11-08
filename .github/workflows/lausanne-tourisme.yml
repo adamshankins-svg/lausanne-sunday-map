@@ -1,0 +1,36 @@
+name: Hours from Lausanne Tourisme
+
+on:
+  schedule:
+    - cron: "43 5 3 * *"   # 3rd of each month, 05:43 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_lausanne_tourisme.py"
+      - ".github/workflows/lausanne-tourisme.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read Lausanne Tourisme listings
+        run: python3 scripts/fetch_lausanne_tourisme.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/lt_hours.js
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Hours from Lausanne Tourisme $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
