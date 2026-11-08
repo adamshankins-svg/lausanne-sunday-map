@@ -32,7 +32,9 @@ Most data comes from OpenStreetMap volunteers. If a place shows wrong hours, use
 2. **All the Places** (chain branches with no hours in OpenStreetMap, such as Denner, k kiosk, Brezelkönig, avec and petrol stations). This is chains' own store-finder data, released under CC0. The same weekly job matches it to the map and writes `data/chain_hours.js`.
 3. **Website research** (`data/researched_hours.js`): hours read from about 60 independent places' own websites on 8 November 2026. Each entry links to the page it came from. These hours don't update themselves, so recheck them now and then. A second job, `fetch-snippets.yml`, collects hours text from places' websites into `research/snippets.json` to make that easier. Run it from the repository's Actions tab.
 
-A place's details always say which source its hours came from. Hours from 2 and 3 only fill gaps; they never override OpenStreetMap.
+4. **Lausanne Tourisme** (`data/lt_hours.js`): hours from the tourism office's listings, read once a month by `lausanne-tourisme.yml`, and used only when sources 1–3 have nothing.
+
+A place's details always say which source its hours came from. Hours from 2–4 only fill gaps; they never override OpenStreetMap.
 
 ## Files
 

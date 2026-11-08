@@ -37,7 +37,7 @@ def fold(s):
     return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
 
 
-STOP = set("le la les l de du des d et sa sarl the chez lausanne cafe restaurant bar boulangerie patisserie tea room tearoom salon".split())
+STOP = set("le la les l de du des d et au aux sa sarl the chez lausanne cafe restaurant ristorante bar boulangerie patisserie tea room tearoom salon club cuisine take away hotel concept store shop".split())
 
 
 def tokens(s):
@@ -45,12 +45,12 @@ def tokens(s):
 
 
 def name_score(a, b):
+    """Share of distinctive words in common, measured from both names (so "Café Beau-Rivage" ≠ "Pic au Beau-Rivage Palace")."""
     ta, tb = tokens(a), tokens(b)
     if not ta or not tb:
         return 0.0
-    if ta <= tb or tb <= ta:
-        return 0.9
-    return len(ta & tb) / max(len(ta), len(tb))
+    common = len(ta & tb)
+    return min(common / len(ta), common / len(tb))
 
 
 def haversine(lat1, lon1, lat2, lon2):
@@ -89,6 +89,9 @@ def to_osm(specs):
                 current.append((DAYS.index(d), o, c))
     if not current:
         return None
+    for d, o, c in current:
+        if c < o and c > "06:00":      # e.g. 18:30-10:00 is a typo, not an all-night opening
+            return None
     per_day = {i: sorted({(o, c) for d, o, c in current if d == i}) for i in range(7)}
     # Group consecutive days with identical intervals.
     groups, i = [], 0
@@ -102,7 +105,10 @@ def to_osm(specs):
     for a, b, iv in groups:
         days = OSM_DAYS[a] if a == b else (f"{OSM_DAYS[a]},{OSM_DAYS[b]}" if b == a + 1 else f"{OSM_DAYS[a]}-{OSM_DAYS[b]}")
         rules.append(f"{days} " + (",".join(f"{o}-{c}" for o, c in iv) if iv else "off"))
-    return "; ".join(rules)
+    out = "; ".join(rules)
+    if out == "Mo-Su 00:00-24:00":      # placeholder used on many listings (theatres, offices)
+        return None
+    return out
 
 
 def read_page(url):
@@ -136,6 +142,15 @@ def main():
     print(f"{len(urls)} Lausanne Tourisme place pages")
     with ThreadPoolExecutor(max_workers=3) as ex:
         pages = list(ex.map(read_page, urls))
+    failed = [p["url"] for p in pages if p.get("error") and p["error"] != "no structured data"]
+    if failed:
+        print(f"Retrying {len(failed)} pages slowly")
+        time.sleep(20)
+        retry = {}
+        for u in failed:
+            retry[u] = read_page(u)
+            time.sleep(1.5)
+        pages = [retry.get(p["url"], p) for p in pages]
     lt = [p for p in pages if p.get("oh")]
     print(f"{len(lt)} with current opening hours, {sum(1 for p in pages if p.get('error'))} errors")
 
@@ -149,7 +164,7 @@ def main():
             if d > 150:
                 continue
             sc = name_score(t.get("name"), p["name"])
-            need = 0.6 if d <= 40 else 0.8
+            need = 0.5 if d <= 25 else 0.7
             if sc >= need and sc > bs:
                 best, bs = p, sc
         if best:
