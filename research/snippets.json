@@ -1,0 +1,2017 @@
+[
+ {
+  "id": "n9946866748",
+  "name": "Intrigo",
+  "kind": "ice_cream",
+  "website": "https://www.intrigogelateria.com/",
+  "address": "",
+  "dist_m": 50,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n6464693670",
+  "name": "MadHouse",
+  "kind": "bar",
+  "website": "http://www.mad-house.ch",
+  "address": "Place de l'Europe 6",
+  "dist_m": 138,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n12759871401",
+  "name": "Lily",
+  "kind": "bar",
+  "website": "https://lilybar.ch/",
+  "address": "Rue Chaucrau 10",
+  "dist_m": 156,
+  "pages": [
+   {
+    "url": "https://lilybar.ch/",
+    "text": "Réservez votre table\nOrganisez votre événement\nHoraires d’ouverture:\nLundi de 17h à 23h\nMardi-Mercredi de 11h à minuit\nJeudi de 11h à 1h\nVendredi de 11h à 2h\nSamedi de 10h à 2h\nDimanche : fermé\nLe midi:\nVenez déguster nos délicieuses tartines, quiches et notre authentique bagel new-yorkais. Le tout fait maison!\nLes pizzas artisanales débarquent aussi le midi! Lance Roquette, Raclette Moi si tu Peux, Stracciatella in Love, il y en a pour tous les goûts.\nDes formules goûter pour petits et grands sont proposées toute l’après midi, que vous veniez pour travailler dans un espace calme ou faire une pause!\nVoir le menu\nLe brunch du samedi:\nTous les samedis de 10h30 à 14h30, place au brunch ! Croissants bénédictes, tartines salées, pancakes… le tout accompagné de boissons réconfortantes. Une pause gourmande à savourer dans une ambiance chaleureuse.\nVoir le menu\nLe soir:\nLieu incontournable pour vos afterworks, le Lily Bar vous offre une carte de tapas fait maison, un large choix de cocktails, de vin, de bières et de boissons sans alcools, le tout dans une ambiance chaleureuse qui invite à la détente et à la convivialité entre amis ou collègues.\nVoir le menu\nOrganise Ton Événement au Lily Bar\nLily Lausanne: Bistrot, Café, Afterwork, Soirée & Evénements\nRue Chaucrau 10, 1003 Lausanne\nLundi de 17h à 23h\nMardi-Mercredi de 11h à minuit\nJeudi de 11h à 1h\nVendredi de 11h à 2h\nSamedi de 10h à 2h\nAccueil\nNos événements\nNous contacter\nPolitique de Confidentialité\nCopyright © 2026 Lily bar"
+   },
+   {
+    "url": "https://lilybar.ch/nous-contacter/",
+    "text": "Lily Lausanne: Bistrot, Café, Afterwork, Soirée & Evénements\nRue Chaucrau 10, 1003 Lausanne\nLundi de 17h à 23h\nMardi-Mercredi de 11h à minuit\nJeudi de 11h à 1h\nVendredi de 11h à 2h\nSamedi de 10h à 2h\nAccueil\nNos événements\nNous contacter\nPolitique de Confidentialité\nCopyright © 2026 Lily bar"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n5854166760",
+  "name": "Spécialités de la Palud",
+  "kind": "convenience",
+  "website": "https://mixfood.party/",
+  "address": "Place de la Palud 9",
+  "dist_m": 171,
+  "pages": [
+   {
+    "url": "https://mixfood.party/",
+    "text": "dès 1932\nMagasin arrow_drop_down\nLundi au Vendredi : 9h\nà 19h\nSamedi : 8h\nà 18h\narrow_drop_up\nProduits arrow_drop_down\nVenez découvrir les meilleurs produits d'épicerie récoltés aux quatre coins du monde. Des produits d'exception du monde entier sélectionnés pour vous.\nVous cherchez une denrée rare ? N’hésitez pas à prendre contact avec nous pour la trouver …"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n7042119452",
+  "name": "Rhino Féroce",
+  "kind": "pub",
+  "website": "https://rhinoferoce.ch/",
+  "address": "Rue du Port-Franc 11",
+  "dist_m": 181,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n3063636756",
+  "name": "Le Raisin",
+  "kind": "restaurant",
+  "website": "https://www.leraisin-lausanne.ch/",
+  "address": "Place de la Palud 19",
+  "dist_m": 214,
+  "pages": [
+   {
+    "url": "https://www.leraisin-lausanne.ch/",
+    "text": "Réserver une table\nL'hôtel\nContact & horaires\nWeek-end découverte\nmenu\nkeyboard_arrow_down\n​L'établissement est situé à la place de la Palud, zone piétonne en plein centre historique de Lausanne.\nLe Raisin jouit d'un cadre magnifique abrité par une bâtisse de 1624. Il vous accueille tout au long de la journée vous offrant une atmosphère chaleureuse et historique.\n​\nRéserver\nschedule\n​Horaires\nLundi à Samedi 8h30 - 23h30\n​Fermé le Dimanche\nFermé les Jours Fériés\nphone\nNous contacter\nTel +41 21 312 27 56\n[email protected]\nSuggestions & commentaires"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n2613661654",
+  "name": "Eat Me",
+  "kind": "restaurant",
+  "website": "https://www.eat-me.ch/",
+  "address": "",
+  "dist_m": 215,
+  "pages": [],
+  "jsonld": [],
+  "error": "RemoteDisconnected: Remote end closed connection without response"
+ },
+ {
+  "id": "n12042198550",
+  "name": "Mangiobevo",
+  "kind": "deli",
+  "website": "https://mangiobevo.ch/",
+  "address": "",
+  "dist_m": 220,
+  "pages": [
+   {
+    "url": "https://mangiobevo.ch/",
+    "text": "+41 78 208 26 88\nciao@mangiobevo.ch\nHORAIRES D’OUVERTURE\nLundi: 10h00 à 15h00\nMardi au vendredi: 10h00 à 19h00\nSamedi: 10h00 à 18h00\nDimanche: Fermé\nSouscrivez à notre Newsletter\nE-mail\nFacebook\nInstagram\nPaiement Sécurisé Avec"
+   }
+  ],
+  "jsonld": [
+   "[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Monday\",\"opens\":\"10:00\",\"closes\":\"15:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Tuesday\",\"opens\":\"10:00\",\"closes\":\"19:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Wednesday\",\"opens\":\"10:00\",\"closes\":\"19:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Thursday\",\"opens\":\"10:00\",\"closes\":\"19:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"10:00\",\"closes\":\"19:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Saturday\",\"opens\":\"10:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"d"
+  ],
+  "error": null
+ },
+ {
+  "id": "n11836600734",
+  "name": "La Caleta",
+  "kind": "restaurant",
+  "website": "https://www.lacaleta.ch/",
+  "address": "Rue de l'Ale 15",
+  "dist_m": 224,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n5747554937",
+  "name": "Pizza Fratel",
+  "kind": "restaurant",
+  "website": "https://www.pizzafratel.ch/",
+  "address": "Rue de la Tour 8",
+  "dist_m": 237,
+  "pages": [
+   {
+    "url": "https://www.pizzafratel.ch/",
+    "text": "Accueil\nCommander\nNos Horaires\nService Traiteur\nAvantage membre\nConnexion\nVoir les points\nZone Lausanne / Pully\n​\nDIMANCHE - MARDI\nFERMÉ\nEN LIVRAISON\n​\nMERCREDI - VENDREDI\n12H - 14:15 & 18:30 - 22:15\n​\n​\nDIMANCHE - MARDI\nFERMÉ\nFRATEL E NAPULE\nDEPUIS 2009\n​\nPROGRAMME DE FIDÉLITÉ\n​"
+   },
+   {
+    "url": "https://www.pizzafratel.ch",
+    "text": "Accueil\nCommander\nNos Horaires\nService Traiteur\nAvantage membre\nConnexion\nVoir les points\nZone Lausanne / Pully\n​\nDIMANCHE - MARDI\nFERMÉ\nEN LIVRAISON\n​\nMERCREDI - VENDREDI\n12H - 14:15 & 18:30 - 22:15\n​\n​\nDIMANCHE - MARDI\nFERMÉ\nFRATEL E NAPULE\nDEPUIS 2009\n​\nPROGRAMME DE FIDÉLITÉ\n​"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n12612354152",
+  "name": "La Table du Lausanne Palace",
+  "kind": "restaurant",
+  "website": "https://www.lausanne-palace.ch/restaurants-bars/la-table-du-lausanne-palace/le-restaurant/",
+  "address": "Rue du Grand Chêne 7",
+  "dist_m": 239,
+  "pages": [
+   {
+    "url": "https://www.lausanne-palace.ch/restaurants-bars/la-table-du-lausanne-palace/le-restaurant/",
+    "text": "Bons cadeaux\nInformations pratiques\nHoraires d'ouverture :\nDu mercredi au samedi de 12h à 15h (dernière commande à 13h)\net de 19h à 23h (dernière commande à 20h)\nFermé du dimanche au mardi.\nLa Table Affaire vous propose un menu \"Business\" pour le déjeuner les mercredis et jeudis hors jours fériés et festivités.\nLe restaurant a 2 étoiles au guide Michelin et 18/20 points au Gault&Millau.\nSarah & Franck Pelux, les artistes de La Table\nImaginez un restaurant au panorama unique surplombant les toits de Lausanne, les montagnes et le lac.\nÀ l’arrivée, Sarah Benahmed vous accueille dans un univers fondamentalement épuré et audacieux, pour une expérience culinaire d’exception."
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n11482896646",
+  "name": "Tropicana",
+  "kind": "restaurant",
+  "website": "https://tropicana-restaurant.ch",
+  "address": "",
+  "dist_m": 254,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 503: Service Unavailable"
+ },
+ {
+  "id": "n603704048",
+  "name": "Starbucks",
+  "kind": "cafe",
+  "website": "https://www.starbucks.co.uk/store-locator/30829-100122/st.-francois",
+  "address": "",
+  "dist_m": 260,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ {
+  "id": "n6465761092",
+  "name": "Galerie d'art Humus",
+  "kind": "gallery",
+  "website": "http://humus-art.com/",
+  "address": "Rue des Terreaux 18bis",
+  "dist_m": 264,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n6640587806",
+  "name": "MYO",
+  "kind": "restaurant",
+  "website": "https://www.myo.ch/",
+  "address": "Allée Ernest-Ansermet 1",
+  "dist_m": 305,
+  "pages": [
+   {
+    "url": "https://www.myo.ch/a-propos",
+    "text": "​\nBANQUET\nLe MYO peut être réservé tout ou partie pour vos cocktails, repas ou événements. Capacité de 100 places en terrasse (partie couverte modulable), salle de 35 places.\nRESTEZ INFORMES\nPrénom\nNom\nE-mail\nS'inscrire"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n10927113720",
+  "name": "Les Jardins",
+  "kind": "pub",
+  "website": "https://www.vieux-lausanne.ch/les-jardins",
+  "address": "",
+  "dist_m": 326,
+  "pages": [
+   {
+    "url": "https://www.vieux-lausanne.ch/les-jardins",
+    "text": "L’afterwork de l’été à la cité\nUn coin de verdure au pied des remparts de la Cathédrale de Lausanne.\nSans réservations et tout le monde est le bienvenu.\n4.5\n1624 Reviews\n(Google, Facebook, Trip Advisor)\nCarte Vieux-Lausanne\nAu plaisir de vous accueillir prochainement!\n*************************************************************************\nLes Jardins sont ouverts du mardi au samedi dès 17h00 selon météo - SANS RESERVATION."
+   },
+   {
+    "url": "https://www.vieux-lausanne.ch/contact",
+    "text": "vieuxlo@vtxnet.ch\nLe Vieux-Lausanne\nMardi-Mercredi-Jeudi-Vendredi: 12:00 – 14:00 & 19:00 – 22:00\nSamedi: 19 :00 – 22 :00\nDimanche-Lundi: fermé\nChalet Hydda\nOuvert de novembre à janvier\nMardi-samedi : 19:00 – 22:00\nLes Jardins\nOuvert de avril à octobre\nMardi-Samedi : 17:00-00:00\nBar Giraf\nMardi – Mercredi: 19:00 – 01:00\nJeudi: 20:00 – 01:00\nVendredi – Samedi: 20:00 – 02:00\nMoyens d'accès\nParking de la Riponne\n4.5\n1624 Reviews\n(Google, Facebook, Trip Advisor)\nAu plaisir de vous accueillir prochainement!\n*************************************************************************\nLes Jardins sont ouverts du mardi au samedi dès 17h00 selon météo - SANS RESERVATION."
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n12251099039",
+  "name": "Pavillon Bar & Kitchen",
+  "kind": "restaurant",
+  "website": "http://pavillonbar.ch/",
+  "address": "",
+  "dist_m": 352,
+  "pages": [
+   {
+    "url": "http://pavillonbar.ch/",
+    "text": "reservations\nvia notre plateforme de réservation online via le lien sur notre site web, Instagram ou Facebook, par mail hello@pavillonbar.ch, ou par téléphone au 021 320 95 95\nhoraires\nDimanche Fermé\nLundi 16:00—00.00\nMardi 16:30—00:00\nMardi 16:30—00:00\nJeudi 16:30—01:00\nVendredi 15:30—02:00\nSamedi 9:00–02:00\nToutes nos Pizzas 12 pouces sont à chf 12.-\nAglio & Olio (v)\nail, piment, basilic frais, Mozzarella di bufala, passata\nProsciutto crudo\njambon cru, rucola, parmesan, mozzarella di bufala et passata\nToutes les émissions sont publiées en podcast sur mixcloud\nCurious Sound Session, octobre-décembre 2018\ntous les lundis 21h-23h\nCurious Sound Session est l’émission hebdomadaire de Radio Ripoff,\nconstruite comme une mixtape de deux heures, ses contenus se composent de musiques du monde, de différents genres et de plusieurs époques, mélangeant de manière ludique des chansons populaires avec d’autres moins connues du grand public.\nCurious Sound Session s’adresse aux personnes curieuses, qui désirent\nélargir leurs connaissances musicales tout en passant un bon moment au bar ou\nchez eux en direct (ou plus tard en écoutant les podcasts !)."
+   }
+  ],
+  "jsonld": [
+   "\"Mo 09:00-01:00, Tu 09:00-01:00, We 09:00-01:00, Th 09:00-01:00, Fr 09:00-02:00, Sa 09:00-02:00, \""
+  ],
+  "error": null
+ },
+ {
+  "id": "n2967665134",
+  "name": "Musée de la Chaussure",
+  "kind": "museum",
+  "website": "https://shoemuseum.ch/",
+  "address": "Rue du Rôtillon",
+  "dist_m": 380,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n10068872969",
+  "name": "Coupe-circuit",
+  "kind": "convenience",
+  "website": "https://coupe-circuit.ch/",
+  "address": "Place de la Riponne 10",
+  "dist_m": 396,
+  "pages": [
+   {
+    "url": "https://coupe-circuit.ch/",
+    "text": "L’épicerie est gérée bénévolement par les coopérateur-ices; on fait tout nous même, des commandes de produits jusqu’à la vente.\nTout le monde peut y faire ses courses, il suffit de devenir coopérateur.ice.\nChaque coopérateur.ice participe à l’aventure 3h/mois.\nÇa t'intéresse ?\nSi tu cherches une alternative à la grande distribution, à retrouver du plaisir et du sens, passe nous faire coucou et en apprendre davantage sur le projet. On se réjouit de t’accuellir !\nDevenir coopérateur-ice\nProchaines séances d’information :\nMercredi 28 octobre 18:30\nJeudi 12 novembre 18:30\nMercredi 25 novembre 18:30\nMardi 8 décembre 18:30\nTu peux aussi nous écrire et on répondra à toutes tes questions.\nMembre de l'association des épiceries alternatives romandes\nhttps://epiceries-alternatives.ch/\nRetrouve l'univers de l'épicerie et les événements\nLauréate du Budget participatif de Lausanne 2021"
+   },
+   {
+    "url": "https://coupe-circuit.ch/infos-pratiques/",
+    "text": "1005 Lausanne\nepicerie@coupe-circuit.ch\nHoraires d'ouverture\nLundi : 17h30 – 19h30\nMardi : 17h30 – 19h30\nMercredi : 9h00 – 11h00 et 17h30 – 19h30\nJeudi : 17h30 – 19h30\nVendredi : fermé\nSamedi : 10h30 – 15h30\nDimanche : fermé\nHoraires libre-service\npour les coopérateurices\nLu/Ma/Me/Je/Sa : 8h00 – 17h30\nTéléchargements\nPour des infos détaillées sur notre fonctionnement :\nManuel des membres"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n8892915811",
+  "name": "LaseRed",
+  "kind": "sports_centre",
+  "website": "https://lasered.ch/lausanne",
+  "address": "Rue Sophie-Mercier 12",
+  "dist_m": 418,
+  "pages": [
+   {
+    "url": "https://lasered.ch/lausanne",
+    "text": "il y a 4 mois\n★★★★★\n1 heure de réel plaisir. Première expérience pour notre groupe. Enfants et adultes ont pu participer et trouver leur place dans le jeu. Merci pour la découverte, à refaire.\nMimma Lenherr\nil y a 5 mois\n★★★★★\nUne expérience incroyable ! Le système de jeu est incroyablement captivant, les décors sont très élaborés, et les scénarios apportent une vraie profondeur au jeu. Maxime, le game master, est très professionnel et met les clients à l'aise. Je recommande vivement !\nGaby\nil y a 4 mois\n★★★★★\n1 heure de réel plaisir. Première expérience pour notre groupe. Enfants et adultes ont pu participer et trouver leur place dans le jeu. Merci pour la découverte, à refaire.\nMimma Lenherr\nil y a 5 mois\n★★★★★\nUne expérience incroyable ! Le système de jeu est incroyablement captivant, les décors sont très élaborés, et les scénarios apportent une vraie profondeur au jeu. Maxime, le game master, est très professionnel et met les clients à l'aise. Je recommande vivement !\nGaby\nil y a 4 mois\n★★★★★\n1 heure de réel plaisir. Première expérience pour notre groupe. Enfants et adultes ont pu participer et trouver leur place dans le jeu. Merci pour la découverte, à refaire.\nMimma Lenherr\nil y a 5 mois\n★★★★★\nUne expérience incroyable ! Le système de jeu est incroyablement captivant, les décors sont très élaborés, et les scénarios apportent une vraie profondeur au jeu. Maxime, le game master, est très professionnel et met les clients à l'aise. Je recommande vivement !\nGaby\nil y a 4 mois\n★★★★★\n1 heure de réel plaisir. Première expérience pour notre groupe. Enfants et adultes ont pu participer et trouver leur place dans le jeu. Merci pour la découverte, à refaire.\nMimma Lenherr\nil y a 5 mois\n★★★★★\nUne expérience incroyable ! Le système de jeu est incroyablement captivant, les décors sont très élaborés, et les scénarios apportent une vraie profondeur au jeu. Maxime, le game master, est très professionnel et met les clients à l'aise. Je recommande vivement !\nGaby\nil y a 4 mois\n★★★★★\n1 heure de réel plaisir. Première expérience pour notre groupe. Enfants et adultes ont pu participer et trouver leur place dans le jeu. Merci pour la découverte, à refaire.\nMimma Lenherr\nil y a 5 mois\n★★★★★\nUne expérience incroyable ! Le système de jeu est incroyablement captivant, les décors sont très élaborés, et les scénarios apportent une vraie profondeur au jeu. Maxime, le game master, est très professionnel et met les clients à l'aise. Je recommande vivement !\nGaby\nil y a 4 mois\n★★★★★\n"
+   }
+  ],
+  "jsonld": [
+   "[\n        {\n            \"@type\": \"OpeningHoursSpecification\",\n            \"dayOfWeek\": [\n                \"Monday\",\n                \"Tuesday\",\n                \"Wednesday\",\n                \"Thursday\",\n                \"Friday\",\n                \"Saturday\",\n                \"Sunday\"\n            ]"
+  ],
+  "error": null
+ },
+ {
+  "id": "n4991154622",
+  "name": "Sushi Shop",
+  "kind": "fast_food",
+  "website": "https://www.mysushishop.ch/fr/restaurant/lausanne",
+  "address": "",
+  "dist_m": 423,
+  "pages": [
+   {
+    "url": "https://www.mysushishop.ch/fr/restaurant/lausanne",
+    "text": "Besoin d'aide ?\n0900 826 826 • CHF 0.25 / min depuis le réseau fixe\nHoraires d'ouverture\nLoading...\nLoading...\nLoading...\nLoading...\nAvis clients"
+   }
+  ],
+  "jsonld": [
+   "[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"]"
+  ],
+  "error": null
+ },
+ {
+  "id": "n6105457417",
+  "name": "Le Cyrano",
+  "kind": "restaurant",
+  "website": "https://www.lecyrano.ch/",
+  "address": "",
+  "dist_m": 430,
+  "pages": [
+   {
+    "url": "https://www.lecyrano.ch/",
+    "text": "Merci pour 3 années inoubliables\n3 Années d'Excellence\n2023 - Ouverture\nLe Cyrano ouvre ses portes comme un bar à tapas vibrant. Chaque client accueilli comme un ami, chaque moment devenant un souvenir précieux.\n2024 - Évolution\nÉlargissement vers la cuisine italienne authentique. De la première tapas au dernier risotto, chaque assiette porte notre passion pour la bonne cuisine.\n2025 - Apogée\nAutour de nos tables se sont tissées des amitiés, célébrées des victoires et partagés les bons moments. Merci pour cette belle aventure.\n❯\nNotre Histoire\nLe Cyrano a ouvert ses portes en tant que bar à tapas avant d'évoluer vers une cuisine italienne\nauthentique et généreuse. Chaque plat a été préparé avec passion, chaque moment partagé avec sincérité.\nSitué à la Rue de Bourg à Lausanne, nous avons eu le privilège de vous accueillir, de partager\nnos tables, nos rires et nos délices culinaires.\n📍 Rue de Bourg, Lausanne\n🕐 3 années de souvenirs partagés"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n4179198493",
+  "name": "Atelier Forme",
+  "kind": "fitness_centre",
+  "website": "https://atelier-forme.ch",
+  "address": "",
+  "dist_m": 431,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n11511236957",
+  "name": "Perbacco",
+  "kind": "restaurant",
+  "website": "https://restaurant-italien-lausanne.ch/",
+  "address": "Ruelle des Tanneurs",
+  "dist_m": 435,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n4921708803",
+  "name": "Le Byblos",
+  "kind": "restaurant",
+  "website": "https://lebyblos.ch/",
+  "address": "Rue Cheneau-de-Bourg 2",
+  "dist_m": 459,
+  "pages": [
+   {
+    "url": "https://www.lebyblos.ch/",
+    "text": "Rue Cheneau-de-Bourg 2,\n1003 Lausanne (Sous le Pont Bessières)\nHoraires\nLundi au Vendredi : 08h00 – 00h00\nSamedi : 09h00 – 00h00\nDimanche : 12\nh00 –\n22\nh00\nHoraires Cuisine\n+41 21 311 83 73\ninfo@lebyblos.ch\n© 2026 Le Byblos\naccessing.app + Google Sites\nSites Google"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n5784323102",
+  "name": "The Key",
+  "kind": "escape_game",
+  "website": "https://thekey.ch/",
+  "address": "",
+  "dist_m": 459,
+  "pages": [
+   {
+    "url": "https://thekey.ch/",
+    "text": "The KEY Escape Game Lausanne – Best rated Escape Rooms\nEscape game & escape rooms à Lausanne\nOuvrir/fermer le menu\nNEW – Merlin’s Secret\nLes aventures\nBons\nFoire aux questions\nPhotos"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n5029337722",
+  "name": "Montana's sport bar",
+  "kind": "bar",
+  "website": "https://lecolony.ch/",
+  "address": "",
+  "dist_m": 494,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "id": "n3256772570",
+  "name": "Bamee Bar",
+  "kind": "restaurant",
+  "website": "https://www.bameebar.ch/",
+  "address": "Avenue de la Gare 32",
+  "dist_m": 510,
+  "pages": [
+   {
+    "url": "https://www.bameebar.ch/",
+    "text": "1-677-124-44227\n184 Main Collins Street West Victoria 8007\nMon - Sat 8.00 - 18.00 Sunday CLOSED\nthai restaurant\nBienvenue au Bamee Bar\nLe Bamee Bar est un restaurant thaïlandais à l'esprit familial, inauguré en mars 2009, proposant deux ambiances et une cuisine authentique.\nBamee Bar\nMenu de la semaine\nFacebook\nInstagram\nHoraires\nLundi\n11: 00 - 20 : 00\nMardi\n11 : 00 - 15 : 00\nMercredi\n18 : 00 - 00 : 00\nDimanche\n- - - FERMÉ - - -\nEmplacement\nCopyright © 2020 Bamee Bar – Design by Serendipity Agency"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n3526785884",
+  "name": "Fanfan",
+  "kind": "cafe",
+  "website": "https://www.fanfanconceptstore.com/",
+  "address": "",
+  "dist_m": 514,
+  "pages": [
+   {
+    "url": "https://www.fanfanconceptstore.com/",
+    "text": "S'INSCRIRE\nMerci pour votre inscription !\nHoraires d'ouverture\nMardi - Vendredi : 10h30 - 18h\nSamedi : 10h30 - 17h\nDimanche - Lundi : Fermé\nContact\nNom\nE-mail\nObjet\nMessage"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n9957186375",
+  "name": "Le Nabi Bar",
+  "kind": "restaurant",
+  "website": "https://www.mcba.ch/cafe-restaurant/",
+  "address": "Place de la Gare 16",
+  "dist_m": 544,
+  "pages": [
+   {
+    "url": "https://www.mcba.ch/cafe-restaurant/",
+    "text": "Recherche\nCe site utilise des cookies afin de vous offrir une expérience optimale de navigation. En continuant de visiter ce site, vous acceptez l'utilisation de ces cookies.\nFermer la notification concernant l’utilisation des cookies\nMCBA\nMusée\ncantonal\ndes\nbeaux‑arts\nInfos pratiques\nBilletterie\nHoraires, tarifs, accès\nAccessibilité\nCafé-Restaurant\nLibrairie-Boutique\nBibliothèque\nVisites et événements\nPartenaires\nMenu\nFermer\nExpositions\nEn cours\nÀ venir\nPassées\nPublications\nInfos pratiques\nBilletterie\nHoraires, tarifs, accès\nAccessibilité\nCafé-Restaurant\nLibrairie-Boutique\nBibliothèque\nVisites et événements\nArtiste invitée\nLe Nabi\nHoraires d'ouverture\nlundi: fermé\nmardi-mercredi: 9:30-18:00\njeudi: 9:30-20:00\nvendredi-dimanche: 9:30-18:00\nRéservation conseillée!\nContact:\ninfo@lenabi.ch\n+41 21 311 02 90\nHoraires spéciaux\n24.12.2026\n10h00 - 17h00\n25.12.2026\nFermé\n31.12.2026\n10h00 - 17h00\n1.01.2027\nFermé\nL'esprit Nabi\nA tout moment de la journée un choix de desserts maison, boules de glaces de Malou et boissons artisanales vous sont servis pour votre pause gourmande.\nEn semaine, du mardi au vendredi, nous proposons des plats variés qui conviennent aux petits comme aux grands, ainsi qu’un menu / plat de la semaine. Les dimanches vous pourrez profiter d’un brunch à déguster dans un cadre chaleureux.\nLa liberté de création du mouvement d’art pictural avant-gardiste des Nabis inspire notre cuisine. Le Nabi, c’est aussi le prophète en hébreu, celui qui apporte des nouvelles idées. C’est l’esprit libre qui nous porte à innover pour embellir la vie.\nEn savoir plus\nPrivatisation\nPour vos événements et réceptions, il est possible de privatiser Le Nabi dès 18h du lundi au dimanche.\nCapacité: 80 personnes en salle ou jusqu’à 200 personnes avec la location du Foyer ou de l’Auditorium.\nLa salle du Nabi peut être privatisée au tarif de 750.- CHF la soirée pour des apéritifs ou des repas. Surface: 143 m2\nPour des événements de plus grande envergure, en partenariat avec le MCBA, d’autres espaces peuvent être loués (selon leurs tarifs) en plus du restaurant.\nNous proposons des apéritifs simples, des apéritifs dînatoires et des repas du soir. Pour recevoir une offre adaptée à vos souhaits et à vos goûts merci d’envoyer un courriel à: events@lenabi.ch\nCafé Lumen\nLe Café Lumen vous accueille tous les jours, sauf le mardi, de 10h à 18h et jeudi jusqu’à 20h.\nSur place ou à emporter.\nSitué entre le mudac et le Musée Photo Elysée, au sein de l’architecture spectaculaire des frères A"
+   },
+   {
+    "url": "https://www.mcba.ch/infos-pratiques/",
+    "text": "Recherche\nCe site utilise des cookies afin de vous offrir une expérience optimale de navigation. En continuant de visiter ce site, vous acceptez l'utilisation de ces cookies.\nFermer la notification concernant l’utilisation des cookies\nMCBA\nMusée\ncantonal\ndes\nbeaux‑arts\nInfos pratiques\nBilletterie\nHoraires, tarifs, accès\nAccessibilité\nCafé-Restaurant\nLibrairie-Boutique\nBibliothèque\nVisites et événements\nPartenaires\nMenu\nFermer\nExpositions\nEn cours\nÀ venir\nPassées\nPublications\nInfos pratiques\nBilletterie\nHoraires, tarifs, accès\nAccessibilité\nCafé-Restaurant\nLibrairie-Boutique\nBibliothèque\nVisites et événements\nDE\nInfos pratiques\nHoraires\nTarifs\nAccès\nContact\nHoraires\nAujourd’hui: ouvert de 10h00 à 18h00\nLundi\nMCBA: fermé\nMardi\n10h00-18h00\nMercredi\n10h00-18h00\nJeudi\nVendredi-dimanche\n10h00-18h00\nHoraires spéciaux\n24.12.2026\n10h00 - 17h00\n25.12.2026\nFermé\n31.12.2026\n10h00 - 17h00\n1.01.2027\nFermé\nCafé–Restaurant Le Nabi\nMardi-mercredi: 9h30 – 18h00\nJeudi: 9h30 – 20h00\nVendredi-dimanche: 9h30 – 18h00\nLundi: fermé\nLibrairie–Boutique\nHoraires du MCBA\nTarifs\nBillet Plateforme 10 – 3 musées\nValable 3 mois pour 1 visite des expositions temporaires de chacun des 3 musées (MCBA, mudac et Photo Elysée)\nTarif plein\nAdultes dès 26 ans\nContact\nContact\nHoraires\nmardi-mercredi\n10h00 - 18h00\njeudi\n10h00 - 20h00\nvendredi-dimanche\n10h00 - 18h00\nlundi\nFermé\nHoraires spéciaux\nPLATEFORME 10\nMusée cantonal des Beaux-Arts\nPlace de la Gare 16\n1003\nLausanne"
+   },
+   {
+    "url": "https://www.mcba.ch/accessibilite",
+    "text": "Recherche\nCe site utilise des cookies afin de vous offrir une expérience optimale de navigation. En continuant de visiter ce site, vous acceptez l'utilisation de ces cookies.\nFermer la notification concernant l’utilisation des cookies\nMCBA\nMusée\ncantonal\ndes\nbeaux‑arts\nInfos pratiques\nBilletterie\nHoraires, tarifs, accès\nAccessibilité\nCafé-Restaurant\nLibrairie-Boutique\nBibliothèque\nVisites et événements\nPartenaires\nMenu\nFermer\nExpositions\nEn cours\nÀ venir\nPassées\nPublications\nInfos pratiques\nBilletterie\nHoraires, tarifs, accès\nAccessibilité\nCafé-Restaurant\nLibrairie-Boutique\nBibliothèque\nVisites et événements\nAccueil des établissements socio-éducatifs\nLabel Culture inclusive\nCharte de l’inclusion culturelle (pdf)\nPartenaires\nNous travaillons avec différents partenaires, mandataires et publics:\nLabel Culture Inclusive\nPro Infirmis – Proche Connect\nRetour en images\nAccueil de personnes malvoyantes\nHoraires\nmardi-mercredi\n10h00 - 18h00\njeudi\n10h00 - 20h00\nvendredi-dimanche\n10h00 - 18h00\nlundi\nFermé\nHoraires spéciaux\nPLATEFORME 10\nMusée cantonal des Beaux-Arts\nPlace de la Gare 16\n1003\nLausanne"
+   },
+   {
+    "url": "https://www.mcba.ch/visites-adultes/",
+    "text": "Recherche\nCe site utilise des cookies afin de vous offrir une expérience optimale de navigation. En continuant de visiter ce site, vous acceptez l'utilisation de ces cookies.\nFermer la notification concernant l’utilisation des cookies\nMCBA\nMusée\ncantonal\ndes\nbeaux‑arts\nInfos pratiques\nBilletterie\nHoraires, tarifs, accès\nAccessibilité\nCafé-Restaurant\nLibrairie-Boutique\nBibliothèque\nVisites et événements\nPartenaires\nMenu\nFermer\nExpositions\nEn cours\nÀ venir\nPassées\nPublications\nInfos pratiques\nBilletterie\nHoraires, tarifs, accès\nAccessibilité\nCafé-Restaurant\nLibrairie-Boutique\nBibliothèque\nVisites et événements\nOffre pour enfants et familles\nMédiation culturelle\nHoraires\nmardi-mercredi\n10h00 - 18h00\njeudi\n10h00 - 20h00\nvendredi-dimanche\n10h00 - 18h00\nlundi\nFermé\nHoraires spéciaux\nPLATEFORME 10\nMusée cantonal des Beaux-Arts\nPlace de la Gare 16\n1003\nLausanne"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n9852855787",
+  "name": "Arcadia",
+  "kind": "restaurant",
+  "website": "https://www.arcadiarestaurant.ch/fr/home",
+  "address": "Place de la Gare 17",
+  "dist_m": 551,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "id": "n11450063014",
+  "name": "Dong Fang",
+  "kind": "restaurant",
+  "website": "http://www.dong-fang.rest",
+  "address": "Avenue de la Gare 20",
+  "dist_m": 560,
+  "pages": [
+   {
+    "url": "http://www.dong-fang.rest",
+    "text": "-->\nA notre aimable clientèle :\nLe Conseils d’Etat de vaud a demandé aux restaurateurs de fermer les établissements jusqu’au 22 février 2021.\nEn raison de la fermeture des restaurants, vous ne pourrez plus réserver de tables par téléphone et internet.\nEn attendant la réouverture du restaurant, nous continuons service de livraisons . Pour des commandes plats à emporter 20% de rabais !!!\nD’ici là, prenez soin de vous et de vos proches et respectez précautionneusement les gestes barrières et les mesures sanitaires nécessaires à la limitation de la propagation du virus.\nÀ bientôt!\n-->\nBienvenue !\nDans la contrée éloignée occidentale , il y a une table de gastronomie orientale.\n~ Le Menu ~\n~ Réserver une table ~\nHoraires d'ouverture\nMidi\n12:00 - 14:30\nSoir\n18:00 - 22:30\nRéservation"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "w1330382175",
+  "name": "Boulodrome Boule d'Or lausannoise",
+  "kind": "sports_centre",
+  "website": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/liste-installations-sportives/boulodrome-boule-d-or",
+  "address": "Rue de la Vigie 11",
+  "dist_m": 564,
+  "pages": [
+   {
+    "url": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/liste-installations-sportives/boulodrome-boule-d-or",
+    "text": "Halles sportives de Beaulieu\nPiscines en plein air\nPiscines couvertes\nPatinoires\nBoulodrome – Boule d'Or lausannoise\nCentre multisports - Vaudoise aréna\nEscrime – Vaudoise aréna\nTennis de table – Vaudoise aréna\nPatinoire – Montchoisi\nPatinoire – Vaudoise aréna\nPiscine couverte – Les Bergières\nPiscine couverte – Grand-Vennes\nPiscine couverte – Vallée de la Jeunesse\nPiscine couverte – Vaudoise aréna\nPiscine de quartier – Bellevaux\nPiscine – Bellerive\nPiscine couverte – Mon-Repos\nPiscine de quartier – Montétan\nPiscine – Montchoisi\nPiscine de quartier – Boisy\nPiscine de quartier – Vieux-Moulin\nPlan des parcours vélo – Ville de Lausanne"
+   },
+   {
+    "url": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/liste-installations-sportives/boulodrome-boule-d-or?deconnexion",
+    "text": "Halles sportives de Beaulieu\nPiscines en plein air\nPiscines couvertes\nPatinoires\nBoulodrome – Boule d'Or lausannoise\nCentre multisports - Vaudoise aréna\nEscrime – Vaudoise aréna\nTennis de table – Vaudoise aréna\nPatinoire – Montchoisi\nPatinoire – Vaudoise aréna\nPiscine couverte – Les Bergières\nPiscine couverte – Grand-Vennes\nPiscine couverte – Vallée de la Jeunesse\nPiscine couverte – Vaudoise aréna\nPiscine de quartier – Bellevaux\nPiscine – Bellerive\nPiscine couverte – Mon-Repos\nPiscine de quartier – Montétan\nPiscine – Montchoisi\nPiscine de quartier – Boisy\nPiscine de quartier – Vieux-Moulin\nPlan des parcours vélo – Ville de Lausanne"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n13196229614",
+  "name": "Plateforme 10 (3 musées)",
+  "kind": "museum",
+  "website": "https://plateforme10.ch/",
+  "address": "Place de la Gare 16-17",
+  "dist_m": 573,
+  "pages": [
+   {
+    "url": "https://plateforme10.ch/",
+    "text": "Aller au contenu\nMCBA\nOuvert de 10:00 à 18:00\nFermé, ouvert mardi\nmudac\nOuvert de 10:00 à 18:00\nFermé, ouvert demain\nPhoto Elysée\nOuvert de 10:00 à 18:00\nFermé, ouvert demain\nMenu\nFermer\nBillets\nfr\nFR\nEN\nDE\nAccessibilité\nMenu\nFermer\nSearch for:\nSearch\nInfos pratiques\nExpositions\nÉvénements et agenda\nDE\nRecherche\nFermer la recherche\nBilletterie officielle Plateforme 10\nSearch for:\nSearch\nBienvenue à Plateforme 10\nPlateforme 10 accueille sur son site les 3 musées cantonaux vaudois du mudac, de Photo Elysée et du MCBA ainsi que les collections des fondations Toms Pauli et Félix Vallotton.\nen savoir plus\nMCBA\nOuvert de 10:00 à 18:00\nFermé, ouvert mardi\nmudac\nOuvert de 10:00 à 18:00\nFermé, ouvert demain\nPhoto Elysée\nOuvert de 10:00 à 18:00\nFermé, ouvert demain\nProfitez de notre offre 3 musées\nDécouvrez nos grandes expositions temporaires et profitez dès maintenant de notre offre exclusive : le billet 3 musées pour seulement CHF 19.–/25.–)\nBelle visite à Plateforme 10 – le quartier des arts à Lausanne.\nLes expositions du moment\nLa collection"
+   },
+   {
+    "url": "https://plateforme10.ch/infos-pratiques/",
+    "text": "Infos Pratiques Plateforme 10 | Horaires et Accès Lausanne – Plateforme 10\nInfos Pratiques Plateforme 10 | Horaires et Accès Lausanne\nAller au contenu\nMCBA\nOuvert de 10:00 à 18:00\nFermé, ouvert mardi\nmudac\nOuvert de 10:00 à 18:00\nFermé, ouvert demain\nPhoto Elysée\nOuvert de 10:00 à 18:00\nFermé, ouvert demain\nMenu\nFermer\nBillets\nfr\nFR\nEN\nDE\nAccessibilité\nMenu\nFermer\nSearch for:\nSearch\nInfos pratiques\nExpositions\nÉvénements et agenda\nDE\nRecherche\nFermer la recherche\nBilletterie officielle Plateforme 10\nSearch for:\nSearch\nInfos pratiques\nHoraires\nMudac + Photo Elysée\nlundi\n10:00 - 18:00\nmardi\nFermé\nmercredi\n10:00 - 18:00\njeudi\n10:00 - 20:00\nvendredi\ndimanche\n10:00 - 18:00\nVoir les horaires spéciaux\n21.09.2026\n(Jeûne Fédéral)\n10:00 - 18:00\n21.09.2026\n(Jeûne Fédéral)\nFermé\n26.09.2026\n(Nuit des Musées)\n10:00 - 23:5915:20 - 15:20\n24.12.2026\n(Veille de Noël)\n25.12.2026\n(Noël)\nFermé\n26.12.2026\n10:00 - 18:00\n31.12.2026\n(Saint-Sylvestre)\n10:00 - 17:00\n01.01.2027\nFermé\n02.01.2027\n10:00 - 18:00\nAujourd’hui: 10:00 - 18:00\nmudac@plateforme10.ch mudac.ch\nAujourd’hui: 10:00 - 18:00\nMCBA\nlundi\nFermé\nmardi\n10:00 - 18:00\nmercredi\n10:00 - 18:00\njeudi\ndimanche\n10:00 - 18:00\nVoir les horaires spéciaux\n21.09.2026\n(Jeûne Fédéral)\nFermé\n26.09.2026\n(Nuit des Musées)\n10:00 - 23:5915:20 - 15:20\n24.12.2026\n(Veille de Noël)\n25.12.2026\n(Noël)\nFermé\n26.12.2026\n10:00 - 18:00\n31.12.2026\n(Saint-Sylvestre)\n10:00 - 17:00\n01.01.2027\nFermé\n02.01.2027\n10:00 - 18:00\nAujourd’hui: 10:00 - 18:00\nmcba@plateforme10.ch www.mcba.ch\nRenseignements\nInfoline fermée aujourd'hui\nlundi\n09:00 - 17:00\nmardi\n09:00 - 17:00\nmercredi\n09:00 - 17:00\nsamedi\nFermé\ndimanche\nFermé\nT : +41 21  318 44 00\ninfo@plateforme10.ch\nTarifs\n3 musées\n1 musée\nEn train et à pied\n5 min depuis la gare de Lausanne CFF ou l’Av. Marc Dufour.\nHoraire CFF\nEn bus\nLignes 3, 20, 21, 60, 85, arrêt Lausanne, gare ; ligne 6, arrêt Cecil.\nEn métro\nm2 arrêt Lausanne, gare.\nEn voiture"
+   },
+   {
+    "url": "https://plateforme10.ch/accessibilite/",
+    "text": "Aller au contenu\nMCBA\nOuvert de 10:00 à 18:00\nFermé, ouvert mardi\nmudac\nOuvert de 10:00 à 18:00\nFermé, ouvert demain\nPhoto Elysée\nOuvert de 10:00 à 18:00\nFermé, ouvert demain\nMenu\nFermer\nBillets\nfr\nFR\nEN\nDE\nAccessibilité\nMenu\nFermer\nSearch for:\nSearch\nInfos pratiques\nExpositions\nÉvénements et agenda\nDE\nRecherche\nFermer la recherche\nBilletterie officielle Plateforme 10\nSearch for:\nSearch\nAccessibilité\nPlateforme 10 développe une politique d’inclusion avec et en faveur des personnes en situation de handicap."
+   },
+   {
+    "url": "https://plateforme10.ch/a-propos/",
+    "text": "Aller au contenu\nMCBA\nOuvert de 10:00 à 18:00\nFermé, ouvert mardi\nmudac\nOuvert de 10:00 à 18:00\nFermé, ouvert demain\nPhoto Elysée\nOuvert de 10:00 à 18:00\nFermé, ouvert demain\nMenu\nFermer\nBillets\nfr\nFR\nEN\nDE\nAccessibilité\nMenu\nFermer\nSearch for:\nSearch\nInfos pratiques\nExpositions\nÉvénements et agenda\nDE\nRecherche\nFermer la recherche\nBilletterie officielle Plateforme 10\nSearch for:\nSearch\nLe quartier des arts\nLe Nabi\nHoraires\nOuvert du mardi au dimanche de 10h à 18h, jeudi jusqu’à 20h.\nDurant la belle saison, le Nabibar ouvre sa terrasse jusqu’à 21h les jeudis, vendredis, samedis. Fermée en cas de pluie.\nInformations et réservations\n+41 21 311 02 90\ninfo@lenabi.ch\nVoir le site\nCafé Lumen\nLe Café Lumen vous invite à découvrir une cuisine spontanée et rapide, préparée avec des produits régionaux. Nos plats sont faits maison, préparés chaque jour avec soin et plaisent à tout le monde, y compris aux enfants.\nToutes nos boissons sont artisanales : cidres, bières, vins et limonades maison. Notre café est fraîchement torréfié spécialement pour le Café Lumen. Nous offrons également un service à l’emporter pour vos balades.\nHoraires\nOuvert tous les jours sauf le mardi, de 10h à 18h, et jeudi jusqu’à 20h.\nInformations et réservations\n+41 21 311 02 90\nLe Signal L\nL comme Lumineux\nEn langage ferroviaire, une voie ferrée est scindée en portions appelées «cantons», marquées par un signal d’entrée. Un Signal L est un type de signal affichant des points lumineux – comme les trous dans la paroi du mur nord sur le site de Plateforme 10 – de couleur et de combinaison variable."
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n2167334877",
+  "name": "Café Saint Pierre",
+  "kind": "bar",
+  "website": "https://www.cafesaintpierre.ch/",
+  "address": "Place Benjamin-Constant 1",
+  "dist_m": 580,
+  "pages": [
+   {
+    "url": "https://lesaintpierre.ch/",
+    "text": "1003\nLausanne\nHoraires\nDimanche et Lundi\nfermé\nMardi - Vendredi\n08h00 - 00h00\nSamedi\n10h00 - 00h00\nBrunch du samedi\naoût\nNews\nREOUVERTURE AVEC DU NOUVEAU!\nToutes les actualités\nJe réserve !\nVoir les cartes\nÀ propos du Saint Pierre\nLe Saint-Pierre"
+   },
+   {
+    "url": "https://lesaintpierre.ch/reouverture-avec-du-nouveau/",
+    "text": "REOUVERTURE AVEC DU NOUVEAU! - Le Saint-Pierre\nÀ la une\nCartes\nAccueil de groupes\nRéservation\nNewsletter\naoût\nNews\nREOUVERTURE AVEC DU NOUVEAU!\nAprès 2 semaines de pause estivale, le Saint Pierre reprend ses horaires habituels dès le mardi 11 août… et y a du nouveau!\nLa déco a été repensée avec Lola Sacier et l’équipe se réjouit d’accueillir un nouveau chef de cuisine, Aldwin Beets qui nous arrive du Café de Chavannes. Quelques nouveautés à la carte donc, en attendant qu’il s’empare complètement de la cuisine du ST Pierre!\nOn se réjouit de vous revoir!\nA table !\nLE BRUNCH\nEvents"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n6893934276",
+  "name": "Mido",
+  "kind": "restaurant",
+  "website": "https://www.midofood.net",
+  "address": "Rue Saint-Martin 30",
+  "dist_m": 583,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "id": "n9176770189",
+  "name": "Deli Social",
+  "kind": "restaurant",
+  "website": "https://www.deli.social/",
+  "address": "Place du Tunnel 11",
+  "dist_m": 608,
+  "pages": [
+   {
+    "url": "https://www.deli.social/",
+    "text": "Passer au contenu\nOuvrir le menu\nFermer le menu\nÀ propos\nLivraison + Events\nContact\ndeli social\n0\n0\nOuvrir le menu\nFermer le menu\nÀ propos\nLivraison + Events\nContact\nlocal • de saison • expérimental\nDeli Social est temporairement fermé. En attendant, retrouvez-nous chez Piquenique, Esc de Grant Pont 5.\nDeli Social est temporairement fermé. En attendant, retrouvez-nous chez Piquenique, Esc de Grant Pont 5.\nComptoir moderne\nDeli Social est un théâtre culinaire dédié aux saveurs. En se fournissant chez nos producteurs locaux, nous ajoutons ensuite notre technique et touche expérimentale à un menu variant régulièrement et composé de sandwichs, de petits plats et autres pâtisseries maison.\nNotre petite sœur\nNous avons récemment ouvert notre boutique sœur, Piquenique , à côté de Flon Metro !\nDeli Social, Place du Tunnel 11, 1005, Lausanne\nLu - Ve 8h - 15h, Sa 9h - 17h, Di 10h-15h\n© Deli Social Sàrl\nUn projet de Cocktail Sandwich\nSoutenu par le Fonds d'innovation"
+   },
+   {
+    "url": "https://www.deli.social/contact",
+    "text": "Passer au contenu\nOuvrir le menu\nFermer le menu\nÀ propos\nLivraison + Events\nContact\ndeli social\n0\n0\nOuvrir le menu\nFermer le menu\nÀ propos\nLivraison + Events\nContact\nContactez-nous.\nDeli Social est temporairement fermé. En attendant, retrouvez-nous chez Piquenique , Esc.du Grand Pont 5, Lausanne.\ninfo@deli.social\nPlace du Tunnel 11\n1005, Lausanne, Suisse\nSite credits\nPhotos: Cédric Raccio et Matthieu Croizier"
+   }
+  ],
+  "jsonld": [
+   "\"\"",
+   "\"\""
+  ],
+  "error": null
+ },
+ {
+  "id": "n10682996780",
+  "name": "Sardine",
+  "kind": "restaurant",
+  "website": "https://sardinelausanne.ch",
+  "address": "",
+  "dist_m": 622,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ {
+  "id": "n11104135656",
+  "name": "Beat fitness",
+  "kind": "fitness_centre",
+  "website": "https://www.beatfitness.ch/fr/studios/lausanne-gare",
+  "address": "",
+  "dist_m": 629,
+  "pages": [
+   {
+    "url": "https://www.beatfitness.ch/fr/a-propos/faq",
+    "text": "Cliquez sur : \"Générer votre certificat\"\nRemplissez vos informations\nLe Certificat sera automatiquement généré avec l'inventaire d'achat et le nombre de classes suivies en 2024 et ou jusqu'au 14.3.2025 (Veuillez noter que les données utilisées pour la génération des certificats sont mises à jour une fois par mois le 1er mardi du mois pour le mois précédent)\nTéléchargez le, imprimez-le, signez-le et envoyez-le à votre Assurance complémentaire pour obtenir votre remboursement avec une copie de votre contrat si vous avez un abonnement.\nVeuiller noter que :\n- le certificat ne se génère que si vous avez pris des cours sur la période demandée (un achat seul ne suffit pas)\n- Le premier certificat 2025 (prenant en compte les cours effectués en janvier et février) est deja disponible pour la periode allant du 1.1.25 au 14.3.25.\n- Vous pouvez encore demander vos remboursement de 2024\nFenêtre de réservation\nCombien de temps à l'avance est-il possible de réserver un cours?\nNotre fenêtre de réservation est ouverte tous les lundis à 12h00 pour la semaine suivante.\nVous pouvez réserver un cours en ligne jusqu'à 15 minutes avant le début du cours.\nSi vous souhaitez réserver un cours moins de 15 minutes avant l'heure prévue du cours, veuillez vous inscrire sur la liste d'attente en vous présentant directement sur place au studio.\nDate d'activation\nQuand est-ce que ma série de cours commence?\nVotre série de cours est activée le jour où vous achetez votre cours. Vous pouvez retrouver la date précise d'activation de vos séries dans votre compte, sur la page Mes Crédits."
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n13470344401",
+  "name": "Foca Focaccia Coffee & More",
+  "kind": "cafe",
+  "website": "foca.ch",
+  "address": "",
+  "dist_m": 633,
+  "pages": [
+   {
+    "url": "https://www.bazl.admin.ch/en/contacts",
+    "text": "Postal Address:\nFederal Office of Civil Aviation, 3003 Bern, Switzerland\nFOCA reception in Ittigen is open Monday to Thursday between 8.30 and 11.30 and 14.00-16.00. Outside opening hours, visitors will only be admitted if announced in advance.\nFOCA Switchboard\nMonday-Friday, 8.30-11.30 and 14.00-16.00\nTel: +41 58 465 80 39\nLocation and directions\nLocation Address in Bern(Ittigen)\nLocation Address in Bern (Ittigen)\nFederal Office of Civil Aviation (FOCA)\nAeronautical information : Website , E-Mail\nTel: +41 58 465 96 03\nMonday, Tuesday, Thursday, Friday: 08:30 - 16:00\nWednesday: 08:30 – 12:00\nLuftfahrthindernisse\nAir navigation obstacles: Website , E-mail\nData collection system (DCS): Website , E-Mail\nITV Consult AG for FOCA\nTel: +41 44 871 21 99\nPilot licences: Website , E-Mail\nTel: +41 58 463 54 56\nMonday and Thursday 09:00 - 11:30\nCivil aviation medical service: Website , E-Mail ,\nTel: +41 58 465 91 65\nFlight schools and FSTD: Website , E-Mail\nTelefon: +41 58 466 70 07\nPassengers\n+41 58 465 80 32\ninfo@bazl.admin.ch\nOpening Hours\nMonday\n08:30-11:30\n14:00-16:00\nTuesday\n08:30-11:30"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n2944693033",
+  "name": "Non Stop Gym",
+  "kind": "fitness_centre",
+  "website": "https://www.nonstopgym.com/",
+  "address": "",
+  "dist_m": 649,
+  "pages": [
+   {
+    "url": "https://www.nonstopgym.com/",
+    "text": "ABONNEZ-VOUS\nQUALITÉ À PETIT PRIX,\nOUVERT 24/7\nNonStop Gym propose des entraînements de qualité à travers 40+ clubs en Suisse, tous ouverts 24/7. Dans toutes nos salles, vous trouverez un équipement de qualité, mais pas de sauna ou autre superflu, tout pour assurer nos abos à petit prix, dès 49.- / mois.\nVenez découvrir par vous-même pendant nos heures de présence.\nEn savoir plus\nles dernières\nactualités\nUncategorized\nÉVÉNEMENT CARITATIF NonStop Gym s’associe à nouveau à The Sea Cleaners qui protège les océans et les milieux aquatiques de\nLire plus »\nOuvertures\nBientôt à Wil\nOffre de lancement à 39.-/mois Fin de l’année Untere Bahnhofstrasse 11, 9500 Wil NonStop Gym a le plaisir d’annoncer l’ouverture\nLire plus »\nToutes les actus »\nLIENS\nRAPIDES\nTROUVEZ VOTRE"
+   },
+   {
+    "url": "https://www.nonstopgym.com/a-propos/",
+    "text": "FAQ\nQualité à petit prix\nOUVERT 24/7\nPETIT PRIX\nEQUIPEMENT DE QUALITé\nRendre le fitness de qualité accessible et abordable pour tous, c’est pourquoi nous avons créé NonStop Gym. Nous avons ouvert notre première salle à Genève en 2014, et depuis nous étendons notre présence pour offrir la même possibilité à de plus en plus adeptes de fitness à travers la Suisse.\nUn abonnement annuel à 49.-/mois (même petit prix depuis 2014) vous donne accès à l’ensemble de nos clubs, pour un entrainement de qualité à petit prix, et toujours ouvert.\nABONNEZ-VOUS à partir de 49.-/mois\nAVANTAGES\npour tous\nDébutants ou confirmés, tout le monde peut s’inscrire à NonStop Gym (dès 15 ans avec accord parental) et s’entrainer en toute sécurité.\nNous garantissons à tous nos membres le même service et les mêmes avantages."
+   },
+   {
+    "url": "https://www.nonstopgym.com/contactez-nous/",
+    "text": ""
+   }
+  ],
+  "jsonld": [
+   "[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"]",
+   "[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"]",
+   "[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"]"
+  ],
+  "error": null
+ },
+ {
+  "id": "n1230801025",
+  "name": "Farmacia Angelucci",
+  "kind": "restaurant",
+  "website": "https://www.angeluccis.ch/",
+  "address": "Avenue William-Fraisse 1",
+  "dist_m": 653,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+ },
+ {
+  "id": "n5574658500",
+  "name": "Ajò Café",
+  "kind": "cafe",
+  "website": "ajo.cafe",
+  "address": "Rue du Simplon 13",
+  "dist_m": 655,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "id": "n11172075027",
+  "name": "Lucette Healthy Food",
+  "kind": "fast_food",
+  "website": "https://www.lucette.ch/",
+  "address": "Boulevard de Grancy 44",
+  "dist_m": 655,
+  "pages": [
+   {
+    "url": "https://www.lucette.ch/",
+    "text": "La presse parle de nous !\nOn attend plus que vous !\nNOUS SOMMES OUVERTS :\nDu lundi à vendredi\nDe 9h30 à 18h\n​\nGrancy & CHUV\nLUCETTE GRANCY"
+   },
+   {
+    "url": "https://www.lucette.ch/a-propos",
+    "text": "​\nJe suis impatiente de vous accueillir chez Lucette pour vous faire découvrir ma cuisine saine et gourmande mais aussi sincère, authentique et moderne, joyeuse et généreuse.\nNOUS SOMMES OUVERTS :\nDu lundi à vendredi\nDe 9h30 à 18h\n​\nGrancy & CHUV\nLUCETTE GRANCY"
+   },
+   {
+    "url": "https://www.lucette.ch/contact",
+    "text": "Envoyer\nMerci pour votre envoi !\nNOUS SOMMES OUVERTS :\nDu lundi à vendredi\nDe 9h30 à 18h\n​\nGrancy & CHUV\nLUCETTE GRANCY"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n10840006860",
+  "name": "Wonder Grill",
+  "kind": "restaurant",
+  "website": "https://www.wondergrill.ch/",
+  "address": "Rue de la Borde 3B",
+  "dist_m": 662,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "id": "n1423114737",
+  "name": "Restaurant Mirabeau",
+  "kind": "restaurant",
+  "website": "https://www.mirabeau.ch/",
+  "address": "Avenue de la Gare 31",
+  "dist_m": 671,
+  "pages": [
+   {
+    "url": "https://www.mirabeau.ch/",
+    "text": "Restaurant\nRégalez-vous\nGoûtez une cuisine traditionnelle française, où les mets sont une invitation à la découverte des produits locaux et régionaux.\nen savoir plus\nTerrasse ombragée\nPrenez votre temps\nDéconnectez sur notre terrasse 'Les Marronniers', un havre de paix inattendu.\nen savoir plus"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n13329815621",
+  "name": "Café de l'Arsenic",
+  "kind": "cafe",
+  "website": "https://arsenic.ch/cafe-restaurant/",
+  "address": "",
+  "dist_m": 679,
+  "pages": [
+   {
+    "url": "https://arsenic.ch/cafe-restaurant/",
+    "text": "-->\nCafé - Horaires et menu du restaurant - Arsenic\nArsenic\nAccessibilité\nfr\nen\n🔎\nRetrouvez les nouveautés, menus, carte des boissons et autres réjouissances sur l’ Instagram du café !\nMIDI\nJEUDI 05.11 : Polenta crémeuse, fricassée de pleurotes du Panicaut, abricots, graines de courge\nVENDREDI 06.11 : Orecchiette, crème de potiron, shiitakés croustillants, échalotes confites aux agrumes\nLUNDI 09.11 : Fusilli aux tomates séchées, pignons de pin, épinards, feta, olives noires Kalamata\nMARDI 10.11 : Gnocchis artisanaux, gorgonzola, noix, radicchio braisé, herbes fraîches\nMERCREDI 11.11 : Curry vert au lait de coco, légumes, basilic thaï, riz parfumé, chips de chou kale, graines de sésame\nJEUDI 12.11 : Gratin de crozets au reblochon, poireaux, oignons confits, paprika fumé\nVENDREDI 13.11 : Couscous aux saveurs automnales, boulettes d’aubergines au ras el-hanout, harissa fumée\nDu lundi au vendredi, de 11h45 à 13h30, le café propose un menu du jour végétarien sur place ou à l’emporter à CHF 18.–. Les produits sont sourcés chez des producteur·rice·xs locaux·le·xs.\nRéservations appréciées : par téléphone au +41 21 625 11 43 ou par mail à gaetan@arsenic.ch\nSOIR\nLe café ouvre les jours de représentation une heure avant les spectacles avec une petite restauration fraîche et variée à la carte. À la carte: thé froid maison, bières artisanales, vins bio, biodynamiques et natures, et pâtisseries maison.\nTout les soirs de première représentation un repas est offert aux spectateuricexs après le spectacle.\nARSENIC"
+   },
+   {
+    "url": "https://arsenic.ch/accessibility/son-fort-stroboscopes/",
+    "text": "Archives\nRésultats : Son fort | Stroboscopes\nSoirée d'ouverture 2026\nLow Jack, Sana & Shryke, Mystique\nArchive\nSep-Déc 2026\nARSENIC\nRue de Genève 57"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n1785692645",
+  "name": "Da Noi",
+  "kind": "restaurant",
+  "website": "https://ristorantedanoi.ch/",
+  "address": "Rue Dr-César-Roux 5",
+  "dist_m": 686,
+  "pages": [
+   {
+    "url": "https://ristorantedanoi.ch/",
+    "text": "Rue Dr César-Roux 5, Lausanne.\nHORAIRES\nMARDI – VENDREDI\n11h30 > 14h30\n18h00 > 24h00\nSAMEDI\n12h00 > 14h30\n18h00 > 24h00\nFermé le dimanche\net le lundi\nDa Noi – Rue Dr César-Roux 5, 1005 Lausanne\n/\nsite > unprinted – graphic > enzed.ch – photo © Eva Roggenstein"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n12706756305",
+  "name": "Arteastry",
+  "kind": "cafe",
+  "website": "https://www.arteastry.ch/",
+  "address": "Boulevard de Grancy 49",
+  "dist_m": 689,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n12052815334",
+  "name": "Let's Go Fitness",
+  "kind": "fitness_centre",
+  "website": "https://www.letsgofitness.ch/fr/club/lausanne-grancy/",
+  "address": "",
+  "dist_m": 691,
+  "pages": [
+   {
+    "url": "https://www.letsgofitness.ch/fr/club/lausanne-grancy/",
+    "text": "Fitness à\nLausanne (Grancy)\nDemander ma séance d’essai gratuite\nBlvd. de Grancy 14 , 1006 Lausanne (VD)\n021 624 21 00\nHoraires d’ouverture\nLibre accès de 5h à 23h, tous les jours.\nHoraires d’accueil\nInfo\nClub\nBlvd. de Grancy 14\n1006 Lausanne\nSuisse VD\nService linge\nBoissons et compléments alimentaires\nOuverture XXL\nParking public payant\nClubs à\nproximité\nAccéder à 66 clubs\navec votre abo Let's Go.\nCoaching personnalisé (sur rendez-vous)\nAccès à tous les équipements et aux cours collectifs\nDécouverte de l'ambiance conviviale de nos clubs\nDétente dans nos espaces wellness : sauna, hammam et salle de repos\nComment s'inscrire ?\nRemplissez le formulaire ci-dessous.\nContactez le club où vous souhaitez effectuer votre essai et mesure corporelle pour un rendez-vous.\nProfitez de votre entraînement et bénéficiez du suivi de nos coachs"
+   }
+  ],
+  "jsonld": [
+   "[\"Mo 05:00–23:00\",\"Tu 05:00–23:00\",\"We 05:00–23:00\",\"Th 05:00–23:00\",\"Fr 05:00–23:00\",\"Sa 05:00–23:00\",\"Su 05:00–23:00\"]"
+  ],
+  "error": null
+ },
+ {
+  "id": "n11137577014",
+  "name": "Hungry bear",
+  "kind": "restaurant",
+  "website": "https://www.hungrybearfood.ch/",
+  "address": "",
+  "dist_m": 705,
+  "pages": [
+   {
+    "url": "https://www.hungrybearfood.ch/",
+    "text": "Rue du Simplon 31006 Lausanne, Switzerland\nDirections ↠\nOpening Hours\nWeekdays\n8am–9pm\nWeekends\n9am–6pm\nKitchen Hours\nWeekdays\nBreakfast · 8am – 11am\nBrunch & Lunch · 11:30am – 2:30pm\nDinner · 5.30pm - 8.30pm\n‍ Weekends\nBrunch · 10am–3:30pm\nStay Connected\nInstagram ↠ Google ↠ Reviews ↠ Email us ↠ ‍ +41 21 217 77 07"
+   },
+   {
+    "url": "https://www.hungrybearfood.ch/about",
+    "text": "Rue du Simplon 31006 Lausanne, Switzerland\nDirections ↠\nOpening Hours\nWeekdays\n8am–9pm\nWeekends\n9am–6pm\nKitchen Hours\nWeekdays\nBreakfast · 8am – 11am\nBrunch & Lunch · 11:30am – 2:30pm\nDinner · 5.30pm - 8.30pm\n‍ Weekends\nBrunch · 10am–3:30pm\nStay Connected\nInstagram ↠ Google ↠ Reviews ↠ Email us ↠ ‍ +41 21 217 77 07"
+   },
+   {
+    "url": "https://www.hungrybearfood.ch/contact",
+    "text": "Rue du Simplon 31006 Lausanne, Switzerland\nDirections ↠\nOpening Hours\nWeekdays\n8am–9pm\nWeekends\n9am–6pm\nKitchen Hours\nWeekdays\nBreakfast · 8am – 11am\nBrunch & Lunch · 11:30am – 2:30pm\nDinner · 5.30pm - 8.30pm\n‍ Weekends\nBrunch · 10am–3:30pm\nStay Connected\nInstagram ↠ Google ↠ Reviews ↠ Email us ↠ ‍ +41 21 217 77 07"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n9961037888",
+  "name": "Bongusto Italiano",
+  "kind": "cafe",
+  "website": "https://bongustoitaliano.com",
+  "address": "Avenue du Théâtre 7",
+  "dist_m": 711,
+  "pages": [
+   {
+    "url": "https://bongustoitaliano.com",
+    "text": "Avenue du Théâtre 7, 1005 Lausanne, Suisse\nTéléphone +41 21 3110555\nLundi – Vendredi • 7:00 – 18:00\nSamedi et Dimanche • 09:00 – 17:00\nBongusto Italiano Sàrl\nAdresse\nAvenue du Théâtre 7\nLausanne, Vaud 1005 - CH\nT: +41 21 3110555\nemail\nClose this module\nNos jours de fermeture en cette période festive\nBongusto Italiano vous souhaite de très bonnes fêtes de fin d'année!\nNous vous informons que le magasin sera fermé du 20 Décembre 2025 au 2 Janvier 2026 inclus.\nA très bientôt, L’équipe de Bongusto Italiano\nClose this module\nFermeture extraordinaire\nBongusto Italiano sera exceptionnellement fermé les 19 et 20 octobre.\nMeilleures salutations\nL’équipe de Bongusto Italiano\nClose this module\nNos horaires d'ouverture pendant ce periode des Pâques\nBongusto Italiano vous souhaite des joyeuses Pâques!\nNous vous informons des changements suivants par rapport à nos horaires d'ouverture.\nDimanche 20 Avril: fermé\nLundi 21 Avril: fermé"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n13371514870",
+  "name": "Classic",
+  "kind": "fast_food",
+  "website": "https://classicfood.ch/",
+  "address": "",
+  "dist_m": 719,
+  "pages": [
+   {
+    "url": "https://classicfood.ch/",
+    "text": "powered by\nFidel A. il y a 2 ans\nVictor D. il y a 2 ans\nLe service est très sympathique et rapide. Le burger Swiss Mushroom est un vrai délice!!\nJe recommande vivement pour toute envie de burger sur Lausanne!\nNeyla M. il y a 2 ans\nMeilleur burger de ma vie\nTrès bon ! Et sur tous les aspects.\nDalyl N. il y a 2 ans\nUn délice! Nous avons goûté le Swiss Truffle et le Mighty Buffalo, nous avons été ravi des plats et de l'offre d'ouverture. Nous reviendrons très bientôt ++\nMariam D. il y a 2 ans\nLe meilleur burger de Lausanne !! À tester les yeux fermés !\nAli D. il y a 2 ans\nExcellents burgers et sandwichs avec de nombreux choix, que ce soit à base de viande de bœuf, de poulet ou en version végétarienne.\nAdrien Van D. il y a 2 ans\nDirect\nClassic Lausanne\n© 2025\nFermer\nVotre commande\nNo products in the cart.\n0"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n12518550321",
+  "name": "Maza",
+  "kind": "restaurant",
+  "website": "https://www.maza-restaurant.ch/",
+  "address": "",
+  "dist_m": 728,
+  "pages": [
+   {
+    "url": "https://www.maza-restaurant.ch/",
+    "text": "Rouleaux de printemps à l’épaule d’agneau\nTrouver votre chemin vers maza\nLe restaurant sera fermé du dimanche 21 décembre au dimanche 11 janvier inclus.\nOn se réjouit de vous retrouver dès le lundi 12 pour partager de nouvelles saveurs.\nÀ très bientôt !\nHoraires d’ouvertures\nMardi à Vendradi : 18:30 - 23:30\nSamedi : 12:00 - 14:00 | 18:30 - 23:30\nLundi & Dimanche : Fermé\nAdresse\nRue Marterey 29\n1005 Lausanne\nLégal\nConditions d'utilisation"
+   },
+   {
+    "url": "https://www.maza-restaurant.ch/contact",
+    "text": "Rue Marterey 29\n1005 Lausanne\nHoraires d'ouverture\nMardi à vendredi : 18:30 - 23:30\nSamedi : 12:00 - 14:00 | 18:30 - 23:30\nLundi & Dimanche : Fermé\nTéléphone\n+41 (0)21 616 09 09\nEmail\ninfo@maza-restaurant.ch\nNous contacter\nRue Marterey 29\n1005 Lausanne\nHoraires d'ouverture\nMardi à Vendradi : 18:30 - 23:30\nSamedi : 12:00 - 14:00 | 18:30 - 23:30\nLundi & Dimanche : Fermé\nTéléphone\n+41 (0)21 616 09 09\nEmail\ninfo@maza-restaurant.ch\nSi vous souhaitez recevoir nos dernières informations, n'hésitez pas à vous inscrire à notre newsletter !\nRejoignez notre newsletter\nS'inscrire\nHoraires d’ouvertures\nMardi à Vendradi : 18:30 - 23:30\nSamedi : 12:00 - 14:00 | 18:30 - 23:30\nLundi & Dimanche : Fermé\nAdresse\nRue Marterey 29\n1005 Lausanne\nLégal\nConditions d'utilisation"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n12997667501",
+  "name": "Yoga Flame",
+  "kind": "fitness_centre",
+  "website": "https://yogaflame.ch/",
+  "address": "Boulevard de Grancy 1",
+  "dist_m": 757,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n12341071783",
+  "name": "Ponti",
+  "kind": "cafe",
+  "website": "cafeponti",
+  "address": "Avenue d'Echallens 13",
+  "dist_m": 763,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+ },
+ {
+  "id": "n14335884002",
+  "name": "Core Class",
+  "kind": "fitness_centre",
+  "website": "https://www.coreclass.ch/",
+  "address": "",
+  "dist_m": 764,
+  "pages": [
+   {
+    "url": "https://coreclass.ch/",
+    "text": "50 MINUTES.\n11 MACHINES.\nOUVERT 7/7.\nSur la Microformer, chaque classe de Lagree devient une véritable exploration du mouvement - un travail lent, d'équilibre, de contrôle et de précision.\nGrâce à ses plateformes avant/arrière, son chariot mobile ainsi qu'à ses ressorts ajustables, la machine offre une infinité de mouvements et sculpte le corps en profondeur.\nLENTEUR\nINTENSITÉ\nENDURANCE\nTarifs\nPACKS DE CRÉDITS Abonnements ÉTUDIANTS (-10%) Carte cadeaux\n1 CLASSE DÉCOUVERTE (2 CRÉDITS)\nVALIDITÉ 3 MOIS\n29.-\nCOMMENCER L’EXPÉRIENCE\n1 CLASSE (2 CRÉDITS)\nVALIDITÉ 3 MOIS\nComment venir ?\nFacile ! À pied depuis la gare de Lausanne, en bus (n°1, arrêt Epinettes), en métro (M2) ou en voiture. Voici la liste des parkings publics à proximité :\n- Parking couvert de la Coop de Grancy (1ère heure gratuite)\n- Avenue William-Fraisse : zone bleue (2 heures)\n- Avenue du Mont-d'Or : zone bleue (2 heures)\n- Avenue Édouard-Dapples : zone bleue et places de stationnement blanches (2 heures)\n- Rue du Crêt : places de stationnement blanches\n- Avenue du Rond-Point : places de stationnement blanches\nComment réserver un cours ?\nEn quelques clics sur notre site internet sous « RÉSERVER ».\nChoisis ton créneau et réserve avec tes crédits en ligne ! Les classes sont ouvertes à la réservation jusqu'à deux semaines à l'avance. Ton espace membre te permet de gérer facilement tes réservations et d'adapter ton planning.\nQue faut-il apporter ?\nRien d'autre que toi-même (et ton énergie du jour). On s'occupe du reste : serviettes, vestiaires/douches/WC femmes et même un bar à matcha pour prolonger l'expérience après ta séance.\nPense juste à apporter (ou acheter sur place) des chaussettes antidérapantes (obligatoires pour ta sécurité) et n'oublie pas d'enlever tes bijoux avant chaque classe pour éviter de te blesser.\nLe Lagree est-il remboursé par les assurances maladie ?\nOui, certaines assurances complémentaires peuvent prendre en charge les classes de Lagree. Le remboursement se fait via le formulaire QualiCert (disponible dans notre application mobile CORE CLASS)."
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n7048881929",
+  "name": "Reighikan Dojo",
+  "kind": "sports_centre",
+  "website": "https://www.reighikan-dojo.ch/",
+  "address": "Rue de l'Industrie 10",
+  "dist_m": 774,
+  "pages": [
+   {
+    "url": "https://www.reighikan-dojo.ch/",
+    "text": "AIKIDO YOSHIN RYU\nNotre École\nHoraires | Informations\nCours d’initiation\nQUI SOMMES-NOUS ?\nChristine Venard\nDEA | Unil\nShiatsu"
+   },
+   {
+    "url": "https://www.reighikan-dojo.ch/informations/",
+    "text": "AIKIDO YOSHIN RYU\nNotre École\nHoraires | Informations\nCours d’initiation\nQUI SOMMES-NOUS ?\nChristine Venard\nDEA | Unil\nShiatsu\nMEDIA\nArchives\nHoraire des cours\nCours d'initiation\nLe cours d'initation\naura lieu du mardi 15 septembre au jeudi 1 octobre 2026 selon l'horaire suivant :\nJour\nHoraire\nCours\nMardi\n20h00 – 21h15\nInitiation à l'Aikido\nJeudi\n19h00 – 20h15\nInitiation à l'Aikido\nHoraire d'été\nLes cours ont lieu les mardis et les jeudis selon l'horaire suivant :\nJour\nHoraire\nCours\nMardi 7 et 14 juillet\nPas de cours\nAikido, bokken, jo & tanto\nJeudi 9 et 16 Juillet\nAikido, bokken, jo & tanto\nSemaines 20, 27 juillet, 3 et 10 août\nFermeture\nAikido, bokken, jo & tanto\nMardi 18 août\nPas de cours\nAikido, bokken, jo & tanto\nJeudi 20août\n19h00 – 20h30\nAikido, bokken, jo & tanto\nHoraire annuel\nLes cours ont lieu les mardis et les jeudis selon l'horaire suivant :\nJour\nHoraire\nCours\nMardi\n19h00 – 20h45\nAikido, bokken, jo & tanto\nJeudi\nContact\n| Où nous trouver ?\n| Horaires\n| Cotisations\nAIKIDO | AIKIKEN | AIKIJO | KENJUTSU\n©Reighikan Dojo - 2026 - Tous droits réservés"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "w44423526",
+  "name": "Piscine de Mon-Repos",
+  "kind": "sports_centre",
+  "website": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/liste-installations-sportives/piscine-mon-repos.html",
+  "address": "",
+  "dist_m": 812,
+  "pages": [
+   {
+    "url": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/liste-installations-sportives/piscine-mon-repos.html",
+    "text": "Piscine couverte – Mon-Repos – Ville de Lausanne\nAller au contenu\nAller au menu\nAller à la recherche\nPartager\nConnexion\nHalles sportives de Beaulieu\nPiscines en plein air\nPiscines couvertes\nPatinoires\nPiscine couverte – Mon-Repos\nCentre multisports - Vaudoise aréna\nEscrime – Vaudoise aréna\nTennis de table – Vaudoise aréna\nHalles sportives de Beaulieu\nBasketball – Halles sportives de Beaulieu\nPatinoire – Montchoisi\nPatinoire – Vaudoise aréna\nPiscine couverte – Les Bergières\nPiscine couverte – Grand-Vennes\nPiscine couverte – Vallée de la Jeunesse\nPiscine couverte – Vaudoise aréna\nPiscine de quartier – Bellevaux\nPiscine – Bellerive\nPiscine couverte – Mon-Repos\nPiscine de quartier – Montétan\nPiscine – Montchoisi\nPiscine de quartier – Boisy\nPiscine de quartier – Vieux-Moulin\nPlan des parcours vélo – Ville de Lausanne\nZurich parcoursvita – Mauvernay\nZurich parcoursvita – Vidy\nPiscine couverte – Mon-Repos\nInstallée au centre de Lausanne, cette piscine a un bassin de natation de 25 m, un bassin non-nageurs·ses, une fosse de plongeon, une pataugeoire et l’accès dès la belle saison à la pelouse et au solarium du parc de Mon-Repos.\n© Ville de Lausanne - Sébastien Anex\nLa piscine de Mon-Repos\nLa piscine de Mon-Repos\n© Ville de Lausanne - Sébastien Anex\nPrécédent\nProchain\nChangement d'horaires et fermeture les 7 et 8 novembre 2026\nOccupation\n🆕Consulter le tableau d'occupation de la piscine\nLignes 1 à 6: bassin nageur\nZone 1 à 3: bassin non-nageur\n1m, 3m et 1m (LA): planches de plongeon de la fosse à plongeon\nLes espaces qui ne sont pas réservés sont disponibles pour le public.\nLe planning peut encore être modifié jusqu’à 24 heures avant.\nHoraires d'ouverture\nLundi: 07h00* - 21h15**\nMardi: 07h00* - 21h15**\nMercredi: 08h30 - 21h15**\nJeudi: 07h00* - 21h15**\nVendredi: 07h00* - 17h30**\nSamedi: 09h00 - 17h30**\nDimanche: 09h00 - 18h30**\n*ouverture du guichet de caisse à partir de 08h30 (09h00 les samedis et les dimanches).\n**fermeture des bassins. L’établissement ferme ses portes 30 minutes plus tard. Le guichet de caisse ferme à:\n19h30 du lundi au jeudi\n17h30 le vendredi et le samedi\n18h30 le dimanche\n**L'heure de fermeture peut être avancée ou prolongée en cas de conditions exceptionnelles. Consultez les fiches MyBusiness pour les horaires à jour.\nLorsque le guichet de caisse est fermé, possibilité d’acheter des tickets via nos automates (carte bancaire, Twint, monnaie) ou via la vente en ligne.\nTarifs entrées et abonnements\nLes titres d'entrée sont vendus aux caisses de l'"
+   },
+   {
+    "url": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/liste-installations-sportives/piscine-mon-repos.html?deconnexion",
+    "text": "Piscine couverte – Mon-Repos – Ville de Lausanne\nAller au contenu\nAller au menu\nAller à la recherche\nPartager\nConnexion\nHalles sportives de Beaulieu\nPiscines en plein air\nPiscines couvertes\nPatinoires\nPiscine couverte – Mon-Repos\nCentre multisports - Vaudoise aréna\nEscrime – Vaudoise aréna\nTennis de table – Vaudoise aréna\nHalles sportives de Beaulieu\nBasketball – Halles sportives de Beaulieu\nPatinoire – Montchoisi\nPatinoire – Vaudoise aréna\nPiscine couverte – Les Bergières\nPiscine couverte – Grand-Vennes\nPiscine couverte – Vallée de la Jeunesse\nPiscine couverte – Vaudoise aréna\nPiscine de quartier – Bellevaux\nPiscine – Bellerive\nPiscine couverte – Mon-Repos\nPiscine de quartier – Montétan\nPiscine – Montchoisi\nPiscine de quartier – Boisy\nPiscine de quartier – Vieux-Moulin\nPlan des parcours vélo – Ville de Lausanne\nVous avez été correctement déconnecté\nX\nPiscine couverte – Mon-Repos\nInstallée au centre de Lausanne, cette piscine a un bassin de natation de 25 m, un bassin non-nageurs·ses, une fosse de plongeon, une pataugeoire et l’accès dès la belle saison à la pelouse et au solarium du parc de Mon-Repos.\n© Ville de Lausanne - Sébastien Anex\nLa piscine de Mon-Repos\nLa piscine de Mon-Repos\n© Ville de Lausanne - Sébastien Anex\nPrécédent\nProchain\nChangement d'horaires et fermeture les 7 et 8 novembre 2026\nOccupation\n🆕Consulter le tableau d'occupation de la piscine\nLignes 1 à 6: bassin nageur\nZone 1 à 3: bassin non-nageur\n1m, 3m et 1m (LA): planches de plongeon de la fosse à plongeon\nLes espaces qui ne sont pas réservés sont disponibles pour le public.\nLe planning peut encore être modifié jusqu’à 24 heures avant.\nHoraires d'ouverture\nLundi: 07h00* - 21h15**\nMardi: 07h00* - 21h15**\nMercredi: 08h30 - 21h15**\nJeudi: 07h00* - 21h15**\nVendredi: 07h00* - 17h30**\nSamedi: 09h00 - 17h30**\nDimanche: 09h00 - 18h30**\n*ouverture du guichet de caisse à partir de 08h30 (09h00 les samedis et les dimanches).\n**fermeture des bassins. L’établissement ferme ses portes 30 minutes plus tard. Le guichet de caisse ferme à:\n19h30 du lundi au jeudi\n17h30 le vendredi et le samedi\n18h30 le dimanche\n**L'heure de fermeture peut être avancée ou prolongée en cas de conditions exceptionnelles. Consultez les fiches MyBusiness pour les horaires à jour.\nLorsque le guichet de caisse est fermé, possibilité d’acheter des tickets via nos automates (carte bancaire, Twint, monnaie) ou via la vente en ligne.\nTarifs entrées et abonnements\nLes titres d'entrée sont vendus aux caisses de l'établissement, aupr"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n13691152901",
+  "name": "L’appartement Yoga & Pilates",
+  "kind": "fitness_centre",
+  "website": "lappartement.yoga",
+  "address": "Rue Belle-Fontaine 2",
+  "dist_m": 831,
+  "pages": [
+   {
+    "url": "https://www.lappartement.yoga/",
+    "text": "​\n​Bain sonore avec Natali\nsamedi 14 novembre 16h\nsamedi 12 décembre 16h\n​\n​\n​Ateliers yoga du samedi 14h\nL'Esprit du Zen\n5 décembre avec Yuta\n​\nRetraite yoga avec Andréa\n​"
+   },
+   {
+    "url": "https://www.lappartement.yoga/retraites",
+    "text": "10-12 septembre 2021 | Champéry\nBain sonore avec Natali\nSamedi 14 novembre 16-17h15\nSamedi 12 décembre 16-17h15\nCHF 40\nAteliers du samedi\n​\n​\n​\n​\n​\nSamedi 5 décembre 14-16h\navec Yuta CHF 65 (thé vert & wagashi inclus)\n​\n​\n​\nInscription & information : andreamuller@mac.com ​"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n11286436869",
+  "name": "Nau",
+  "kind": "restaurant",
+  "website": "https://nau-resto.ch/",
+  "address": "Avenue Gabriel-de-Rumine 22",
+  "dist_m": 907,
+  "pages": [
+   {
+    "url": "https://www.nau-resto.ch/",
+    "text": "CONTACT & ACCÈS\nBON CADEAU\nHORAIRES\nDu mardi au vendredi\n11h45 – 14h45 | Dernière commande 13h45\n18h30 – 23h00 | Dernière commande 21h30\nSamedi\n12h00 – 15h00 | Dernière commande 14h00\n19h00- 23h30 | Dernière commande 22h00\nDimanche & lundi\nFermé\nCONTACT\ninfo@nau-resto.ch\n021.312.09.09\nAv. de Rumine 22\n1005 Lausanne"
+   },
+   {
+    "url": "https://www.nau-resto.ch/home-2-1-1",
+    "text": "Message *\nEnvoyer\nHORAIRES\nDu mardi au vendredi\n11h45 – 14h45 | Dernière commande 13h45\n18h30 – 23h30 | Dernière commande 21h30\nSamedi\n12h00 – 15h00 | Dernière commande 14h00\n19h00- 00h00 | Dernière commande 22h00\nDimanche & lundi\nFermé\nCONTACT\ninfo@nau-resto.ch\n021.312.09.09\nAv. de Rumine 22\n1005 Lausanne\nHORAIRES\nDu mardi au vendredi\n11h45 – 14h45 | Dernière commande 13h45\n18h30 – 23h30 | Dernière commande 21h30\nSamedi\n12h00 – 15h00 | Dernière commande 14h00\n19h00- 00h00 | Dernière commande 22h00\nDimanche & lundi\nFermé\nCONTACT\ninfo@nau-resto.ch\n021.312.09.09\nAv. de Rumine 22\n1005 Lausanne"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "w1101200969",
+  "name": "Halles sportives",
+  "kind": "sports_centre",
+  "website": "https://www.lausanne.ch/officiel/grands-projets/beaulieu/halles-sportives",
+  "address": "",
+  "dist_m": 924,
+  "pages": [
+   {
+    "url": "https://www.lausanne.ch/officiel/grands-projets/beaulieu/halles-sportives",
+    "text": "Epura\nLausanne en 2030\nCouverture de l’autoroute aux Boveresses\nSaint-Sulpice II\nHalles sportives\nProjet en bref\nPalais de Beaulieu\nHalles sportives"
+   },
+   {
+    "url": "https://www.lausanne.ch/officiel/grands-projets/boveresses.html",
+    "text": "Couverture de l’autoroute aux Boveresses – Ville de Lausanne\nAller au contenu\nAller au menu\nAller à la recherche\nPartager\nConnexion\nRecueil systématique du droit communal\nGuichet cartographique\nCouverture de l’autoroute aux Boveresses\nMétamorphose\nBeaulieu\nRiponne–Tunnel\nQuartiers ouest\nPôle Gare\nEpura\nLausanne en 2030\nCouverture de l’autoroute aux Boveresses\nSaint-Sulpice II\n© Mathilde Imesch - Ville de Lausanne\n© Mathilde Imesch - Ville de Lausanne\n© François Mayor - Ville de Lausanne\nPrevious\nNext\nCouverture de l’autoroute aux Boveresses\nProjet en bref\nFoire aux questions\nComment participer?\n© François Mayor - Ville de Lausanne\n© Mathilde Imesch - Ville de Lausanne"
+   },
+   {
+    "url": "https://www.lausanne.ch/officiel/grands-projets/beaulieu/halles-sportives/Informations-pratiques.html",
+    "text": "Epura\nLausanne en 2030\nCouverture de l’autoroute aux Boveresses\nSaint-Sulpice II\nHalles sportives\nProjet en bref\nPalais de Beaulieu\nHalles sportives\nProjet en bref\nSemaines multisports pour enfants\nPortes ouvertes des Halles sportives\nInformations pratiques\nInformations pratiques\nIdéalement situées au cœur de la Capitale olympique et réparties sur près de 12'000m 2 de surface, les Halles sportives de Beaulieu offrent un vaste choix d’activités physiques et sportives pour toute la population proposées par différents acteurs et actrices du sport lausannois.\nInformations pratiques\nHoraires et réservation\nL’accès diffère d’une halle à l’autre. Certaines sont ouvertes au public (avec ou sans réservation préalable) et d'autres sont réservées aux membres des clubs résidents.\nInfrastructures\nUne halle de basketball équipée d'un terrain 5x5 et de deux terrains 3x3\nUne halle d'escalade de bloc avec un espace destiné aux enfants\nUn centre de padel équipé de 4 terrains\nUn boulodrome composé de 12 pistes en gravier\n© Florian Aeby\n© Florian Aeby\nInitiations et matchs de pétanque ont animé les portes ouvertes des Halles sportives.\nInitiations et matchs de pétanque ont animé les portes ouvertes des Halles sportives.\n© Florian Aeby\n© Florian Aeby\nInitiations et matchs de Basket ont été proposés aux visiteurs.\nInitiations et matchs de Basket ont été proposés aux visiteurs.\n© Florian Aeby\nLes sports à roulettes (roller derby, longboard, skateboard, roller skate et roller inline)\nLes sports de force (haltérophilie, powerlifiting et musculation)\nLes Halles sont-elles ouvertes au public?\nL’accès au public diffère d’une halle à l’autre. Certaines sont ouvertes au public (avec ou sans réservation préalable), alors que d’autres sont utilisées par les clubs locataires.\nLes centres d’escalade et de padel sont ouverts au public tous les jours.\nLe Tennis park et le boulodrome ont des créneaux horaires ouverts au public.\nLa halle de sports à roulettes et le centre de basketball sont réservés aux membres des clubs locataires.\nPlus d'informations sur les pages de chaque halle.\nEst-ce que les Halles sont équipées de WCs et vestiaires?\nToutes les halles ont un accès aux toilettes communes des Halles sportives.\nCertaines halles disposent également de leurs propres vestiaires. Toutes les informations concernant les commodités de chaque halle sont disponibles sur le site internet des Halles sportives.\nEn transports publics : arrêt Beaulieu-Jomini (lignes bus tl 3, 20, 21, N1), arrêt Beaulieu "
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n4963270663",
+  "name": "L'Esquisse",
+  "kind": "restaurant",
+  "website": "https://www.lesquisse.ch/",
+  "address": "Route du Signal 2",
+  "dist_m": 927,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ {
+  "id": "n9460065917",
+  "name": "Giga Tacos",
+  "kind": "fast_food",
+  "website": "https://gigatacos.ch/",
+  "address": "Rue de la Pontaise 42",
+  "dist_m": 1030,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n9868836862",
+  "name": "Le Marrakech",
+  "kind": "restaurant",
+  "website": "https://restaurant-lemarrakech.ch/",
+  "address": "",
+  "dist_m": 1035,
+  "pages": [
+   {
+    "url": "https://restaurant-lemarrakech.ch/",
+    "text": "Bienvenue\nCuisine Marocaine et Libanaise\nLUNDI-SAMEDI: 11:45 - 14:15\n18:45 - 22:00\nDIMANCHE : fermé\nVOIR NOTRE CARTE DES METS\nLausanne\nVenez découvrir notre restaurant\nLe Marrakech à Lausanne\nVoir notre carte\n1005 Lausanne\ninfo@restaurant-lemarrakech.ch\nHoraires d'ouverture\nLUNDI-SAMEDI: 11:30 – 14:15\n18:00 – 22:00\nDIMANCHE : fermé\nRéservez votre table:\n+41 21 324 01 01\n+41 78 686 11 27\nLivraison à domicile avec nos partenaires : smood.ch , ubereats et eat.ch\nCréation site internet Fribourg - Lausanne"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n13158468912",
+  "name": "Bistro Les Alliés",
+  "kind": "restaurant",
+  "website": "https://www.lesallies.ch/",
+  "address": "Avenue des Oiseaux 2 · CH-1018 Lausanne",
+  "dist_m": 1062,
+  "pages": [
+   {
+    "url": "https://www.lesallies.ch/",
+    "text": "Depuis le 20 juin 2025, Les Alliés sont devenus un bistro, à quelques pas de leurs anciens locaux.\nNous avons le plaisir de vous accueillir dorénavant à l'avenue des Oiseaux 2:\nlundi 11h à 14h30,\nmardi au vendredi 11h à 14h30, puis de 18h à 22h\nFermé le week-end\nCordialement\nLes Alliés\nSauvons le Café des Alliés\nLa pérennité du café des Alliés, plus que centenaire, est actuellement compromise. Le propriétaire des lieux étudiant les possibilités de transformations, voire de simple démolition de l'actuel bâtiment qui abrite le café (voir l' article de Matthias Délétroz paru dans 24 Heures le 24 mars passé).\nNous serions ravis que vous vous joigniez à notre démarche historique, urbaine et civique. Vous pouvez le faire en venant signer notre pétition directement aux Alliés, ou en remplissant le formulaire disponible ici . Merci de votre soutien!"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n12613449775",
+  "name": "La Brasserie du Royal",
+  "kind": "restaurant",
+  "website": "https://royalsavoylausanne.com/en/dining/the-brasserie-du-royal",
+  "address": "Avenue d'Ouchy 40",
+  "dist_m": 1152,
+  "pages": [
+   {
+    "url": "https://royalsavoylausanne.com/en/dining/the-brasserie-du-royal",
+    "text": "Brunch : every Sunday\nBreakfast: 6:30 –10:30am\nLunch: 12pm - 2pm, last order at 1:45pm\nDinner: 7pm - 10pm, last order at 9:45pm\nAvenue d'Ouchy 40, 1006 Lausanne\nbrasserie@royalsavoylausanne.com\n+41 21 614 88 88\nThe Chef"
+   },
+   {
+    "url": "https://royalsavoylausanne.com/en/data-privacy-information",
+    "text": "B. ACCESSING OUR WEBSITE\n5. USING OUR CONTACT FORM\n6. REQUESTS FOR MEETINGS, CONFERENCES AND EVENTS\n7. MICROSOFT TEAMS\n8. SIGNING UP FOR OUR NEWSLETTER\n9. ORDERING VOUCHERS\n10. OPENING A CUSTOMER ACCOUNT\n11. BOOKING ON THE WEBSITES, BY CORRESPONDENCE OR BY TELEPHONE CALL\n12. ORDERS FROM OUR ONLINE SHOP\n13. APPLYING FOR A JOB\n14. COOKIES\n15. TRACKING TOOLS\nMessage\n6. REQUESTS FOR MEETINGS, CONFERENCES AND EVENTS\nOn our websites, you have the option to submit an enquiry in order to book a meeting, a conference or an event. For this purpose, we usually need the following information:\nFor which hotel is the request\nType of event, description of the event, number of guests\nEvent date\nForm of address\nPlease note that we may pass on your data to third parties as far as this is necessary within the framework of the use of the websites and the execution of the contract.\n10. OPENING A CUSTOMER ACCOUNT\nWhere on our websites you have the option to make bookings, you can place an order as a guest or open a customer account. When you register for a customer account, we usually collect the following data:\nTitle\nFirst and last name\nPostal address\nTelephone number"
+   }
+  ],
+  "jsonld": [
+   "[\n    {\n      \"@type\": \"OpeningHoursSpecification\",\n      \"dayOfWeek\": [\n        \"https://schema.org/Tuesday\",\n        \"https://schema.org/Wednesday\",\n        \"https://schema.org/Thursday\",\n        \"https://schema.org/Friday\",\n        \"https://schema.org/Saturday\"\n      ]"
+  ],
+  "error": null
+ },
+ {
+  "id": "n12613449776",
+  "name": "Sky Lounge",
+  "kind": "bar",
+  "website": "https://royalsavoylausanne.com/fr/gastronomie/skylounge",
+  "address": "Avenue d'Ouchy 40",
+  "dist_m": 1156,
+  "pages": [
+   {
+    "url": "https://royalsavoylausanne.com/fr/gastronomie/le-sky-rooftop-cucina-italiana",
+    "text": "+ 41 21 614 88 88\ninfo@royalsavoylausanne.com\nFermer\nRéserver\nSi vous avez des questions ou si vous souhaitez faire une réservation, vous pouvez nous contacter par téléphone ou par courrier électronique. Notre équipe est à votre disposition pour préparer votre séjour.\nTel:\n+ 41 21 614 88 88\nEmail:\nRéserver votre table\nLe Sky Rooftop\nRéserver une table\nInformation\nAvenue d'Ouchy 40, 1006 Lausanne\n+41 21 614 88 88 | info@royalsavoylausanne.com\nOuvert du mardi au samedi de 18h à minuit\n18h à 22h: pour dîner, avec réservation\nTruffe blanche d’Alba: du 13 au 21 novembre, à ajouter à vos plats, fraîche et râpée à votre table.\nDress Code : Smart Chic\nNous invitons nos hôtes à adopter une tenue chic décontractée. Les tenues de sport, tongs, vêtements de plage et tenues trop décontractées ne sont pas autorisées.\nEspace entièrement chauffé, pour profiter pleinement de votre soirée tout l’hiver."
+   },
+   {
+    "url": "https://royalsavoylausanne.com/fr/a-propos",
+    "text": "+ 41 21 614 88 88\ninfo@royalsavoylausanne.com\nFermer\nRéserver\nSi vous avez des questions ou si vous souhaitez faire une réservation, vous pouvez nous contacter par téléphone ou par courrier électronique. Notre équipe est à votre disposition pour préparer votre séjour.\nTel:\n+ 41 21 614 88 88\nEmail:"
+   },
+   {
+    "url": "https://royalsavoylausanne.com/fr/information-sur-la-protection-des-donnees",
+    "text": "+ 41 21 614 88 88\ninfo@royalsavoylausanne.com\nFermer\nRéserver\nSi vous avez des questions ou si vous souhaitez faire une réservation, vous pouvez nous contacter par téléphone ou par courrier électronique. Notre équipe est à votre disposition pour préparer votre séjour.\nTel:\n+ 41 21 614 88 88\nEmail:\n8.   INSCRIPTION À NOTRE NEWSLETTER\n9.   COMMANDE DE BONS D'ACHAT\n10.   OUVERTURE D'UN COMPTE CLIENT\n11.   RÉSERVATION SUR LE SITE WEB, PAR CORRESPONDANCE OU PAR APPEL TÉLÉPHONIQUE\n12.   COMMANDES DE NOTRE BOUTIQUE EN LIGNE\n13.   CANDIDATURE À UNE OFFRE D’EMPLOI\n14.   COOKIES\n15.   TARGETING (CIBLAGE)\nLe pays à partir duquel l'accès a été effectué\nLe code d'état (par exemple, le message d'erreur)\nLe décalage horaire par rapport au temps moyen de Greenwich (GMT)\nLe système d'exploitation de votre ordinateur\nLe navigateur que vous utilisez (type, version et langue)\nLe protocole de transfert utilisé (par exemple HTTP/1.1)\nLe cas échéant, votre nom d'utilisateur utilisé lors d'une inscription/authentification.\nCes données sont nécessaires pour répondre à votre demande. Nous les traitons uniquement pour personnaliser les informations et les offres que nous vous envoyons et mieux les adapter à vos centres d’intérêt.\nEn outre, vous avez la possibilité d'envoyer votre révocation à l'adresse électronique suivante :\ndata-privacy@royalsavoylausanne.com\nCOMMANDE DE BONS D'ACHAT\nSur nos sites web, vous avez la possibilité de commander des bons. Pour ce faire, nous avons généralement besoin des informations suivantes :\nVeuillez noter que nous pouvons transmettre vos données à des tiers dans la mesure où cela est nécessaire dans le cadre de l'utilisation des sites web et de l'exécution du contrat.\nOUVERTURE D'UN COMPTE CLIENT\nLorsque vous avez la possibilité d'effectuer des réservations sur nos sites web, vous pouvez passer une commande en tant qu'invité où ouvrir un compte client. Lorsque vous vous inscrivez pour ouvrir un compte client, nous collectons généralement les données suivantes :\nTitre\nNom et prénom\nAdresse postale\nNuméro de téléphone\nAdresse électronique\nMot de passe et question de sécurité\nLa base juridique du traitement des données à cette fin est le consentement que vous avez donné.\nRÉSERVATION SUR LE SITE WEB, PAR CORRESPONDANCE OU PAR APPEL TÉLÉPHONIQUE\nLorsque vous réservez des nuitées et/ou des restaurants, des activités de loisirs, des services de spa ou des services médicaux via nos sites web, en correspondant avec nous (par e-mail ou lettre) ou en nous app"
+   },
+   {
+    "url": "https://royalsavoylausanne.com/fr/contact",
+    "text": "+ 41 21 614 88 88\ninfo@royalsavoylausanne.com\nFermer\nRéserver\nSi vous avez des questions ou si vous souhaitez faire une réservation, vous pouvez nous contacter par téléphone ou par courrier électronique. Notre équipe est à votre disposition pour préparer votre séjour.\nTel:\n+ 41 21 614 88 88\nEmail:"
+   }
+  ],
+  "jsonld": [
+   "[\n    {\n      \"@type\": \"OpeningHoursSpecification\",\n      \"dayOfWeek\": [\n        \"https://schema.org/Wednesday\",\n        \"https://schema.org/Thursday\",\n        \"https://schema.org/Friday\",\n        \"https://schema.org/Saturday\"\n      ]"
+  ],
+  "error": null
+ },
+ {
+  "id": "n9610795517",
+  "name": "Chez Loïc",
+  "kind": "restaurant",
+  "website": "https://resto-chezloic.ch/",
+  "address": "",
+  "dist_m": 1196,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n7252420619",
+  "name": "Restaurant de la Piscine et Patinoire de Montchoisi",
+  "kind": "restaurant",
+  "website": "https://www.restaurant-ppmontchoisi.ch/",
+  "address": "",
+  "dist_m": 1243,
+  "pages": [
+   {
+    "url": "https://www.restaurant-ppmontchoisi.ch/",
+    "text": "Réservez votre table\nRestaurant de la Piscine et Patinoire de Montchoisi\nLun. : 9h30 – 14h30\nMar. – Sam. : 9h30 – 14h30 / 17h30 – 00h00\nDim. : 9h30 – 14h30\nNotez-nous!\nRestaurant de la Piscine et Patinoire de Montchoisi\nAvenue du Servan 30, 1006 Lausanne\nVoir sur Google Map\n+41 (0) 21 616 10 64"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n7148067639",
+  "name": "Evade",
+  "kind": "escape_game",
+  "website": "https://evadegame.com/",
+  "address": "Rue de Genève 77B",
+  "dist_m": 1285,
+  "pages": [
+   {
+    "url": "https://evadegame.com/a-propos-evade-game/",
+    "text": "Rue de Genève 77B, Lausanne VD / Chemin de Château-Bloch 10, 1219 Vernier GE\n+41 77 454 45 85 info@evadegame.com\nDimanche-Jeudi: 10h00-22h00\nVendredi-Samedi: 10h00-23h00\nEnvoie ton message\nSi vous avez des questions, utilisez le formulaire ci-dessous.\nVeuillez activer JavaScript dans votre navigateur pour remplir ce formulaire.\nPrénom et Nom *\nE-mail *"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n5678906240",
+  "name": "Anne-Sophie Pic au Beau-Rivage Palace",
+  "kind": "restaurant",
+  "website": "https://www.brp.ch/restaurants-bars/anne-sophie-pic/le-restaurant/",
+  "address": "",
+  "dist_m": 1521,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ {
+  "id": "n13196265987",
+  "name": "Café Beau-Rivage",
+  "kind": "restaurant",
+  "website": "https://www.brp.ch/restaurants-bars/cafe-beau-rivage/",
+  "address": "",
+  "dist_m": 1528,
+  "pages": [
+   {
+    "url": "https://www.brp.ch/fr/restaurants-et-bars/cafe-beau-rivage/",
+    "text": "Brasserie au Bord de l'Eau à Lausanne | Café Beau-Rivage\nAller au contenu\nFermer le menu\nFrançais\nEnglish\nDeutsch\nÀ propos de nous\nSuites\nWellness et Sport\nRéunions et Événements\nAgenda et Découvertes\nOffres\nL'automne au Beau-Rivage Palace\nBons cadeaux\nAccès\nGalerie\nDans l'écrin d'une Suite Signature, laissez-vous emporter par le violoncelliste Basile Ausländer, autour d'un dîner d'exception face au lac le jeudi 12 novembre.\nRéservez votre place\nFermer le menu\nRéservez votre expérience\nRéservez une chambre\nRéservez une table\nRéservez un soin\nArrivée\nCafé Beau-Rivage\nUn classique\nVéritable institution à Lausanne, le Café Beau-Rivage célèbre l'esprit des grandes brasseries au cœur du Beau-Rivage Palace. Sa cuisine de saison revisite les grands classiques dans un cadre lumineux, entre élégante salle à manger et terrasse ouverte sur le lac Léman.\nÀ l'intérieur comme sur sa terrasse, chaque instant s'apprécie au rythme du Léman, entre lumière, conversations et douceur de vivre.\nLa cuisine célèbre les plus beaux produits de saison, puisant son inspiration entre le lac Léman, les montagnes et les terroirs qui façonnent la richesse gastronomique suisse.\nLa cave met à l'honneur les plus beaux vignobles suisses, avec une sélection de vins de Vaud, du Lavaux, du Valais et de Neuchâtel, complétée par de grandes maisons de Champagne.\nTous les jours de 12h00 à 14h00 et de 19h00 à 22h00\nTenue : élégante, en accord avec l’atmosphère du restaurant\nRéservez une table\nTéléphonez +41 21 613 33 30\nEmail\nNos menus\nPic au Beau-Rivage Palace**\nLa signature Anne-Sophie Pic\nDu mardi au samedi de 12h00 à 13h30 et de 18h30 à 21h30. Fermé le dimanche et le lundi.\nUne cuisine signée Anne-Sophie Pic, orchestrée par le chef Jordan Theurillat, qui explore le terroir suisse au fil d’un menu doublement étoilé au guide Michelin.\nDécouvrez\nRéservez une table\nKaigan\nL’authenticité japonaise\nDu mardi au samedi de 12h00 à 14h00 et de 19h00 à 22h00.\nDe Lausanne au Pays du Soleil-Levant, une cuisine où sushis et Teppanyaki, produits de saison, gestes japonais et sakés d'exception célèbrent l'art de la table nippon.\nDécouvrez\nRéservez une table\nLa Terrasse\nPetit-déjeuner et brunch\nDu lundi au vendredi de 06h30 à 10h30.\nLes week-ends, jours fériés et vacances scolaires du canton de Vaud de 07h00 à 11h00.\nPour bien commencer la journée, un buffet gourmand de produits frais accompagne le réveil, face aux vues spectaculaires sur le Léman.\nDécouvrez\nRéservez une table\nBar\nL’art du bar\nDu mercredi au sam"
+   },
+   {
+    "url": "https://www.brp.ch/fr/a-propos-de-nous/",
+    "text": "À Propos du Beau-Rivage Palace | Hôtel 5* Beau-Rivage Palace\nAller au contenu\nFermer le menu\nFrançais\nEnglish\nDeutsch\nÀ propos de nous\nSuites\nWellness et Sport\nRéunions et Événements\nAgenda et Découvertes\nOffres\nL'automne au Beau-Rivage Palace\nBons cadeaux\nAccès\nGalerie\nDans l'écrin d'une Suite Signature, laissez-vous emporter par le violoncelliste Basile Ausländer, autour d'un dîner d'exception face au lac le jeudi 12 novembre.\nRéservez votre place\nFermer le menu\nRéservez votre expérience\nRéservez une chambre\nRéservez une table\nRéservez un soin\nArrivée"
+   },
+   {
+    "url": "https://www.brp.ch/fr/acces/",
+    "text": "Notre Emplacement | Hôtel Beau-Rivage Palace à Lausanne\nAller au contenu\nFermer le menu\nFrançais\nEnglish\nDeutsch\nÀ propos de nous\nSuites\nWellness et Sport\nRéunions et Événements\nAgenda et Découvertes\nOffres\nL'automne au Beau-Rivage Palace\nBons cadeaux\nAccès\nGalerie\nDans l'écrin d'une Suite Signature, laissez-vous emporter par le violoncelliste Basile Ausländer, autour d'un dîner d'exception face au lac le jeudi 12 novembre.\nRéservez votre place\nFermer le menu\nRéservez votre expérience\nRéservez une chambre\nRéservez une table\nRéservez un soin\nArrivée\nEn train\nLe réseau ferroviaire suisse permet de rejoindre Lausanne facilement depuis toutes les villes du pays. Comptez environ 45 minutes depuis Genève, 2h10 depuis Zurich.\nDepuis la gare de Lausanne, le M2, unique métro de Suisse, vous emmène à Ouchy, à quelques minutes à pied du Beau-Rivage Palace. Le M2 circule tous les jours, à fréquence rapprochée.\nAbonnez-vous et recevez les actualités du Beau-Rivage Palace\nRecevez en avant-première les dernières actualités et expériences du Beau-Rivage Palace.\nJe m’inscris\nNous contacter\nHôtel Beau-Rivage Palace"
+   },
+   {
+    "url": "https://www.brp.ch/fr/contact/",
+    "text": "Nous Contacter | Hôtel Beau-Rivage Palace Lausanne\nAller au contenu\nFermer le menu\nFrançais\nEnglish\nDeutsch\nÀ propos de nous\nSuites\nWellness et Sport\nRéunions et Événements\nAgenda et Découvertes\nOffres\nL'automne au Beau-Rivage Palace\nBons cadeaux\nAccès\nGalerie\nDans l'écrin d'une Suite Signature, laissez-vous emporter par le violoncelliste Basile Ausländer, autour d'un dîner d'exception face au lac le jeudi 12 novembre.\nRéservez votre place\nFermer le menu\nRéservez votre expérience\nRéservez une chambre\nRéservez une table\nRéservez un soin\nArrivée"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n13196253908",
+  "name": "La Terrasse",
+  "kind": "restaurant",
+  "website": "https://www.brp.ch/restaurants-bars/la-terrasse/",
+  "address": "",
+  "dist_m": 1541,
+  "pages": [
+   {
+    "url": "https://www.brp.ch/fr/restaurants-et-bars/la-terrasse/",
+    "text": "Brunch et petit déjeuner à Lausanne | La Terrasse\nAller au contenu\nFermer le menu\nFrançais\nEnglish\nDeutsch\nÀ propos de nous\nSuites\nWellness et Sport\nRéunions et Événements\nAgenda et Découvertes\nOffres\nL'automne au Beau-Rivage Palace\nBons cadeaux\nAccès\nGalerie\nDans l'écrin d'une Suite Signature, laissez-vous emporter par le violoncelliste Basile Ausländer, autour d'un dîner d'exception face au lac le jeudi 12 novembre.\nRéservez votre place\nFermer le menu\nRéservez votre expérience\nRéservez une chambre\nRéservez une table\nRéservez un soin\nArrivée\nInstallez-vous près des grandes baies vitrées, un café fraîchement préparé à la main, tandis que le matin s’ouvre doucement sur le lac.\nAu buffet, jus pressés, granolas et céréales artisanaux, viennoiseries dorées et œufs préparés à votre goût composent un réveil généreux, à savourer avec bacon ou saumon fumé.\nDu lundi au vendredi de 06h30 à 10h30.\nLes week-ends, jours fériés et vacances scolaires du canton de Vaud de 07h00 à 11h00.\nBrunch du dimanche de 12h45 à 14h45\nCHF 130.– par personne, incluant une boisson chaude et une coupe de champagne. Gratuit pour les enfants jusqu'à 5 ans et tarif réduit de 50 % pour les enfants de 6 à 12 ans.\nTenue : élégante et appropriée\nRéservez une table\nTéléphonez +41 21 613 33 18\nEmail\nPic au Beau-Rivage Palace**\nLa signature Anne-Sophie Pic\nDu mardi au samedi de 12h00 à 13h30 et de 18h30 à 21h30. Fermé le dimanche et le lundi.\nUne cuisine signée Anne-Sophie Pic, orchestrée par le chef Jordan Theurillat, qui explore le terroir suisse au fil d’un menu doublement étoilé au guide Michelin.\nDécouvrez\nRéservez une table\nCafé Beau-Rivage\nUn classique\nTous les jours de 12h00 à 14h00 et de 19h00 à 22h00.\nSur la terrasse face au lac Léman ou dans la grande salle, le Café Beau-Rivage à Lausanne revisite les classiques de la brasserie avec la signature de la Maison.\nDécouvrez\nRéservez une table\nKaigan\nL’authenticité japonaise\nDu mardi au samedi de 12h00 à 14h00 et de 19h00 à 22h00.\nDe Lausanne au Pays du Soleil-Levant, une cuisine où sushis et Teppanyaki, produits de saison, gestes japonais et sakés d'exception célèbrent l'art de la table nippon.\nDécouvrez\nRéservez une table\nBar\nL’art du bar\nDu mercredi au samedi de 17h30 à 01h00.\nLe dimanche de 16h00 à 00h00.\nCocktails signature, créations sans alcool, assiettes gourmandes à partager : une carte pensée pour surprendre et éveiller les sens.\nDécouvrez\nAbonnez-vous et recevez les actualités du Beau-Rivage Palace\nRecevez en avant-première les der"
+   },
+   {
+    "url": "https://www.brp.ch/fr/a-propos-de-nous/",
+    "text": "À Propos du Beau-Rivage Palace | Hôtel 5* Beau-Rivage Palace\nAller au contenu\nFermer le menu\nFrançais\nEnglish\nDeutsch\nÀ propos de nous\nSuites\nWellness et Sport\nRéunions et Événements\nAgenda et Découvertes\nOffres\nL'automne au Beau-Rivage Palace\nBons cadeaux\nAccès\nGalerie\nDans l'écrin d'une Suite Signature, laissez-vous emporter par le violoncelliste Basile Ausländer, autour d'un dîner d'exception face au lac le jeudi 12 novembre.\nRéservez votre place\nFermer le menu\nRéservez votre expérience\nRéservez une chambre\nRéservez une table\nRéservez un soin\nArrivée"
+   },
+   {
+    "url": "https://www.brp.ch/fr/acces/",
+    "text": "Notre Emplacement | Hôtel Beau-Rivage Palace à Lausanne\nAller au contenu\nFermer le menu\nFrançais\nEnglish\nDeutsch\nÀ propos de nous\nSuites\nWellness et Sport\nRéunions et Événements\nAgenda et Découvertes\nOffres\nL'automne au Beau-Rivage Palace\nBons cadeaux\nAccès\nGalerie\nDans l'écrin d'une Suite Signature, laissez-vous emporter par le violoncelliste Basile Ausländer, autour d'un dîner d'exception face au lac le jeudi 12 novembre.\nRéservez votre place\nFermer le menu\nRéservez votre expérience\nRéservez une chambre\nRéservez une table\nRéservez un soin\nArrivée\nEn train\nLe réseau ferroviaire suisse permet de rejoindre Lausanne facilement depuis toutes les villes du pays. Comptez environ 45 minutes depuis Genève, 2h10 depuis Zurich.\nDepuis la gare de Lausanne, le M2, unique métro de Suisse, vous emmène à Ouchy, à quelques minutes à pied du Beau-Rivage Palace. Le M2 circule tous les jours, à fréquence rapprochée.\nAbonnez-vous et recevez les actualités du Beau-Rivage Palace\nRecevez en avant-première les dernières actualités et expériences du Beau-Rivage Palace.\nJe m’inscris\nNous contacter\nHôtel Beau-Rivage Palace"
+   },
+   {
+    "url": "https://www.brp.ch/fr/contact/",
+    "text": "Nous Contacter | Hôtel Beau-Rivage Palace Lausanne\nAller au contenu\nFermer le menu\nFrançais\nEnglish\nDeutsch\nÀ propos de nous\nSuites\nWellness et Sport\nRéunions et Événements\nAgenda et Découvertes\nOffres\nL'automne au Beau-Rivage Palace\nBons cadeaux\nAccès\nGalerie\nDans l'écrin d'une Suite Signature, laissez-vous emporter par le violoncelliste Basile Ausländer, autour d'un dîner d'exception face au lac le jeudi 12 novembre.\nRéservez votre place\nFermer le menu\nRéservez votre expérience\nRéservez une chambre\nRéservez une table\nRéservez un soin\nArrivée"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "w44771838",
+  "name": "Kebab Ouchy",
+  "kind": "fast_food",
+  "website": "https://www.kebabouchy.ch/",
+  "address": "",
+  "dist_m": 1595,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n9958538826",
+  "name": "Le Cozy",
+  "kind": "restaurant",
+  "website": "https://www.lecozy.ch/",
+  "address": "",
+  "dist_m": 1620,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n9838532083",
+  "name": "La Nautica",
+  "kind": "restaurant",
+  "website": "https://lanautica.ch/",
+  "address": "",
+  "dist_m": 1653,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 503: Service Unavailable"
+ },
+ {
+  "id": "n1230808910",
+  "name": "Château d'Ouchy",
+  "kind": "restaurant",
+  "website": "https://www.chateaudouchy.ch/en/restaurants-bars/",
+  "address": "",
+  "dist_m": 1668,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ {
+  "id": "w47005143",
+  "name": "Piscine de Belleveaux",
+  "kind": "swimming_pool",
+  "website": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/piscine-plein-air/piscine-de-bellevaux",
+  "address": "",
+  "dist_m": 1691,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n8964364619",
+  "name": "Glaces Veneta",
+  "kind": "ice_cream",
+  "website": "https://glaces-veneta.ch/",
+  "address": "Vieux-Port",
+  "dist_m": 1714,
+  "pages": [
+   {
+    "url": "https://www.glaces-veneta.ch/",
+    "text": "Nous contacter\nOuvrir le menu\nFermer le menu\nAccueil\nNotre Histoire\nNos Services\nNous contacter\nOuvrir le menu\nFermer le menu\nAccueil\nNotre Histoire\nNos Services\nNous contacter\nGlaciers de père en fils, depuis 1935."
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n2368737807",
+  "name": "Brasserie des Sauges",
+  "kind": "restaurant",
+  "website": "https://brasserie-des-sauges.com",
+  "address": "",
+  "dist_m": 1805,
+  "pages": [
+   {
+    "url": "https://brasserie-des-sauges.com",
+    "text": "B rasserie des Sauges Sàrl - Av. du Grey 58 - 1018 Lausanne\n021 647 74 86 - info@brasserie-des-sauges.com\nCuisine jusqu'à 22h30 - Fermeture dimanche et jours fériés\nPolitique de confidentialité -\n- Site crée par web-ressources.ch\nVous devez charger le contenu de hCaptcha pour soumettre le formulaire. Veuillez noter que ce faisant, des données seront partagées avec des providers tiers.\nPlus d'informations\nDébloquer le contenu Accepter le service requis et débloquer les contenus"
+   },
+   {
+    "url": "https://brasserie-des-sauges.com/contact/",
+    "text": "B rasserie des Sauges Sàrl - Av. du Grey 58 - 1018 Lausanne\n021 647 74 86 - info@brasserie-des-sauges.com\nCuisine jusqu'à 22h30 - Fermeture dimanche et jours fériés\nPolitique de confidentialité -\n- Site crée par web-ressources.ch\nVous devez charger le contenu de hCaptcha pour soumettre le formulaire. Veuillez noter que ce faisant, des données seront partagées avec des providers tiers.\nPlus d'informations\nDébloquer le contenu Accepter le service requis et débloquer les contenus"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n5332973125",
+  "name": "Quick Wash",
+  "kind": "laundry",
+  "website": "https://www.quick-wash.ch/",
+  "address": "Route d'Oron 4",
+  "dist_m": 1913,
+  "pages": [
+   {
+    "url": "https://www.quick-wash.ch/",
+    "text": "Repassage\nCouture\nOuvert du lundi au samedi\nLundi-Vendredi\n08:00 - 12:00\n14:00 - 19:00\nSamedi\n08:00 - 12:00"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "w1154674014",
+  "name": "Piscine de Boisy",
+  "kind": "sports_centre",
+  "website": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/liste-installations-sportives/piscine-boisy.html",
+  "address": "",
+  "dist_m": 1976,
+  "pages": [
+   {
+    "url": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/liste-installations-sportives/piscine-boisy.html",
+    "text": "Halles sportives de Beaulieu\nPiscines en plein air\nPiscines couvertes\nPatinoires\nPiscine de quartier – Boisy\nCentre multisports - Vaudoise aréna\nEscrime – Vaudoise aréna\nTennis de table – Vaudoise aréna\nPatinoire – Montchoisi\nPatinoire – Vaudoise aréna\nPiscine couverte – Les Bergières\nPiscine couverte – Grand-Vennes\nPiscine couverte – Vallée de la Jeunesse\nPiscine couverte – Vaudoise aréna\nPiscine de quartier – Bellevaux\nPiscine – Bellerive\nPiscine couverte – Mon-Repos\nPiscine de quartier – Montétan\nPiscine – Montchoisi\nPiscine de quartier – Boisy\nPiscine de quartier – Vieux-Moulin\nPlan des parcours vélo – Ville de Lausanne\nPrécédent\nProchain\nHoraires d'ouverture\nDu 30 mai au 30 août 2026\n09h30-19h30* **\n*Appel et évacuation des bassins. L’établissement ferme 30 minutes plus tard.\n**L'heure de fermeture peut être avancée selon les conditions atmosphériques.\nConsultez les fiches MyBusiness pour les horaires à jour.\nTarifs entrée\nEntrée libre\nInfrastructures\nUn bassin non-nageurs·euses et une pataugeoire\nAccès\nDans le cadre de son programme Laus’Active , la Ville de Lausanne organise, en collaboration avec le Mouvement des Aînés Vaud, des cours d'aquagym à la piscine de Boisy.\nQuand ?\nLes mercredis de 10h à 10h45\nDu 24 juin au 26 août\nInformations importantes :\nL’activité est gratuite\nTout le monde peut participer\nDes spécialistes encadrent les cours"
+   },
+   {
+    "url": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/liste-installations-sportives/piscine-boisy.html?deconnexion",
+    "text": "Halles sportives de Beaulieu\nPiscines en plein air\nPiscines couvertes\nPatinoires\nPiscine de quartier – Boisy\nCentre multisports - Vaudoise aréna\nEscrime – Vaudoise aréna\nTennis de table – Vaudoise aréna\nPatinoire – Montchoisi\nPatinoire – Vaudoise aréna\nPiscine couverte – Les Bergières\nPiscine couverte – Grand-Vennes\nPiscine couverte – Vallée de la Jeunesse\nPiscine couverte – Vaudoise aréna\nPiscine de quartier – Bellevaux\nPiscine – Bellerive\nPiscine couverte – Mon-Repos\nPiscine de quartier – Montétan\nPiscine – Montchoisi\nPiscine de quartier – Boisy\nPiscine de quartier – Vieux-Moulin\nPlan des parcours vélo – Ville de Lausanne\nPrécédent\nProchain\nHoraires d'ouverture\nDu 30 mai au 30 août 2026\n09h30-19h30* **\n*Appel et évacuation des bassins. L’établissement ferme 30 minutes plus tard.\n**L'heure de fermeture peut être avancée selon les conditions atmosphériques.\nConsultez les fiches MyBusiness pour les horaires à jour.\nTarifs entrée\nEntrée libre\nInfrastructures\nUn bassin non-nageurs·euses et une pataugeoire\nAccès\nDans le cadre de son programme Laus’Active , la Ville de Lausanne organise, en collaboration avec le Mouvement des Aînés Vaud, des cours d'aquagym à la piscine de Boisy.\nQuand ?\nLes mercredis de 10h à 10h45\nDu 24 juin au 26 août\nInformations importantes :\nL’activité est gratuite\nTout le monde peut participer\nDes spécialistes encadrent les cours"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n13698339902",
+  "name": "Lausanne Wushu & Boxing Institut",
+  "kind": "sports_centre",
+  "website": "https://lausanneboxing.ch/",
+  "address": "Rue du Grand-Pré 4",
+  "dist_m": 1981,
+  "pages": [
+   {
+    "url": "https://lausanneboxing.ch/",
+    "text": "Présentation\nDisciplines\nHoraires\nTarifs\nL’école\nLes fondateurs\nGalerie\nEntraineurs\nPrésentation\nDisciplines\nHoraires\nTarifs\nL’école\nLes fondateurs\nGalerie\nEntraineurs\nSuivant\nNews\nPÂQUES 2025: cours et horaires\n7 avril 2025\nRELACHES 2025: cours et horaires\n14 février 2025\nFERMETURE FIN D’ANNéE 2024\n8 décembre 2024\nNouveautés dès le 19 août\n15 août 2024\n1\n2\nEntraineur Boxe & Kickboxing\ndavid moscatelli\nPÂQUES 2025: cours et horaires\n7 avril 2025\nPlanning durant les vacances scolaires Pâques du 14 au 27 avril 2025: PLANNING PÂQUES Cours adultes : pas de changements Boxe et kickboxing juniors (10-16 ans): uniquement les mardi et mercredi. kickboxing enfant (7-10ans): reprise après les vacances Baby kungfu: reprise après\nEn savoir plus »\nRELACHES 2025: cours et horaires\n14 février 2025\nPlanning durant les relâches du 17 au 22 février 2025: PLANNING RELACHES Cours adultes : pas de changements Boxe et kickboxing juniors (10-16 ans): uniquement les mardi et mercredi. kickboxing enfant (7-10ans): reprise après les vacances Baby kungfu: reprise après les vacances\nEn savoir plus »\nFERMETURE FIN D’ANNéE 2024\n8 décembre 2024\n******************************************** La salle sera fermée du vendredi soir 20 décembre 2024 et ce pour deux semaines. Réouverture le lundi 6 janvier 2025. ******** Joyeux Noël & Bonne Année ! ********\nEn savoir plus »\n« Previous\nNext »\nNos disciplines\nAdultes & Junior\nÀ propos\nAccueil\nHoraires\nTarifs\nGalerie\nEntraineurs\nLes fondateurs\nContact"
+   },
+   {
+    "url": "https://lausanneboxing.ch/paques-2025-cours-et-horaires/",
+    "text": "PÂQUES 2025: cours et horaires - Lausanne Boxing & Wushu Institut\nAccueil\nTarifs\nHoraires\nNews\nContact\nMenu\nAccueil\nTarifs\nHoraires\nNews\nContact\nLausanne Boxing & Wushu Institut\nPÂQUES 2025: cours et horaires\nBy:\nadmin\n7 avril 2025\nNews\nPlanning durant les vacances scolaires Pâques du 14 au 27 avril 2025 : PLANNING PÂQUES\n14 février 2025\nNews\nRELACHES 2025: cours et horaires\nRead More\n8 décembre 2024\nNews\nFERMETURE FIN D’ANNéE 2024\nRead More\n15 août 2024\nNews\nNouveautés dès le 19 août\nRead More\nÀ propos\nAccueil\nHoraires\nTarifs\nGalerie\nEntraineurs\nLes fondateurs\nContact"
+   },
+   {
+    "url": "https://lausanneboxing.ch/relaches-cours-et-horaires-2/",
+    "text": "RELACHES 2025: cours et horaires - Lausanne Boxing & Wushu Institut\nAccueil\nTarifs\nHoraires\nNews\nContact\nMenu\nAccueil\nTarifs\nHoraires\nNews\nContact\nLausanne Boxing & Wushu Institut\nRELACHES 2025: cours et horaires\nBy:\nadmin\n14 février 2025\nNews\nPlanning durant les relâches du 17 au 22 février 2025 : PLANNING RELACHES\n7 avril 2025\nNews\nPÂQUES 2025: cours et horaires\nRead More\n8 décembre 2024\nNews\nFERMETURE FIN D’ANNéE 2024\nRead More\n15 août 2024\nNews\nNouveautés dès le 19 août\nRead More\nÀ propos\nAccueil\nHoraires\nTarifs\nGalerie\nEntraineurs\nLes fondateurs\nContact"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n13928865931",
+  "name": "La chocilatière",
+  "kind": "chocolate",
+  "website": "https://lachocolatiere.ch/",
+  "address": "Avenue de Malley",
+  "dist_m": 2215,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n5553154460",
+  "name": "La Treille",
+  "kind": "restaurant",
+  "website": "https://restolatreille.ch/",
+  "address": "Route de Cossonay 26",
+  "dist_m": 2269,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n6528468877",
+  "name": "Le Cube",
+  "kind": "sports_centre",
+  "website": "https://lecube.ch/",
+  "address": "",
+  "dist_m": 2413,
+  "pages": [
+   {
+    "url": "https://lecube.ch/",
+    "text": "Le Cube – Escalade et Bar – 1500m2 de surface d’escalade à Lausanne avec chaque semaine de nouveaux blocs, un espace dédié aux enfants et un bar pour déguster des bières artisanales.\nLe Cube\nHoraires & tarifs\nCours\nEscalade outdoor\nAnniversaires\nBons cadeaux\nShop\nDécouvrir →\nLe Cube\nHoraires & tarifs\nCours\nEscalade outdoor\nAnniversaires\nBons cadeaux\nShop\nRionzi 52A\n1052 le Mont-sur-Lausanne\nPlan et horaires des bus\nHoraires\nLundi → Vendredi\n09:00\n22:30\nWeekend\n09:00"
+   },
+   {
+    "url": "https://lecube.ch/horaires-tarifs/",
+    "text": "Horaires & tarifs : Le Cube – Escalade et Bar\nHoraires & tarifs – Le Cube – Escalade et Bar\nLe Cube\nHoraires & tarifs\nCours\nEscalade outdoor\nAnniversaires\nBons cadeaux\nShop\nOpen nav\nLe Cube\nHoraires & tarifs\nCours\nEscalade outdoor\nAnniversaires\nBons cadeaux\nShop\nContact\n0\nHoraires\nLundi → Vendredi\n09:00\n22:30\nWeekend\n09:00\nSa. 1er août\nFête nationale\nOuvert 9h - 20h\nDi. 2 août\nOuverture habituelle\nOuvert 9h - 20h\nLu. 21 sept.\nLundi du Jeûne\nOuvert 9h - 22h30\nJe. 24 décembre\nVeille de Noël\nFermeture 17:00\nVe. 25 décembre\nNoël\nFermé\nTarifs\nAdultes\nDès 18 ans\nEntrée\nCHF 16.—\nPolitique de confidentialité\nPROCHAINEMENT +\nFermer\nPROCHAINEMENT\nDécouvrez nos camps d’escalade en extérieur Août : Du 10 au 14 août / Octobre : Du 12 au 16 octobre 2026\nHoraires\nPanier\n×\nVotre panier est vide."
+   },
+   {
+    "url": "https://lecube.ch/acces-contact/",
+    "text": "Accès & Contact – Le Cube – Escalade et Bar\nLe Cube\nHoraires & tarifs\nCours\nEscalade outdoor\nAnniversaires\nBons cadeaux\nShop\nOpen nav\nLe Cube\nHoraires & tarifs\nCours\nEscalade outdoor\nAnniversaires\nBons cadeaux\nShop\nPolitique de confidentialité\nPROCHAINEMENT +\nFermer\nPROCHAINEMENT\nDécouvrez nos camps d’escalade en extérieur Août : Du 10 au 14 août / Octobre : Du 12 au 16 octobre 2026\nHoraires\nPanier\n×\nVotre panier est vide."
+   },
+   {
+    "url": "https://lecube.ch/anniversaires/",
+    "text": "Anniversaires – Le Cube – Escalade et Bar\nLe Cube\nHoraires & tarifs\nCours\nEscalade outdoor\nAnniversaires\nBons cadeaux\nShop\nAnniversaires\nLe Cube\nHoraires & tarifs\nCours\nEscalade outdoor\nAnniversaires\nBons cadeaux\nShop\n01\nAnimation\n1h encadrée par un moniteur, autour du jeu et de l'apprentissage de la grimpe, en toute sécurité.\n02\nGoûter\nUne table vous est réservée pendant 2h30. Vous apportez le goûter et le gâteau ; les boissons doivent être commandées au bar.\n03\nGrimpe libre\nUne fois l'animation terminée, les enfants peuvent profiter des lieux sous la responsabilité des parents pendant le temps restant.\nCHF 22.-\nPar enfant / comprend l'animation, l'entrée avec chaussons inclus et la réservation de la table\nPolitique de confidentialité\nPROCHAINEMENT +\nFermer\nPROCHAINEMENT\nDécouvrez nos camps d’escalade en extérieur Août : Du 10 au 14 août / Octobre : Du 12 au 16 octobre 2026\nHoraires\nPanier\n×\nVotre panier est vide."
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "w765244465",
+  "name": "Patinoire Yodli",
+  "kind": "ice_rink",
+  "website": "https://vaudoisearena.ch/patinoires/",
+  "address": "",
+  "dist_m": 2424,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 404: [GET] \"/api/cms/pages/full/?locale=fr\": 404 Not Found"
+ },
+ {
+  "id": "n13550918809",
+  "name": "Musée romain de Lausanne-Vidy",
+  "kind": "museum",
+  "website": "https://www.lausanne.ch/vie-pratique/culture/musees/mrv.html",
+  "address": "",
+  "dist_m": 2438,
+  "pages": [
+   {
+    "url": "https://www.lausanne.ch/vie-pratique/culture/musees/mrv.html",
+    "text": "Next\nMusée romain de Lausanne-Vidy\nÀ deux pas du lac, dans le cadre verdoyant d’un jardin de style méditerranéen, le musée abrite les vestiges d’une riche demeure antique et présente le mobilier archéologique découvert sur le site de Lousonna .\nConférence\nJeudi 12 novembre, 18h30\nDe l'Europe au Japon: une histoire de l'archéologie\nSoirée jeux vidéo\nJeudi 26 novembre, 18h30\nÀ vos manettes !\nVisite guidée\nDimanche 6 décembre, 16h\nKodai. L'Antiquité dans la pop culture japonaise\nFinissage\nDimanche 24 janvier, 16h\nLes dernières heures de Kodai\nAnniversaire au musée\nAteliers dès 4 ans\nLausanne Musées\nLe programme complet des expositions et activités"
+   },
+   {
+    "url": "https://www.lausanne.ch/vie-pratique/culture/musees/mrv.html?deconnexion",
+    "text": "Next\nMusée romain de Lausanne-Vidy\nÀ deux pas du lac, dans le cadre verdoyant d’un jardin de style méditerranéen, le musée abrite les vestiges d’une riche demeure antique et présente le mobilier archéologique découvert sur le site de Lousonna .\nConférence\nJeudi 12 novembre, 18h30\nDe l'Europe au Japon: une histoire de l'archéologie\nSoirée jeux vidéo\nJeudi 26 novembre, 18h30\nÀ vos manettes !\nVisite guidée\nDimanche 6 décembre, 16h\nKodai. L'Antiquité dans la pop culture japonaise\nFinissage\nDimanche 24 janvier, 16h\nLes dernières heures de Kodai\nAnniversaire au musée\nAteliers dès 4 ans\nLausanne Musées\nLe programme complet des expositions et activités"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "w1131122506",
+  "name": "Patinoire Cooly",
+  "kind": "ice_rink",
+  "website": "https://vaudoisearena.ch/patinoires/",
+  "address": "",
+  "dist_m": 2440,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 404: [GET] \"/api/cms/pages/full/?locale=fr\": 404 Not Found"
+ },
+ {
+  "id": "w765244460",
+  "name": "Vaudoise Aréna",
+  "kind": "sports_centre",
+  "website": "https://vaudoisearena.ch",
+  "address": "Chemin du Viaduc 14",
+  "dist_m": 2469,
+  "pages": [
+   {
+    "url": "https://vaudoisearena.ch",
+    "text": "Trois patinoires pour des usages différenciés – grandes compétitions, championnats régionaux, entraînements et apprentissage, patinage libre : le Centre de glace répond aux besoins des clubs, de leurs mouvements formateurs, des écoles et du grand public.\nDécouvrir\nHoraires pour le public\nPersonnes à mobilité réduite\nPour les écoles et les groupes\nBillets et tarifs\nDécouvrir\nÉvénements & Spectacles\nObjets trouvés\nRèglements\nHoraires\nCentres sportifs\nCentre aquatique\nCentre de glace\nTennis de table\nEscrime"
+   },
+   {
+    "url": "https://vaudoisearena.ch/infos-pratiques/acces",
+    "text": "Objets trouvés\nRèglements\nHoraires\nPlan de situation\nTransports en commun\nParking\nVoir sur la carte\nPlan de situation\nligne 32 (Prilly Galicien – Renens, gare sud)\nligne 33 (St. Sulpice Venoge nord – Prilly Mont-Goulin)\nHoraires et plan du réseau\nMétro\nAccès en métro –arrêt Malley\nM1 (Renens gare – Lausanne Flon)\nM2 Lausanne Flon -> M1\nHoraires et plan du réseau\nRER\nAccès par le RER – Arrêt Prilly-Malley\nL’arrêt Prilly-Malley est accessible en RER, à seulement 2 minutes de la gare de Lausanne\nHoraires et plan du réseau\nParking\nLa Vaudoise aréna est accessible en voiture grâce à un parking de 140 places et des parkings situés aux abords du campus.\nStationnement\nLa Vaudoise aréna dispose d’un parking souterrain payant de 140 places (attention, travaux sur la route de Renens, merci de suivre les indications mentionnées ci-dessous) :\nParking Vaudoise aréna: ouvert 7 jours sur 7, 24h/24\nFermé lors des événements et matchs LHC (à la demande de l’organisateur)\nDeux roues\nParking disponible à l’entrée du parvis, devant la Vaudoise aréna, ou sous la gare “Prilly-Malley”.\nStationnement vélos\nUn parking de 50 places est à disposition des usagers cyclistes.\nPersonnes à mobilité réduite\nObjets trouvés\nRèglements\nHoraires\nCentres sportifs\nCentre aquatique\nCentre de glace\nTennis de table\nEscrime"
+   },
+   {
+    "url": "https://vaudoisearena.ch/infos-pratiques",
+    "text": "Objets trouvés\nRèglements\nHoraires\nPour les écoles\nCentre aquatique\nCentre de glace\nEn savoir plus\nAccès\nEn savoir plus\nContact\nLe secrétariat répond à vos appels du lundi au vendredi de 8h00 à 12h00 et de 14h00 à 17h00\nEn savoir plus\nObjets trouvés\nPerdu un objet à la Vaudoise aréna à Lausanne ? Déclarez-le via notre formulaire officiel\nEn savoir plus\nRèglements\nRèglement Centre de padel\nEn savoir plus\nHoraires\nAccueil\nCentre aquatique\nPlongeoir\nPataugeoire\nPatinoires\nObjets trouvés\nRèglements\nHoraires\nCentres sportifs\nCentre aquatique\nCentre de glace\nTennis de table\nEscrime"
+   },
+   {
+    "url": "https://vaudoisearena.ch/events/journee-de-la-glace-2026",
+    "text": "Infos pratiques\nDate : Dimanche 8 novembre 2026\nHoraires : De 10h à 19h ; fermeture de l’accès aux patinoires à 18h30\nLieu : Vaudoise aréna, Chemin du Viaduc 14, 1008 Prilly (Lausanne)\nTarif : Entrée libre\nLocation de patins : Gratuit, dans la limite des stocks disponibles. Vous avez vos propres patins ? Apportez-les.\nAu programme\nPatinage libre sur les patinoires, toute la journée ( voir programme ci-dessous)\nDisco sur glace de 17h à 19h sur l’Aréna : musique, lumières et ambiance festive\nAutres animations tout au long de la journée\nBuvette ouverte de 13h à 18h30\nStand de marrons chauds\nChâteau gonflable\nNouveauté\nLe Comité d'organisation des Championnats d’Europe de patinage artistique ISU sera présent sur la parvis avec un stand d'information à l'occasion de leur événement organisé à Lausanne à la Vaudoise aréna du 27 au 31 janvier 2027.\nPourquoi venir ?\nC’est gratuit et ouvert à toutes et tous\nProfitez d’une occasion rare de patiner sur la patinoire de l’Aréna et de danser lors de la disco sur glace\nInitiez-vous à plusieurs sports de glace avec les clubs résidents\nProfitez d’ une fête populaire pensée pour les habitantes et habitants de la région\nLa Journée de la glace, c’est l’occasion idéale pour (re)découvrir les sports de glace dans une ambiance conviviale et festive !\nAccessibilité\nLes poussettes ne sont pas autorisées à l’intérieur des patinoires (après le tourniquet). Un parking à poussettes est à disposition au niveau -1.\nAucun support d’apprentissage ne sera disponible sur la glace, afin d’éviter tout engorgement et de garantir la sécurité de toutes et tous.\nAccès aux patinoires fermé à partir de 18h00 , soit 1 heure avant la clôture.\nFermeture de la location patin à 18h\nComment venir ?\nUn parking de 140 places est disponible. Nous vous encourageons à privilégier les transports publics.\n🚆 Gare CFF Prilly-Malley, à quelques minutes à pied. Horaires : https://www.sbb.ch/fr/\n🚇 Métro M1, arrêt Prilly-Malley\n🚌 Bus TL, plusieurs arrêts autour de la Vaudoise aréna. Horaires : https://www.t-l.ch\nPlus d’informations sur l'accès : https://vaudoisearena.ch/infos-pratiques/acces\n0\n1\n2\n3\nObjets trouvés\nRèglements\nHoraires\nCentres sportifs\nCentre aquatique\nCentre de glace\nTennis de table\nEscrime"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "w766106047",
+  "name": "L'aréna",
+  "kind": "ice_rink",
+  "website": "https://vaudoisearena.ch/patinoires/",
+  "address": "",
+  "dist_m": 2497,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 404: [GET] \"/api/cms/pages/full/?locale=fr\": 404 Not Found"
+ },
+ {
+  "id": "n9683142382",
+  "name": "Le 111",
+  "kind": "restaurant",
+  "website": "https://111-eca.sv-restaurant.ch/fr/plan-des-menus/",
+  "address": "Avenue du Grey 111",
+  "dist_m": 2502,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n10146727246",
+  "name": "iSushi",
+  "kind": "restaurant",
+  "website": "https://isushi.ch/",
+  "address": "Chemin de Fontadel 2",
+  "dist_m": 2534,
+  "pages": [
+   {
+    "url": "https://isushi.ch/fr/info",
+    "text": "Mentions légales Politique de confidentialité Politique cookies\nRéalisé par OKO\nHORAIRES & ADRESSE\nChemin de fontadel 2 1008 Prilly 0215592652 Lun - Jeu : 11h-14h30, 18h-22h30\nVen: 11h-14h30, 18h-22h\nSam: 18h-22h\nDim: 18h-21h45\nCUISINE PASSION – Les recettes sont savoureuses et préparées de manière traditionnelle à partir d'ingrédients choisis avec soin, pour vous proposer des plats qui invitent à explorer toute la gastronomie de l'Asie.\nUN PAS VERS L'AILLEURS - Entre amis, entre collègues ou en famille, les tables de ce restaurant et sont ambiance conviviale conviennent bien aux amateurs comme aux découvreurs de recettes d'ailleurs !\nRéservation\nÀ emporter\nLivraison"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n11185650730",
+  "name": "La Parenthèse",
+  "kind": "cafe",
+  "website": "https://111-eca.sv-restaurant.ch/fr/portrait/",
+  "address": "Avenue du Grey 111",
+  "dist_m": 2549,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n9169439783",
+  "name": "G bar",
+  "kind": "pub",
+  "website": "https://www.gbar.ch",
+  "address": "Route de Romanel",
+  "dist_m": 2563,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "id": "n12848462564",
+  "name": "Les Berges de Vidy",
+  "kind": "restaurant",
+  "website": "https://www.campinglausannevidy.ch/fr/restaurant",
+  "address": "Chemin du Camping 3",
+  "dist_m": 2586,
+  "pages": [
+   {
+    "url": "https://www.camping-lodge.com/de-ch/lausanne/sommer",
+    "text": "Buchen\nAktuelle Angebote\nEntdecke die aktuellen Angebote auf dem Camping Lausanne und profitiere von attraktiven Vorteilen für deinen nächsten Aufenthalt. Bitte beachte, dass die Angebote für Aufenthalte bis zum 20. Dezember gelten.\nDen passenden Angebotscode kannst du direkt während der Buchung in der Buchungsstrecke eingeben.\nWeitere Informationen zu den einzelnen Aktionen findest du unter dem Button «Alle Angebote».\n5 bleiben, 4 zahlen\n5 für 4\nLänger bleiben, weniger zahlen am Genfersee"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n8380255820",
+  "name": "Eclipse Pizza",
+  "kind": "restaurant",
+  "website": "https://www.eclipsepizza.ch",
+  "address": "Chemin de Somais",
+  "dist_m": 2622,
+  "pages": [
+   {
+    "url": "https://eclipsepizza.ch/",
+    "text": "Livraison de pizza et pizza à l’emporter à Pully — Eclipse Pizza\nFermé\nfr\nen\nNouveau à Pully\nPizzas faites maison\nCuites à la commande. Retirez ce que vous n’aimez pas, ajoutez ce que vous aimez.\nVoir la carte\nVoir la carte et les prix\nFermé pour le moment — vous pouvez commander pour plus tard. Nous rouvrons aujourd’hui à 17:00 .\nLa pizza de la maison\nEclipse\nTomate, mozzarella, jambon de dinde, champignons\nLa découvrir\nNos pizzas\nToute la carte\nPizzas, salades, desserts, boissons\nHoraires d’ouverture\nLundi\n11:00–13:30\n·\n17:00–22:00\nMardi"
+   }
+  ],
+  "jsonld": [
+   "[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"11:00\",\"closes\":\"13:30\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"17:00\",\"closes\":\"22:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"11:00\",\"closes\":\"13:30\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"17:00\",\"closes\":\"22:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"11:00\",\"closes\":\"13:30\"},{\"@type\":\"OpeningHoursSpecification\",\"d"
+  ],
+  "error": null
+ },
+ {
+  "id": "n12592958382",
+  "name": "Feuilles de Vigne",
+  "kind": "restaurant",
+  "website": "https://feuillesdevigne.online/",
+  "address": "Avenue de Lavaux",
+  "dist_m": 2630,
+  "pages": [
+   {
+    "url": "https://feuillesdevigne.online/",
+    "text": "E-mail\ndevignefeuilles@gmail.com\nHoraires d'ouverture\nLun - Ven\n11h30 - 21h00\nSam - Dim\n12h00 - 21h00\n0"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n2469119721",
+  "name": "L'Ananas",
+  "kind": "restaurant",
+  "website": "https://www.asia-ananas.ch",
+  "address": "",
+  "dist_m": 2722,
+  "pages": [
+   {
+    "url": "https://asia-ananas.ch/",
+    "text": "Shop\nShop\nHoraires:\nLu-Ve 10-14h 17:30-22:30\nSa-Di10-14:30 17:30-22:30 Livraisons: tous les jours 18-22h\nBienvenue à L’Ananas\nCommandez en ligne!\n9365153_orig\n1407149_orig\n3347228_orig\n8844004_orig-2\n9002337_orig\nHoraires des Fêtes\n24/12–25/12. 10:00–14:30. 17:30–22:30\n01/01 Fermé\n02/01 10:00—14:30. 17:30–22:30\nBon fêtes\nOuvert 7/7\nLundi-Vendredi 10:00-14:30 17:30-22:30\nSamedi-Dimanche 10:00-14:30 17:30-22:30\nLundi au Vendredi midi\ntous les jours 4 plats du jours avec différents entrées dès 17 frs\nLivraison à domicile gratuite\ntous les soirs de 18h à 22h dès 40frs\nA emporter rabais -10%!!!\nGrand Buffet\ntous les dimanches midis à 31.90"
+   },
+   {
+    "url": "https://asia-ananas.ch/contact/",
+    "text": "Shop\nShop\nHoraires:\nLu-Ve 10-14h 17:30-22:30\nSa-Di10-14:30 17:30-22:30 Livraisons: tous les jours 18-22h\nContact\nCafé Restaurant Asiatique L’Ananas\nOuvert 7/7\nLundi-Vendredi 10:00-14:30 17:30-22:30\nSamedi-Dimanche 10:00-14:30 17:30-22:30\nAv. de Florissant 32\n1020 Renens\nTel: 021 625 39 30\nemail: info@asia-ananas.ch\nReservation ou message:"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n847533632",
+  "name": "Votra Lausanne",
+  "kind": "restaurant",
+  "website": "https://votralausanne.ch",
+  "address": "Chemin Isabelle-de-Montolieu 113",
+  "dist_m": 2775,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "id": "n8754768291",
+  "name": "Squash Lausanne",
+  "kind": "sports_centre",
+  "website": "https://www.squashlausanne.ch",
+  "address": "Rue du Chêne 7",
+  "dist_m": 3133,
+  "pages": [
+   {
+    "url": "https://www.squashlausanne.ch",
+    "text": "top of page\nInfos\nHoraires\nTarifs\nCordage\nContact\nActivités\nCours\n- 1er avril: Grasshopper\nVenez nombreux les encourager!\nSoirée du club: tous les dimanches entre 17h30 et 19h\nTous les dimanches, nous vous proposons, de 17h30 à 19h, la soirée du club Compétition\n, 2 sets avec le plus grand nombre de personnes présentes!\n​\nPour participer à cette soirée, merci de vous:\n- inscrire directement sur l'application Squash Lausanne (onglet Soirée du club),\n- ou de vous annoncer dès le vendredi et jusqu'à dimanche 17h, par téléphone (021 634 10 00).\nAttention, les places sont limitées!\nInfos pratiques\nHoraires:\nLUNDI À JEUDI\nDe 10h00 à 22h15\n​\nVENDREDI\nDe 10h00 à 20h30"
+   },
+   {
+    "url": "https://www.squashlausanne.ch/infos",
+    "text": "top of page\nInfos\nHoraires\nTarifs\nCordage\nContact\nActivités\nCours\nRéserver\nInformations pratiques\nhoraires\nHoraires\nLUNDI À JEUDI\n10h00 à 22h15\n​\nVENDREDI\n10h00 à 20h30\n10h00\nà 19h00\nLe club ferme 30 minutes après la fermeture des courts.\nLe club peut fermer plus tôt si aucune réservation n'est\nenregistrée\n.\nTarifs\nPériodes creuses\nSemaine: 10h - 11h30, 13h30-17h30\nSamedi et jours fériés\n: toute la journée\nDimanche: 10h - 11h\net 13h - 17h30\n​\nDEMI-TERRAIN\nPériode Pleine 45 min: CHF 18 le demi-terrain\nPériode Creuse 45 min: CHF 12 ; Enfants/Étudiants/Chômeur/AVS/AI:CHF 9\n1 période fixe par semaine, à l’heure et sur le terrain de votre choix, au prix de CHF 1'290 par an.\ndes formules avec abonnement Fanasquash ou avec des cartes de fidélité sont aussi possibles! Contactez-nous pour plus de détails!\n​\n​\nFAMILLE\n1 adulte et 1 enfant jusqu’à 18 ans pendant les heures creuses\n: CHF 18 la période de 45min, ou CHF 24 la période d'une heure"
+   },
+   {
+    "url": "https://www.squashlausanne.ch/lo26",
+    "text": "top of page\nInfos\nHoraires\nTarifs\nCordage\nContact\nActivités\nCours\nTableaux PSA Challenger 12 hommes & femmes\nTournoi amateur régional\nhommes, femmes, et juniors, ouvert à tous les licenciés suisses\nStreaming pro\npour suivre les matchs\nAnimations\n: concert, networking, initiations, et micro-conférence\n​\nCabinet de conseil au service du cadrage et de la sécurisation de vos projets informatiques et de transformation.\nInfos PSA\nTableaux, inscrit(e)s et horaires\n:\nPSA Squash Tour – Lausanne Open 2026 by Redsen\n​​​\nMatchs en 3 jeux gagnants à tous les tours.\nArbitrage WSO à tous les tours.\nInfos Amateurs\n​\nTableaux, inscriptions, inscrit(e)s et horaires\nLausanne Open 2026 by Redsen – Hommes\nLausanne Open 2026 by Redsen – Femmes\nLausanne Open 2026 by Redsen – Juniors\n​\nMatchs\n(classement 9-24)\n14h00-16h00: Initiation au squash pour les enfants\n18h30: Cérémonie d'ouverture\n19h00: Buffet sponsors et partenaires, ouvert aux joueurs professionnels.\n​\n​\nJeudi 12 novembre\n14h30-22h00\n: 2èmes tours tableaux PSA\n​\n​\n18h00: Soirée networking sponsors et partenaires, ouvert aux joueurs professionnels.\n​\n​\nVendredi 13 novembre\n14h00-16h00: Initiation au squash pour les adultes\n16h00-22h00\nMercredi 11 et vendredi 13 novembre\nInitiations au squash\nMercredi 11 novembre de 14h00 à 16h00\n, faites découvrir le squash à vos enfants\nde 6 à 13 ans lors d'une séance de jeu animée par des encadrants professionnels. Un petit goûter sera servi aux enfants, qui pourront aussi encourager les joueurs et joueuses professionnels. Inscriptions via ce formulaire\n.\n​\nVendredi 13 novembre de 14h00 à 16h00\n, faites découvrir le squash à vos proches de 15 ans et plus\nlors d'une séance de jeu animée par des encadrants professionnels. Une collation sera servie en fin de séance, en parallèle des quarts de finale du tournoi professionnel. Inscriptions via ce formulaire\n.\n​\nLes inscriptions sont ouvertes jusqu'au 28 octobre\net soumises à la disponibilité des places.\nSamedi 14 novembre à 19h00\nConcert\nLuca Manotta sera en live pendant le Lausanne Open pour une soirée festive et vibrante\n​\nNé à Lausanne d’une mère suisse et d’un père italien, Luca Manotta\na grandi au croisement des cultures et des musiques du monde.\nAvec son énergie solaire, ses rythmes envoûtants et ses textes sensibles, il embarque le public dans un voyage vibrant et dansant. ​\n​\nDimanche 15 novembre à 10h30\nMicro-conférence\nL'art de prendre des décisions impopulaires\n​\nArbitre professionnel international et arbitre officiel du tournoi"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n12010262869",
+  "name": "Lucioles",
+  "kind": "attraction",
+  "website": "https://fr.wikipedia.org/wiki/Parc_Louis-Bourget#Lucioles",
+  "address": "",
+  "dist_m": 3320,
+  "pages": [
+   {
+    "url": "https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Contact",
+    "text": "Les rubriques ci-contre présentent les différents cas où vous pouvez laisser un message pour le motif, dans la forme et pour les raisons qui y sont exposés, les autres messages pouvant rester sans suite comme inappropriés à la nature et au mode de fonctionnement du projet.\nCe document provient de « https://fr.wikipedia.org/w/index.php?title=Wikipédia:Contact&oldid=223713390 ».\nLa dernière modification de cette page a été faite le 9 mars 2025 à 00:58.\nLa page a été rendue avec Parsoid .\nDroit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques .\nWikipedia® est une marque déposée de la Wikimedia Foundation, Inc. , organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.\nPolitique de confidentialité\nÀ propos de Wikipédia"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "w643194377",
+  "name": "@biopôle",
+  "kind": "cafe",
+  "website": "https://www.biopole.ch/service/le-cafe-biopole/",
+  "address": "Route de la Corniche 1a",
+  "dist_m": 3340,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n6199405438",
+  "name": "Let's go",
+  "kind": "fitness_centre",
+  "website": "https://www.letsgofitness.ch/fr/club/epalinges/",
+  "address": "",
+  "dist_m": 3412,
+  "pages": [
+   {
+    "url": "https://www.letsgofitness.ch/fr/club/epalinges/",
+    "text": "Fitness à\nEpalinges\nDemander ma séance d’essai gratuite\nCh. des Croisettes 9-11 , 1066 Epalinges (VD)\n021 652 97 61\nHoraires d’ouverture\nLibre accès de 5h à 23h, tous les jours.\nHoraires d’accueil\nInfo\nClub\nCh. des Croisettes 9-11\n1066 Epalinges\nSuisse VD\nService linge\nBoissons et compléments alimentaires\nOuverture XXL\nParking public payant\nClubs à\nproximité\nAccéder à 66 clubs\navec votre abo Let's Go.\nCoaching personnalisé (sur rendez-vous)\nAccès à tous les équipements et aux cours collectifs\nDécouverte de l'ambiance conviviale de nos clubs\nDétente dans nos espaces wellness : sauna, hammam et salle de repos\nComment s'inscrire ?\nRemplissez le formulaire ci-dessous.\nContactez le club où vous souhaitez effectuer votre essai et mesure corporelle pour un rendez-vous.\nProfitez de votre entraînement et bénéficiez du suivi de nos coachs"
+   }
+  ],
+  "jsonld": [
+   "[\"Mo 05:00-23:00\",\"Tu 05:00-23:00\",\"We 05:00-23:00\",\"Th 05:00-23:00\",\"Fr 05:00-23:00\",\"Sa 05:00-23:00\",\"Su 05:00-23:00\"]"
+  ],
+  "error": null
+ },
+ {
+  "id": "n6459218315",
+  "name": "Giga Tacos",
+  "kind": "fast_food",
+  "website": "https://www.gigatacos.ch/",
+  "address": "",
+  "dist_m": 3602,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n1635770331",
+  "name": "La Principessa",
+  "kind": "restaurant",
+  "website": "https://laprincipessa.ch/",
+  "address": "Rte. d'Arnier 4-6",
+  "dist_m": 3704,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+ },
+ {
+  "id": "n266499583",
+  "name": "TopShop",
+  "kind": "convenience",
+  "website": "https://www.migrolino.ch/fr/standorte/socar-paudex/",
+  "address": "Route du Simplon 20",
+  "dist_m": 3710,
+  "pages": [
+   {
+    "url": "https://www.migrolino.ch/fr",
+    "text": "migrolino\nmio\nencore ouvert\nPlaces de stationnement\nToilettes\nCafé Royal to go\nCafé Royal Iced Coffee\nShell Café\nCookies de performance\nEnregistrent le comportement des utilisateurs à des fins d'analyse\nFermer\nEnregistrer la sélection\nThis website only exists in one of the following languages, choose your preferred one:\nGerman\nFrench\nItalian"
+   },
+   {
+    "url": "https://www.migrolino.ch/fr/informationsjuridiques",
+    "text": "Cookies de performance\nEnregistrent le comportement des utilisateurs à des fins d'analyse\nFermer\nEnregistrer la sélection\nThis website only exists in one of the following languages, choose your preferred one:\nGerman\nFrench\nItalian"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "w23391490",
+  "name": "Piscine de Renens",
+  "kind": "sports_centre",
+  "website": "https://www.aquasplash.ch/",
+  "address": "",
+  "dist_m": 3728,
+  "pages": [],
+  "jsonld": [],
+  "error": "TimeoutError: The read operation timed out"
+ },
+ {
+  "id": "n13048940340",
+  "name": "Restaurent Le Tournoi",
+  "kind": "restaurant",
+  "website": "https://www.restaurantletournoi.com/",
+  "address": "Avenue des Baumettes 25",
+  "dist_m": 3749,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ {
+  "id": "w646970269",
+  "name": "Centre sportif universitaire de Dorigny",
+  "kind": "sports_centre",
+  "website": "https://sport.unil.ch/?mid=127",
+  "address": "",
+  "dist_m": 3753,
+  "pages": [
+   {
+    "url": "https://sport.unil.ch/?mid=127",
+    "text": "Centre nautique UNIL+EPFL\nSalles du Centre sportif de Dorigny (CSD)\nHoraires salles 2026-27\nHors semestre renseignement sous la rubrique \" Actualités \" ou auprès de notre secrétariat\nTerrains\nHoraires terrains 2017\n-->\nBâtiment Centre Sport et Santé (CSS)\nhttp://www.centresportetsante.ch\nCentre nautique\ntous les jours du début avril au 1 er dimanche de novembre\nde 12h15 à 20h00 du lundi au vendredi et de 10h00 à 18h00 les week-ends et jours fériés\nOuverture du Centre sportif de Dorigny\nSalles de sport\ndu lundi au vendredi de 08h00 à 22h00\nsamedi et dimanche de 08h30 à 19h00\nHors semestre renseignement sous la rubrique \" Actualités \" ou auprès de notre secrétariat\nCentre Sport et Santé (CSS)\nhttp://www.unil.ch/css\nCentre nautique\ntous les jours du début avril au 1 er dimanche de novembre\nde 12h15 à 20h00 du lundi au vendredi et de 10h00 à 18h00 les week-ends et jours fériés\nVestiaires du plein air\nOuverture des vestiaires extérieurs du 3 mars au 23 novembre 2014\nSurveillance des terrains extérieurs du SSU : HORAIRE 2015\n-->\nZone de plein air\nPrises et raccordements électriques disponibles sur les terrains et aux abords des salles de sport\nPlan des prises électriques et eau potable extérieur du CSD\nTableaux à disposition à l’extérieur sur le site du CSD"
+   },
+   {
+    "url": "https://sport.unil.ch/?pid=65",
+    "text": "Ils sont heureux de vous annoncer qu’un nouveau terrain synthétique (Chamberonne) ainsi que des vestiaires extérieurs rénovés sont à votre disposition!\nDernière étape des travaux:\nAmélioration de la qualité des terrains de football et de rugby (ouverture football au printemps 2020, rubgy au printemps 2021)\nCréation d’une zone de rencontre entre les terrains de tennis et les vestiaires extérieurs (ouverture au printemps 2020)\nTravaux station de pompage (côté ouest du CSUD)\nLa piste finlandaise va rester impraticable toute l’année suite aux travaux effectués\npour doubler la capacité de la station de pompage qui sert au refroidissement\net au chauffage des locaux tant de l’UNIL que de l’EPFL.\nLe terrain de tir à l’arc extérieur sera lui aussi impraticable cette année.\nImpact au CSUD:\nDes désagréments sonores seront inévitables.\nFermeture sporadique du module SOS2 (3) pendant le semestre de printemps 2020\nB) Rénovation du guichet d’accueil juillet – septembre 2020\nImpact au CSUD:\nAccès à la salle de musculation difficile.\nDes désagréments sonores seront inévitables.\nLa salle Colloque devra être fermée pendant une semaine.\nSOS1 (juillet – septembre 2020)\nA) Mise en conformité de SOS1 aux nouvelles normes actuelles\nB) Travaux divers\nRéfection des vestiaires\nImpact au CSUD:"
+   },
+   {
+    "url": "https://sport.unil.ch/?mid=122",
+    "text": "Contact et accès\nSecrétariat Sport Santé\nLundi-jeudi : 9h30-12h30\nCentre sportif de Dorigny\nLundi-vendredi : 7h-22h30\nWeek-end : 8h-19h\nLe centre sportif et le secrétariat sont fermés pendant les jours fériés (VD).\nPour trouver une salle particulière, entrez son nom sur Planète UNIL\nParking: Les parkings à l'UNIL\n» Plan du campus , » Google maps -->\nContact\n@"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n10048020691",
+  "name": "Restaurant self-service de l'Unithèque, \"Le Réfectoire\"",
+  "kind": "restaurant",
+  "website": "http://nino-unil.ch/menu-de-la-semaine/",
+  "address": "",
+  "dist_m": 3871,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "id": "n9877493317",
+  "name": "Centre Sport et Santé",
+  "kind": "restaurant",
+  "website": "https://www.unil.ch/restos/fr/home/menuinst/ou-se-restaurer/self-service-du-css.html",
+  "address": "Route Cantonale",
+  "dist_m": 3875,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ {
+  "id": "w1343493539",
+  "name": "Salle Smart Pavillion",
+  "kind": "fitness_centre",
+  "website": "https://sport.unil.ch/",
+  "address": "",
+  "dist_m": 3928,
+  "pages": [
+   {
+    "url": "https://sport.unil.ch/",
+    "text": "Programme d'activités 2026-2027\nLouer le chalet des Diablerets\nHoraires généraux 2026-2027\nCentre nautique (infos)\nCentre nautique (inscriptions)\nFoot libre\nTennis\n» Plus d'infos"
+   },
+   {
+    "url": "https://sport.unil.ch/?pid=65",
+    "text": "Ils sont heureux de vous annoncer qu’un nouveau terrain synthétique (Chamberonne) ainsi que des vestiaires extérieurs rénovés sont à votre disposition!\nDernière étape des travaux:\nAmélioration de la qualité des terrains de football et de rugby (ouverture football au printemps 2020, rubgy au printemps 2021)\nCréation d’une zone de rencontre entre les terrains de tennis et les vestiaires extérieurs (ouverture au printemps 2020)\nTravaux station de pompage (côté ouest du CSUD)\nLa piste finlandaise va rester impraticable toute l’année suite aux travaux effectués\npour doubler la capacité de la station de pompage qui sert au refroidissement\net au chauffage des locaux tant de l’UNIL que de l’EPFL.\nLe terrain de tir à l’arc extérieur sera lui aussi impraticable cette année.\nImpact au CSUD:\nDes désagréments sonores seront inévitables.\nFermeture sporadique du module SOS2 (3) pendant le semestre de printemps 2020\nB) Rénovation du guichet d’accueil juillet – septembre 2020\nImpact au CSUD:\nAccès à la salle de musculation difficile.\nDes désagréments sonores seront inévitables.\nLa salle Colloque devra être fermée pendant une semaine.\nSOS1 (juillet – septembre 2020)\nA) Mise en conformité de SOS1 aux nouvelles normes actuelles\nB) Travaux divers\nRéfection des vestiaires\nImpact au CSUD:"
+   },
+   {
+    "url": "https://sport.unil.ch/?mid=122",
+    "text": "Contact et accès\nSecrétariat Sport Santé\nLundi-jeudi : 9h30-12h30\nCentre sportif de Dorigny\nLundi-vendredi : 7h-22h30\nWeek-end : 8h-19h\nLe centre sportif et le secrétariat sont fermés pendant les jours fériés (VD).\nPour trouver une salle particulière, entrez son nom sur Planète UNIL\nParking: Les parkings à l'UNIL\n» Plan du campus , » Google maps -->\nContact\n@"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n10048003928",
+  "name": "Restaurant self-service de Géopolis",
+  "kind": "restaurant",
+  "website": "https://geopolis.sv-restaurant.ch/fr/plan-des-menus/",
+  "address": "",
+  "dist_m": 3962,
+  "pages": [],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n864613725",
+  "name": "Trattoria du Commerce",
+  "kind": "restaurant",
+  "website": "https://www.trattoriaducommerce.ch/",
+  "address": "Rue de Lausanne 23",
+  "dist_m": 4010,
+  "pages": [
+   {
+    "url": "https://www.trattoriaducommerce.ch/",
+    "text": "Le Chef vous suggère\nToutes les pizzas à l'emporter\nMargherita : CHF 13.50\nAutres pizzas : CHF 14.50\nVoir les pizzas\n021 634 47 24\nRéservations\n021 634 47 24\nHoraires\nLUNDI\n10h00 - 15h00\nMARDI\n10h00 - 15h00\n17h30 - 23h30"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n1184069447",
+  "name": "Green Club",
+  "kind": "sports_centre",
+  "website": "https://green-club.ch/",
+  "address": "",
+  "dist_m": 4154,
+  "pages": [
+   {
+    "url": "https://green-club.ch/bienvenue",
+    "text": "Bienvenue\nNouveau Ecole de Padel enfants\nNous lançons une école de padel pour les enfants. Les cours auront lieu le jeudi à 16h15 ou 17h15.\nInformation et Inscription\nGLUTEBUILDER\nGLUTEBUILDER\nUn tout nouveau circuit de six machines est installé dans la petite salle entre le fitness et la réception. Ces machines professionnelles ciblent les muscles des fessiers principalement mais également les ischios et les lombaires.\nPour plus d'information\nTél : 021 648 34 54\nE-mail : info@green-club.ch\nHoraires d'ouverture :\nLundi au Vendredi\n08:00 – 22:15\nSamedi, Dimanche\n08:45 – 20:15\nJours fériés et leur veille :"
+   },
+   {
+    "url": "https://green-club.ch/contact",
+    "text": "E-mail : info@green-club.ch\nRéservations en ligne ou par téléphone\nPermanence téléphonique de 8h en semaine et 9h le week-end jusqu’à 30 minutes avant la fermeture.\nRestaurant :\nTél : 021 648 35 21\nHoraires\nDe Lundi à Vendredi\n08:00 – 22:15\nSamedi, Dimanche\n08:45 – 20:15\nJours fériés et leur veille\nTél : 021 648 34 54\nE-mail : info@green-club.ch\nHoraires d'ouverture :\nLundi au Vendredi\n08:00 – 22:15\nSamedi, Dimanche\n08:45 – 20:15\nJours fériés et leur veille :"
+   }
+  ],
+  "jsonld": [
+   "[\n        {\n          \"@type\": \"OpeningHoursSpecification\",\n          \"dayOfWeek\": [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\"]",
+   "[\n        {\n          \"@type\": \"OpeningHoursSpecification\",\n          \"dayOfWeek\": [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\"]"
+  ],
+  "error": null
+ },
+ {
+  "id": "n2523496972",
+  "name": "Maaxy Kebab",
+  "kind": "fast_food",
+  "website": "https://www.just-eat.ch/speisekarte/maaxy-kebab",
+  "address": "",
+  "dist_m": 4227,
+  "pages": [],
+  "jsonld": [],
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ {
+  "id": "n1219746608",
+  "name": "Let's Go Fitness",
+  "kind": "fitness_centre",
+  "website": "https://www.letsgofitness.ch/fr/club/lutry/",
+  "address": "",
+  "dist_m": 4435,
+  "pages": [
+   {
+    "url": "https://www.letsgofitness.ch/fr/club/lutry/",
+    "text": "Fitness à\nLutry\nDemander ma séance d’essai gratuite\nRte. de Lavaux 109 , 1095 Lutry (VD)\n021 792 14 04\nHoraires d’ouverture\nLibre accès de 5h à 23h, tous les jours.\nHoraires d’accueil\nInfo\nClub\nRte. de Lavaux 109\n1095 Lutry\nSuisse VD\nService linge\nBoissons et compléments alimentaires\nOuverture XXL\nParking gratuit\nClubs à\nproximité\nAccéder à 66 clubs\navec votre abo Let's Go.\nCoaching personnalisé (sur rendez-vous)\nAccès à tous les équipements et aux cours collectifs\nDécouverte de l'ambiance conviviale de nos clubs\nDétente dans nos espaces wellness : sauna, hammam et salle de repos\nComment s'inscrire ?\nRemplissez le formulaire ci-dessous.\nContactez le club où vous souhaitez effectuer votre essai et mesure corporelle pour un rendez-vous.\nProfitez de votre entraînement et bénéficiez du suivi de nos coachs"
+   }
+  ],
+  "jsonld": [
+   "[\"Mo 05:00–23:00\",\"Tu 05:00–23:00\",\"We 05:00–23:00\",\"Th 05:00–23:00\",\"Fr 05:00–23:00\",\"Sa 05:00–23:00\",\"Su 05:00–23:00\"]"
+  ],
+  "error": null
+ },
+ {
+  "id": "n9094754186",
+  "name": "Ganesh Store",
+  "kind": "supermarket",
+  "website": "https://www.restotaillepied.ch/",
+  "address": "Route de Taillepied 109",
+  "dist_m": 4446,
+  "pages": [
+   {
+    "url": "https://www.restotaillepied.ch/",
+    "text": "MENUS DE CHASSE\nDimanche\nFermé\nLun - Sam\n7:00\n- 22:00\nRoute de Taillepied 107, 1095 Lutry\n+41 21 791 35 68\nHeures\nDimanche\nFermé\nLun - Sam\n7:00\n- 22:00\n© 2026\nRestaurant Taillepied. Tous droits réservés"
+   },
+   {
+    "url": "https://www.restotaillepied.ch/contact",
+    "text": "Heures\nDimanche\nFermé\nLun - Sam\n7:00\n- 22:00\n© 2026\nRestaurant Taillepied. Tous droits réservés"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n11876885456",
+  "name": "Perilla Café",
+  "kind": "restaurant",
+  "website": "https://www.perilla-cafe.ch/",
+  "address": "Avenue du Tir-Fédéral 56",
+  "dist_m": 4492,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "id": "n13723040316",
+  "name": "Luna d'oro",
+  "kind": "restaurant",
+  "website": "https://www.lunadoro.ch/",
+  "address": "",
+  "dist_m": 4558,
+  "pages": [
+   {
+    "url": "https://www.lunadoro.ch/",
+    "text": "J'ai passé un super moment ! La déco est vraiment sympa, on s’y sent tout de suite bien. J’ai pris le plat du jour, et c’était délicieux. Le serveur était très attentif et souriant. Franchement, c’est un endroit où je reviendrai avec plaisir.\nCamille R.\nBelle découverte ! Je suis venu avec des amis, et tout le monde a adoré. Les plats sont bien présentés et plein de saveurs. J’ai goûté au dessert maison, un vrai régal. Ça fait plaisir de trouver un resto où l’on se sent accueilli comme chez soi\nNicolas P.\nUn repas parfait du début à la fin. La carte est simple mais bien pensée, avec des options pour tous les goûts. Le personnel est aux petits soins, sans en faire trop. J’ai particulièrement aimé le cadre qui est à la fois élégant et cosy.\nEmma L.\nC’était notre première fois ici, et on n’a pas été déçus. Le service est rapide, les plats sont super frais, et l’ambiance est vraiment agréable. Une mention spéciale pour le chef qui est venu discuter avec nous en fin de repas, un beau geste !\nThomas G.\nAllée des Cèdres 8\n1022 Chavannes-près-Renens\nHeures d'ouverture\nLun. - Jeu. : 08h00 - 22h00\nVen. - Sam. : 08h00 - 00h00\nDimanche : 18h00 - 22h000\n© 2024 Luna d'Oro. Crée par Vixal Digital\nAccueil\nLa carte\nRéservations\nContact"
+   },
+   {
+    "url": "https://www.lunadoro.ch/blank",
+    "text": "Allée des Cèdres 8\n1022 Chavannes-près-Renens\nHoraires\nLun. - Jeu. : 08h00 - 22h00\nVen. - Sam. : 08h00 - 00h00\nDimanche : 18h00 - 22h000\nTéléphone\n021 214 42 01\nMail\ninfo@lunadoro.ch\nVotre nom complet\nAllée des Cèdres 8\n1022 Chavannes-près-Renens\nHeures d'ouverture\nLun. - Jeu. : 08h00 - 22h00\nVen. - Sam. : 08h00 - 00h00\nDimanche : 18h00 - 22h000\n© 2024 Luna d'Oro. Crée par Vixal Digital\nAccueil\nLa carte\nRéservations\nContact"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n13723873101",
+  "name": "Luna d'Oro",
+  "kind": "restaurant",
+  "website": "https://www.lunadoro.ch/",
+  "address": "Allée des Cèdres A8",
+  "dist_m": 4558,
+  "pages": [
+   {
+    "url": "https://www.lunadoro.ch/",
+    "text": "J'ai passé un super moment ! La déco est vraiment sympa, on s’y sent tout de suite bien. J’ai pris le plat du jour, et c’était délicieux. Le serveur était très attentif et souriant. Franchement, c’est un endroit où je reviendrai avec plaisir.\nCamille R.\nBelle découverte ! Je suis venu avec des amis, et tout le monde a adoré. Les plats sont bien présentés et plein de saveurs. J’ai goûté au dessert maison, un vrai régal. Ça fait plaisir de trouver un resto où l’on se sent accueilli comme chez soi\nNicolas P.\nUn repas parfait du début à la fin. La carte est simple mais bien pensée, avec des options pour tous les goûts. Le personnel est aux petits soins, sans en faire trop. J’ai particulièrement aimé le cadre qui est à la fois élégant et cosy.\nEmma L.\nC’était notre première fois ici, et on n’a pas été déçus. Le service est rapide, les plats sont super frais, et l’ambiance est vraiment agréable. Une mention spéciale pour le chef qui est venu discuter avec nous en fin de repas, un beau geste !\nThomas G.\nAllée des Cèdres 8\n1022 Chavannes-près-Renens\nHeures d'ouverture\nLun. - Jeu. : 08h00 - 22h00\nVen. - Sam. : 08h00 - 00h00\nDimanche : 18h00 - 22h000\n© 2024 Luna d'Oro. Crée par Vixal Digital\nAccueil\nLa carte\nRéservations\nContact"
+   },
+   {
+    "url": "https://www.lunadoro.ch/blank",
+    "text": "Allée des Cèdres 8\n1022 Chavannes-près-Renens\nHoraires\nLun. - Jeu. : 08h00 - 22h00\nVen. - Sam. : 08h00 - 00h00\nDimanche : 18h00 - 22h000\nTéléphone\n021 214 42 01\nMail\ninfo@lunadoro.ch\nVotre nom complet\nAllée des Cèdres 8\n1022 Chavannes-près-Renens\nHeures d'ouverture\nLun. - Jeu. : 08h00 - 22h00\nVen. - Sam. : 08h00 - 00h00\nDimanche : 18h00 - 22h000\n© 2024 Luna d'Oro. Crée par Vixal Digital\nAccueil\nLa carte\nRéservations\nContact"
+   }
+  ],
+  "jsonld": [],
+  "error": null
+ },
+ {
+  "id": "n13723890201",
+  "name": "Kiosque des Cèdres Balaj",
+  "kind": "kiosk",
+  "website": "kiosque_balaj",
+  "address": "Allée des Cèdres A10",
+  "dist_m": 4572,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+ },
+ {
+  "id": "n13719261401",
+  "name": "Fleur-t",
+  "kind": "florist",
+  "website": "fleurtfleuriste",
+  "address": "Route de la Maladière 4",
+  "dist_m": 4756,
+  "pages": [],
+  "jsonld": [],
+  "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+ }
+]
