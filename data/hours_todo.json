@@ -1,0 +1,1418 @@
+[
+ {
+  "id": "n9946866748",
+  "name": "Intrigo",
+  "kind": "ice_cream",
+  "website": "https://www.intrigogelateria.com/",
+  "address": "",
+  "dist_m": 50
+ },
+ {
+  "id": "n6464693670",
+  "name": "MadHouse",
+  "kind": "bar",
+  "website": "http://www.mad-house.ch",
+  "address": "Place de l'Europe 6",
+  "dist_m": 138
+ },
+ {
+  "id": "n12759871401",
+  "name": "Lily",
+  "kind": "bar",
+  "website": "https://lilybar.ch/",
+  "address": "Rue Chaucrau 10",
+  "dist_m": 156
+ },
+ {
+  "id": "n365937468",
+  "name": "Théâtre Boulimie",
+  "kind": "theatre",
+  "website": "https://theatreboulimie.com/",
+  "address": "Place Marc-Louis-Arlaud 1",
+  "dist_m": 168
+ },
+ {
+  "id": "n5854166760",
+  "name": "Spécialités de la Palud",
+  "kind": "convenience",
+  "website": "https://mixfood.party/",
+  "address": "Place de la Palud 9",
+  "dist_m": 171
+ },
+ {
+  "id": "n13840025801",
+  "name": "CINÉMA-THÉÂTRE LES MUTIN.E.S",
+  "kind": "theatre",
+  "website": "http://mutinslausanne.ch/",
+  "address": "Rue du Petit-Saint-Jean 1a",
+  "dist_m": 176
+ },
+ {
+  "id": "n7042119452",
+  "name": "Rhino Féroce",
+  "kind": "pub",
+  "website": "https://rhinoferoce.ch/",
+  "address": "Rue du Port-Franc 11",
+  "dist_m": 181
+ },
+ {
+  "id": "n3063636756",
+  "name": "Le Raisin",
+  "kind": "restaurant",
+  "website": "https://www.leraisin-lausanne.ch/",
+  "address": "Place de la Palud 19",
+  "dist_m": 214
+ },
+ {
+  "id": "n2613661654",
+  "name": "Eat Me",
+  "kind": "restaurant",
+  "website": "https://www.eat-me.ch/",
+  "address": "",
+  "dist_m": 215
+ },
+ {
+  "id": "n12042198550",
+  "name": "Mangiobevo",
+  "kind": "deli",
+  "website": "https://mangiobevo.ch/",
+  "address": "",
+  "dist_m": 220
+ },
+ {
+  "id": "n11836600734",
+  "name": "La Caleta",
+  "kind": "restaurant",
+  "website": "https://www.lacaleta.ch/",
+  "address": "Rue de l'Ale 15",
+  "dist_m": 224
+ },
+ {
+  "id": "n6762006598",
+  "name": "Espace Culturel des Terreaux",
+  "kind": "theatre",
+  "website": "https://www.terreaux.org",
+  "address": "Rue des Terreaux 14",
+  "dist_m": 229
+ },
+ {
+  "id": "n5747554937",
+  "name": "Pizza Fratel",
+  "kind": "restaurant",
+  "website": "https://www.pizzafratel.ch/",
+  "address": "Rue de la Tour 8",
+  "dist_m": 237
+ },
+ {
+  "id": "n12612354152",
+  "name": "La Table du Lausanne Palace",
+  "kind": "restaurant",
+  "website": "https://www.lausanne-palace.ch/restaurants-bars/la-table-du-lausanne-palace/le-restaurant/",
+  "address": "Rue du Grand Chêne 7",
+  "dist_m": 239
+ },
+ {
+  "id": "n11482896646",
+  "name": "Tropicana",
+  "kind": "restaurant",
+  "website": "https://tropicana-restaurant.ch",
+  "address": "",
+  "dist_m": 254
+ },
+ {
+  "id": "n603704048",
+  "name": "Starbucks",
+  "kind": "cafe",
+  "website": "https://www.starbucks.co.uk/store-locator/30829-100122/st.-francois",
+  "address": "",
+  "dist_m": 260
+ },
+ {
+  "id": "n6465761092",
+  "name": "Galerie d'art Humus",
+  "kind": "gallery",
+  "website": "http://humus-art.com/",
+  "address": "Rue des Terreaux 18bis",
+  "dist_m": 264
+ },
+ {
+  "id": "n11314842830",
+  "name": "BCV Concert Hall",
+  "kind": "theatre",
+  "website": "https://www.hemu.ch/environnement/bcv-concert-hall",
+  "address": "Voie-du-Chariot 23",
+  "dist_m": 300
+ },
+ {
+  "id": "n6640587806",
+  "name": "MYO",
+  "kind": "restaurant",
+  "website": "https://www.myo.ch/",
+  "address": "Allée Ernest-Ansermet 1",
+  "dist_m": 305
+ },
+ {
+  "id": "n11314919038",
+  "name": "Auditorium de l'EJMA",
+  "kind": "theatre",
+  "website": "https://ejma.ch/agenda/",
+  "address": "Rue des Côtes-de-Montbenon 26",
+  "dist_m": 321
+ },
+ {
+  "id": "n10927113720",
+  "name": "Les Jardins",
+  "kind": "pub",
+  "website": "https://www.vieux-lausanne.ch/les-jardins",
+  "address": "",
+  "dist_m": 326
+ },
+ {
+  "id": "n11314917490",
+  "name": "Atrium de l'EJMA",
+  "kind": "theatre",
+  "website": "https://ejma.ch/agenda/",
+  "address": "Rue des Côtes-de-Montbenon 26",
+  "dist_m": 328
+ },
+ {
+  "id": "n12251099039",
+  "name": "Pavillon Bar & Kitchen",
+  "kind": "restaurant",
+  "website": "http://pavillonbar.ch/",
+  "address": "",
+  "dist_m": 352
+ },
+ {
+  "id": "n912524709",
+  "name": "Zinéma",
+  "kind": "cinema",
+  "website": "http://zinema.ch/",
+  "address": "Rue du Maupas 4",
+  "dist_m": 357
+ },
+ {
+  "id": "n2967665134",
+  "name": "Musée de la Chaussure",
+  "kind": "museum",
+  "website": "https://shoemuseum.ch/",
+  "address": "Rue du Rôtillon",
+  "dist_m": 380
+ },
+ {
+  "id": "w44176010",
+  "name": "Pyxis - Maison de la culture et de l'exploration numérique",
+  "kind": "arts_centre",
+  "website": "https://www.pyxis.art/",
+  "address": "Place de la Cathédrale 6",
+  "dist_m": 388
+ },
+ {
+  "id": "n10068872969",
+  "name": "Coupe-circuit",
+  "kind": "convenience",
+  "website": "https://coupe-circuit.ch/",
+  "address": "Place de la Riponne 10",
+  "dist_m": 396
+ },
+ {
+  "id": "n11672238730",
+  "name": "Le Cinématographe",
+  "kind": "cinema",
+  "website": "https://lecinematographe.ch/",
+  "address": "Casino de Montbenon All. Ernest-Ansermet 3 3",
+  "dist_m": 406
+ },
+ {
+  "id": "n8892915811",
+  "name": "LaseRed",
+  "kind": "sports_centre",
+  "website": "https://lasered.ch/lausanne",
+  "address": "Rue Sophie-Mercier 12",
+  "dist_m": 418
+ },
+ {
+  "id": "n4991154622",
+  "name": "Sushi Shop",
+  "kind": "fast_food",
+  "website": "https://www.mysushishop.ch/fr/restaurant/lausanne",
+  "address": "",
+  "dist_m": 423
+ },
+ {
+  "id": "n6105457417",
+  "name": "Le Cyrano",
+  "kind": "restaurant",
+  "website": "https://www.lecyrano.ch/",
+  "address": "",
+  "dist_m": 430
+ },
+ {
+  "id": "n4179198493",
+  "name": "Atelier Forme",
+  "kind": "fitness_centre",
+  "website": "https://atelier-forme.ch",
+  "address": "",
+  "dist_m": 431
+ },
+ {
+  "id": "n11511236957",
+  "name": "Perbacco",
+  "kind": "restaurant",
+  "website": "https://restaurant-italien-lausanne.ch/",
+  "address": "Ruelle des Tanneurs",
+  "dist_m": 435
+ },
+ {
+  "id": "n11314915407",
+  "name": "Salle Paderewski",
+  "kind": "theatre",
+  "website": "https://www.lausanne.ch/vie-pratique/loisirs/salles-et-refuges/salles-et-refuges-de-lausanne/casino-montbenon-paderewski.html",
+  "address": "Allée Ernest-Ansermet 3",
+  "dist_m": 436
+ },
+ {
+  "id": "n6422443671",
+  "name": "Le Petit Théâtre",
+  "kind": "theatre",
+  "website": "https://lepetittheatre.ch/",
+  "address": "12",
+  "dist_m": 455
+ },
+ {
+  "id": "n11414586646",
+  "name": "Le Sublime",
+  "kind": "arts_centre",
+  "website": "https://lesublime.ch/",
+  "address": "Rue Louis-Auguste-Curtat 10",
+  "dist_m": 458
+ },
+ {
+  "id": "n4921708803",
+  "name": "Le Byblos",
+  "kind": "restaurant",
+  "website": "https://lebyblos.ch/",
+  "address": "Rue Cheneau-de-Bourg 2",
+  "dist_m": 459
+ },
+ {
+  "id": "n5784323102",
+  "name": "The Key",
+  "kind": "escape_game",
+  "website": "https://thekey.ch/",
+  "address": "",
+  "dist_m": 459
+ },
+ {
+  "id": "n5029337722",
+  "name": "Montana's sport bar",
+  "kind": "bar",
+  "website": "https://lecolony.ch/",
+  "address": "",
+  "dist_m": 494
+ },
+ {
+  "id": "n3676526267",
+  "name": "Le Bourg",
+  "kind": "theatre",
+  "website": "https://www.le-bourg.ch/",
+  "address": "Rue de Bourg 51",
+  "dist_m": 505
+ },
+ {
+  "id": "n3256772570",
+  "name": "Bamee Bar",
+  "kind": "restaurant",
+  "website": "https://www.bameebar.ch/",
+  "address": "Avenue de la Gare 32",
+  "dist_m": 510
+ },
+ {
+  "id": "n3526785884",
+  "name": "Fanfan",
+  "kind": "cafe",
+  "website": "https://www.fanfanconceptstore.com/",
+  "address": "",
+  "dist_m": 514
+ },
+ {
+  "id": "n9957186375",
+  "name": "Le Nabi Bar",
+  "kind": "restaurant",
+  "website": "https://www.mcba.ch/cafe-restaurant/",
+  "address": "Place de la Gare 16",
+  "dist_m": 544
+ },
+ {
+  "id": "n9852855787",
+  "name": "Arcadia",
+  "kind": "restaurant",
+  "website": "https://www.arcadiarestaurant.ch/fr/home",
+  "address": "Place de la Gare 17",
+  "dist_m": 551
+ },
+ {
+  "id": "n6898535586",
+  "name": "Oblò",
+  "kind": "cinema",
+  "website": "http://oblo.ch/cinema/index.php?menu=0",
+  "address": "Avenue de France 9",
+  "dist_m": 555
+ },
+ {
+  "id": "n11450063014",
+  "name": "Dong Fang",
+  "kind": "restaurant",
+  "website": "http://www.dong-fang.rest",
+  "address": "Avenue de la Gare 20",
+  "dist_m": 560
+ },
+ {
+  "id": "w1330382175",
+  "name": "Boulodrome Boule d'Or lausannoise",
+  "kind": "sports_centre",
+  "website": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/liste-installations-sportives/boulodrome-boule-d-or",
+  "address": "Rue de la Vigie 11",
+  "dist_m": 564
+ },
+ {
+  "id": "n13196229614",
+  "name": "Plateforme 10 (3 musées)",
+  "kind": "museum",
+  "website": "https://plateforme10.ch/",
+  "address": "Place de la Gare 16-17",
+  "dist_m": 573
+ },
+ {
+  "id": "n2167334877",
+  "name": "Café Saint Pierre",
+  "kind": "bar",
+  "website": "https://www.cafesaintpierre.ch/",
+  "address": "Place Benjamin-Constant 1",
+  "dist_m": 580
+ },
+ {
+  "id": "n6893934276",
+  "name": "Mido",
+  "kind": "restaurant",
+  "website": "https://www.midofood.net",
+  "address": "Rue Saint-Martin 30",
+  "dist_m": 583
+ },
+ {
+  "id": "w44604137",
+  "name": "Espace Autogéré",
+  "kind": "arts_centre",
+  "website": "https://espaceautogere.squat.net/",
+  "address": "Rue Dr-César-Roux 30",
+  "dist_m": 591
+ },
+ {
+  "id": "n9176770189",
+  "name": "Deli Social",
+  "kind": "restaurant",
+  "website": "https://www.deli.social/",
+  "address": "Place du Tunnel 11",
+  "dist_m": 608
+ },
+ {
+  "id": "n10682996780",
+  "name": "Sardine",
+  "kind": "restaurant",
+  "website": "https://sardinelausanne.ch",
+  "address": "",
+  "dist_m": 622
+ },
+ {
+  "id": "n11104135656",
+  "name": "Beat fitness",
+  "kind": "fitness_centre",
+  "website": "https://www.beatfitness.ch/fr/studios/lausanne-gare",
+  "address": "",
+  "dist_m": 629
+ },
+ {
+  "id": "n9149968692",
+  "name": "standard/deluxe",
+  "kind": "arts_centre",
+  "website": "http://standard-deluxe.ch",
+  "address": "Rue Saint-Martin 32bis",
+  "dist_m": 631
+ },
+ {
+  "id": "n13470344401",
+  "name": "Foca Focaccia Coffee & More",
+  "kind": "cafe",
+  "website": "foca.ch",
+  "address": "",
+  "dist_m": 633
+ },
+ {
+  "id": "n1275937395",
+  "name": "Opéra de Lausanne",
+  "kind": "theatre",
+  "website": "https://www.opera-lausanne.ch/",
+  "address": "Avenue du Théâtre 12",
+  "dist_m": 644
+ },
+ {
+  "id": "n2944693033",
+  "name": "Non Stop Gym",
+  "kind": "fitness_centre",
+  "website": "https://www.nonstopgym.com/",
+  "address": "",
+  "dist_m": 649
+ },
+ {
+  "id": "n1230801025",
+  "name": "Farmacia Angelucci",
+  "kind": "restaurant",
+  "website": "https://www.angeluccis.ch/",
+  "address": "Avenue William-Fraisse 1",
+  "dist_m": 653
+ },
+ {
+  "id": "n5574658500",
+  "name": "Ajò Café",
+  "kind": "cafe",
+  "website": "ajo.cafe",
+  "address": "Rue du Simplon 13",
+  "dist_m": 655
+ },
+ {
+  "id": "n11172075027",
+  "name": "Lucette Healthy Food",
+  "kind": "fast_food",
+  "website": "https://www.lucette.ch/",
+  "address": "Boulevard de Grancy 44",
+  "dist_m": 655
+ },
+ {
+  "id": "w47318176",
+  "name": "Clinique de la Source",
+  "kind": "hospital",
+  "website": "https://www.lasource.ch/",
+  "address": "",
+  "dist_m": 658
+ },
+ {
+  "id": "n10840006860",
+  "name": "Wonder Grill",
+  "kind": "restaurant",
+  "website": "https://www.wondergrill.ch/",
+  "address": "Rue de la Borde 3B",
+  "dist_m": 662
+ },
+ {
+  "id": "w44361822",
+  "name": "Arsenic",
+  "kind": "theatre",
+  "website": "https://arsenic.ch",
+  "address": "Rue de Genève 57",
+  "dist_m": 668
+ },
+ {
+  "id": "n1423114737",
+  "name": "Restaurant Mirabeau",
+  "kind": "restaurant",
+  "website": "https://www.mirabeau.ch/",
+  "address": "Avenue de la Gare 31",
+  "dist_m": 671
+ },
+ {
+  "id": "n13329815621",
+  "name": "Café de l'Arsenic",
+  "kind": "cafe",
+  "website": "https://arsenic.ch/cafe-restaurant/",
+  "address": "",
+  "dist_m": 679
+ },
+ {
+  "id": "n1785692645",
+  "name": "Da Noi",
+  "kind": "restaurant",
+  "website": "https://ristorantedanoi.ch/",
+  "address": "Rue Dr-César-Roux 5",
+  "dist_m": 686
+ },
+ {
+  "id": "w675167399",
+  "name": "Clinique Cecil",
+  "kind": "hospital",
+  "website": "https://www.hirslanden.ch/fr/clinique-cecil/home.html",
+  "address": "Avenue Louis-Ruchonnet 53",
+  "dist_m": 686
+ },
+ {
+  "id": "n12706756305",
+  "name": "Arteastry",
+  "kind": "cafe",
+  "website": "https://www.arteastry.ch/",
+  "address": "Boulevard de Grancy 49",
+  "dist_m": 689
+ },
+ {
+  "id": "n12052815334",
+  "name": "Let's Go Fitness",
+  "kind": "fitness_centre",
+  "website": "https://www.letsgofitness.ch/fr/club/lausanne-grancy/",
+  "address": "",
+  "dist_m": 691
+ },
+ {
+  "id": "n11137577014",
+  "name": "Hungry bear",
+  "kind": "restaurant",
+  "website": "https://www.hungrybearfood.ch/",
+  "address": "",
+  "dist_m": 705
+ },
+ {
+  "id": "n9961037888",
+  "name": "Bongusto Italiano",
+  "kind": "cafe",
+  "website": "https://bongustoitaliano.com",
+  "address": "Avenue du Théâtre 7",
+  "dist_m": 711
+ },
+ {
+  "id": "n13371514870",
+  "name": "Classic",
+  "kind": "fast_food",
+  "website": "https://classicfood.ch/",
+  "address": "",
+  "dist_m": 719
+ },
+ {
+  "id": "n12518550321",
+  "name": "Maza",
+  "kind": "restaurant",
+  "website": "https://www.maza-restaurant.ch/",
+  "address": "",
+  "dist_m": 728
+ },
+ {
+  "id": "n12997667501",
+  "name": "Yoga Flame",
+  "kind": "fitness_centre",
+  "website": "https://yogaflame.ch/",
+  "address": "Boulevard de Grancy 1",
+  "dist_m": 757
+ },
+ {
+  "id": "n12341071783",
+  "name": "Ponti",
+  "kind": "cafe",
+  "website": "cafeponti",
+  "address": "Avenue d'Echallens 13",
+  "dist_m": 763
+ },
+ {
+  "id": "n14335884002",
+  "name": "Core Class",
+  "kind": "fitness_centre",
+  "website": "https://www.coreclass.ch/",
+  "address": "",
+  "dist_m": 764
+ },
+ {
+  "id": "n7048881929",
+  "name": "Reighikan Dojo",
+  "kind": "sports_centre",
+  "website": "https://www.reighikan-dojo.ch/",
+  "address": "Rue de l'Industrie 10",
+  "dist_m": 774
+ },
+ {
+  "id": "n4365115966",
+  "name": "Théâtre Sévelin 36",
+  "kind": "theatre",
+  "website": "https://theatresevelin36.ch",
+  "address": "Avenue de Sévelin 36",
+  "dist_m": 809
+ },
+ {
+  "id": "w44423526",
+  "name": "Piscine de Mon-Repos",
+  "kind": "sports_centre",
+  "website": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/liste-installations-sportives/piscine-mon-repos.html",
+  "address": "",
+  "dist_m": 812
+ },
+ {
+  "id": "n13691152901",
+  "name": "L’appartement Yoga & Pilates",
+  "kind": "fitness_centre",
+  "website": "lappartement.yoga",
+  "address": "Rue Belle-Fontaine 2",
+  "dist_m": 831
+ },
+ {
+  "id": "n3269502168",
+  "name": "Théâtre 2.21",
+  "kind": "theatre",
+  "website": "https://www.theatre221.ch/",
+  "address": "Rue de l'Industrie 10",
+  "dist_m": 857
+ },
+ {
+  "id": "n11286436869",
+  "name": "Nau",
+  "kind": "restaurant",
+  "website": "https://nau-resto.ch/",
+  "address": "Avenue Gabriel-de-Rumine 22",
+  "dist_m": 907
+ },
+ {
+  "id": "w1101200969",
+  "name": "Halles sportives",
+  "kind": "sports_centre",
+  "website": "https://www.lausanne.ch/officiel/grands-projets/beaulieu/halles-sportives",
+  "address": "",
+  "dist_m": 924
+ },
+ {
+  "id": "n4963270663",
+  "name": "L'Esquisse",
+  "kind": "restaurant",
+  "website": "https://www.lesquisse.ch/",
+  "address": "Route du Signal 2",
+  "dist_m": 927
+ },
+ {
+  "id": "n12308209908",
+  "name": "Théâtre de Beaulieu",
+  "kind": "theatre",
+  "website": "https://beaulieu-lausanne.com/theatre-de-beaulieu/",
+  "address": "",
+  "dist_m": 1020
+ },
+ {
+  "id": "r9458117",
+  "name": "Centre hospitalier universitaire vaudois",
+  "kind": "hospital",
+  "website": "https://www.chuv.ch/",
+  "address": "Rue du Bugnon 46",
+  "dist_m": 1020
+ },
+ {
+  "id": "n9460065917",
+  "name": "Giga Tacos",
+  "kind": "fast_food",
+  "website": "https://gigatacos.ch/",
+  "address": "Rue de la Pontaise 42",
+  "dist_m": 1030
+ },
+ {
+  "id": "n9868836862",
+  "name": "Le Marrakech",
+  "kind": "restaurant",
+  "website": "https://restaurant-lemarrakech.ch/",
+  "address": "",
+  "dist_m": 1035
+ },
+ {
+  "id": "n13158468912",
+  "name": "Bistro Les Alliés",
+  "kind": "restaurant",
+  "website": "https://www.lesallies.ch/",
+  "address": "Avenue des Oiseaux 2 · CH-1018 Lausanne",
+  "dist_m": 1062
+ },
+ {
+  "id": "w675163855",
+  "name": "Clinique Bois-Cerf",
+  "kind": "hospital",
+  "website": "https://www.hirslanden.ch/fr/clinique-bois-cerf/home.html",
+  "address": "Avenue d'Ouchy 31",
+  "dist_m": 1077
+ },
+ {
+  "id": "n12057781216",
+  "name": "Continuum",
+  "kind": "arts_centre",
+  "website": "https://www.continuum-lausanne.ch/",
+  "address": "",
+  "dist_m": 1121
+ },
+ {
+  "id": "n12613449775",
+  "name": "La Brasserie du Royal",
+  "kind": "restaurant",
+  "website": "https://royalsavoylausanne.com/en/dining/the-brasserie-du-royal",
+  "address": "Avenue d'Ouchy 40",
+  "dist_m": 1152
+ },
+ {
+  "id": "n12613449776",
+  "name": "Sky Lounge",
+  "kind": "bar",
+  "website": "https://royalsavoylausanne.com/fr/gastronomie/skylounge",
+  "address": "Avenue d'Ouchy 40",
+  "dist_m": 1156
+ },
+ {
+  "id": "n9610795517",
+  "name": "Chez Loïc",
+  "kind": "restaurant",
+  "website": "https://resto-chezloic.ch/",
+  "address": "",
+  "dist_m": 1196
+ },
+ {
+  "id": "n10313147512",
+  "name": "La Maison du Récit",
+  "kind": "arts_centre",
+  "website": "https://lamaisondurecit.ch",
+  "address": "Route Aloys-Fauquez 28",
+  "dist_m": 1203
+ },
+ {
+  "id": "n7252420619",
+  "name": "Restaurant de la Piscine et Patinoire de Montchoisi",
+  "kind": "restaurant",
+  "website": "https://www.restaurant-ppmontchoisi.ch/",
+  "address": "",
+  "dist_m": 1243
+ },
+ {
+  "id": "n1263754509",
+  "name": "Cinéma Bellevaux",
+  "kind": "cinema",
+  "website": "https://cinemabellevaux.ch/",
+  "address": "Route Aloys-Fauquez 4",
+  "dist_m": 1254
+ },
+ {
+  "id": "n7148067639",
+  "name": "Evade",
+  "kind": "escape_game",
+  "website": "https://evadegame.com/",
+  "address": "Rue de Genève 77B",
+  "dist_m": 1285
+ },
+ {
+  "id": "n12524640701",
+  "name": "Espace Yvette Théraulaz",
+  "kind": "arts_centre",
+  "website": "https://www.espaceyvettetheraulaz.ch/",
+  "address": "",
+  "dist_m": 1286
+ },
+ {
+  "id": "n14019868713",
+  "name": "Openacte",
+  "kind": "theatre",
+  "website": "https://www.openacte.ch",
+  "address": "",
+  "dist_m": 1310
+ },
+ {
+  "id": "n12193998964",
+  "name": "Espace Amaretto",
+  "kind": "arts_centre",
+  "website": "https://amaretto.online/",
+  "address": "Rue de Genève 97b",
+  "dist_m": 1437
+ },
+ {
+  "id": "n5678906240",
+  "name": "Anne-Sophie Pic au Beau-Rivage Palace",
+  "kind": "restaurant",
+  "website": "https://www.brp.ch/restaurants-bars/anne-sophie-pic/le-restaurant/",
+  "address": "",
+  "dist_m": 1521
+ },
+ {
+  "id": "n13196265987",
+  "name": "Café Beau-Rivage",
+  "kind": "restaurant",
+  "website": "https://www.brp.ch/restaurants-bars/cafe-beau-rivage/",
+  "address": "",
+  "dist_m": 1528
+ },
+ {
+  "id": "n13196253908",
+  "name": "La Terrasse",
+  "kind": "restaurant",
+  "website": "https://www.brp.ch/restaurants-bars/la-terrasse/",
+  "address": "",
+  "dist_m": 1541
+ },
+ {
+  "id": "w44771838",
+  "name": "Kebab Ouchy",
+  "kind": "fast_food",
+  "website": "https://www.kebabouchy.ch/",
+  "address": "",
+  "dist_m": 1595
+ },
+ {
+  "id": "n9958538826",
+  "name": "Le Cozy",
+  "kind": "restaurant",
+  "website": "https://www.lecozy.ch/",
+  "address": "",
+  "dist_m": 1620
+ },
+ {
+  "id": "n9838532083",
+  "name": "La Nautica",
+  "kind": "restaurant",
+  "website": "https://lanautica.ch/",
+  "address": "",
+  "dist_m": 1653
+ },
+ {
+  "id": "n1230808910",
+  "name": "Château d'Ouchy",
+  "kind": "restaurant",
+  "website": "https://www.chateaudouchy.ch/en/restaurants-bars/",
+  "address": "",
+  "dist_m": 1668
+ },
+ {
+  "id": "w47005143",
+  "name": "Piscine de Belleveaux",
+  "kind": "swimming_pool",
+  "website": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/piscine-plein-air/piscine-de-bellevaux",
+  "address": "",
+  "dist_m": 1691
+ },
+ {
+  "id": "n8964364619",
+  "name": "Glaces Veneta",
+  "kind": "ice_cream",
+  "website": "https://glaces-veneta.ch/",
+  "address": "Vieux-Port",
+  "dist_m": 1714
+ },
+ {
+  "id": "n13798512762",
+  "name": "Salle 17 - Le Pavillon",
+  "kind": "theatre",
+  "website": "https://www.vidy.ch/fr/une-cite-du-theatre-en-5-salles-et-5-dates/#Salle-17,-Le-Pavillon",
+  "address": "",
+  "dist_m": 1719
+ },
+ {
+  "id": "n13798512766",
+  "name": "Salle 76 - La Passerelle",
+  "kind": "theatre",
+  "website": "https://www.vidy.ch/fr/une-cite-du-theatre-en-5-salles-et-5-dates/#Salle-76,-La-Passerelle",
+  "address": "",
+  "dist_m": 1759
+ },
+ {
+  "id": "n13798512765",
+  "name": "Salle 23 - studio de répétition",
+  "kind": "theatre",
+  "website": "https://www.vidy.ch/fr/une-cite-du-theatre-en-5-salles-et-5-dates/#Salle-23,-studio-de-r%C3%A9p%C3%A9titions",
+  "address": "",
+  "dist_m": 1770
+ },
+ {
+  "id": "n13798512763",
+  "name": "Salle 64 - Charles Apothéloz",
+  "kind": "theatre",
+  "website": "https://www.vidy.ch/fr/une-cite-du-theatre-en-5-salles-et-5-dates/#Salle-64,-Charles-Apoth%C3%A9loz",
+  "address": "",
+  "dist_m": 1784
+ },
+ {
+  "id": "n2368737807",
+  "name": "Brasserie des Sauges",
+  "kind": "restaurant",
+  "website": "https://brasserie-des-sauges.com",
+  "address": "",
+  "dist_m": 1805
+ },
+ {
+  "id": "n13798512764",
+  "name": "Salle 96 - René Gonzalez",
+  "kind": "theatre",
+  "website": "https://www.vidy.ch/fr/une-cite-du-theatre-en-5-salles-et-5-dates/#Salle-96,-Ren%C3%A9-Gonzalez",
+  "address": "",
+  "dist_m": 1821
+ },
+ {
+  "id": "n8944868388",
+  "name": "Lausanne-Ouchy",
+  "kind": "ferry_terminal",
+  "website": "https://www.cgn.ch/fr/",
+  "address": "",
+  "dist_m": 1827
+ },
+ {
+  "id": "n279597887",
+  "name": "Lausanne-Ouchy",
+  "kind": "ferry_terminal",
+  "website": "https://www.cgn.ch/fr/",
+  "address": "",
+  "dist_m": 1855
+ },
+ {
+  "id": "n8944868389",
+  "name": "Lausanne-Ouchy",
+  "kind": "ferry_terminal",
+  "website": "https://www.cgn.ch/fr/",
+  "address": "",
+  "dist_m": 1869
+ },
+ {
+  "id": "n8944868392",
+  "name": "Lausanne-Ouchy",
+  "kind": "ferry_terminal",
+  "website": "https://www.cgn.ch/fr/",
+  "address": "",
+  "dist_m": 1908
+ },
+ {
+  "id": "n5332973125",
+  "name": "Quick Wash",
+  "kind": "laundry",
+  "website": "https://www.quick-wash.ch/",
+  "address": "Route d'Oron 4",
+  "dist_m": 1913
+ },
+ {
+  "id": "w1154674014",
+  "name": "Piscine de Boisy",
+  "kind": "sports_centre",
+  "website": "https://www.lausanne.ch/vie-pratique/sport-pour-tous/installations-sportives/liste-installations-sportives/piscine-boisy.html",
+  "address": "",
+  "dist_m": 1976
+ },
+ {
+  "id": "n13698339902",
+  "name": "Lausanne Wushu & Boxing Institut",
+  "kind": "sports_centre",
+  "website": "https://lausanneboxing.ch/",
+  "address": "Rue du Grand-Pré 4",
+  "dist_m": 1981
+ },
+ {
+  "id": "n7832121498",
+  "name": "Centre de quartier des Bossons - Plaines-du-Loup",
+  "kind": "arts_centre",
+  "website": "https://bossons.ch/",
+  "address": "Chemin des Bossons 39b",
+  "dist_m": 2012
+ },
+ {
+  "id": "r2181918",
+  "name": "Centre Général Guisan",
+  "kind": "arts_centre",
+  "website": "http://generalguisan.ch",
+  "address": "",
+  "dist_m": 2074
+ },
+ {
+  "id": "n253266818",
+  "name": "Cinétoile - Malley Lumières",
+  "kind": "cinema",
+  "website": "https://www.cinetoile.ch/",
+  "address": "Chemin du Viaduc 1",
+  "dist_m": 2213
+ },
+ {
+  "id": "n13928865931",
+  "name": "La chocilatière",
+  "kind": "chocolate",
+  "website": "https://lachocolatiere.ch/",
+  "address": "Avenue de Malley",
+  "dist_m": 2215
+ },
+ {
+  "id": "n5553154460",
+  "name": "La Treille",
+  "kind": "restaurant",
+  "website": "https://restolatreille.ch/",
+  "address": "Route de Cossonay 26",
+  "dist_m": 2269
+ },
+ {
+  "id": "w675163028",
+  "name": "Centre Médical de Vidy",
+  "kind": "hospital",
+  "website": "https://www.vidymed.ch/centre-medical-de-vidy.html",
+  "address": "Route de Chavannes 11",
+  "dist_m": 2310
+ },
+ {
+  "id": "n6528468877",
+  "name": "Le Cube",
+  "kind": "sports_centre",
+  "website": "https://lecube.ch/",
+  "address": "",
+  "dist_m": 2413
+ },
+ {
+  "id": "w132822426",
+  "name": "Théâtre Kléber-Méleau",
+  "kind": "theatre",
+  "website": "https://www.tkm.ch",
+  "address": "",
+  "dist_m": 2417
+ },
+ {
+  "id": "w765244465",
+  "name": "Patinoire Yodli",
+  "kind": "ice_rink",
+  "website": "https://vaudoisearena.ch/patinoires/",
+  "address": "",
+  "dist_m": 2424
+ },
+ {
+  "id": "n13550918809",
+  "name": "Musée romain de Lausanne-Vidy",
+  "kind": "museum",
+  "website": "https://www.lausanne.ch/vie-pratique/culture/musees/mrv.html",
+  "address": "",
+  "dist_m": 2438
+ },
+ {
+  "id": "w1131122506",
+  "name": "Patinoire Cooly",
+  "kind": "ice_rink",
+  "website": "https://vaudoisearena.ch/patinoires/",
+  "address": "",
+  "dist_m": 2440
+ },
+ {
+  "id": "w765244460",
+  "name": "Vaudoise Aréna",
+  "kind": "sports_centre",
+  "website": "https://vaudoisearena.ch",
+  "address": "Chemin du Viaduc 14",
+  "dist_m": 2469
+ },
+ {
+  "id": "w766106047",
+  "name": "L'aréna",
+  "kind": "ice_rink",
+  "website": "https://vaudoisearena.ch/patinoires/",
+  "address": "",
+  "dist_m": 2497
+ },
+ {
+  "id": "n9683142382",
+  "name": "Le 111",
+  "kind": "restaurant",
+  "website": "https://111-eca.sv-restaurant.ch/fr/plan-des-menus/",
+  "address": "Avenue du Grey 111",
+  "dist_m": 2502
+ },
+ {
+  "id": "n10146727246",
+  "name": "iSushi",
+  "kind": "restaurant",
+  "website": "https://isushi.ch/",
+  "address": "Chemin de Fontadel 2",
+  "dist_m": 2534
+ },
+ {
+  "id": "n11901768547",
+  "name": "Aisance & Créativité",
+  "kind": "arts_centre",
+  "website": "https://www.aisance-creativite.ch/",
+  "address": "Boulevard de la Forêt 22",
+  "dist_m": 2534
+ },
+ {
+  "id": "n11185650730",
+  "name": "La Parenthèse",
+  "kind": "cafe",
+  "website": "https://111-eca.sv-restaurant.ch/fr/portrait/",
+  "address": "Avenue du Grey 111",
+  "dist_m": 2549
+ },
+ {
+  "id": "w273177349",
+  "name": "L'Octogone Théâtre de Pully",
+  "kind": "theatre",
+  "website": "https://theatre-octogone.ch/",
+  "address": "Avenue de Lavaux 41",
+  "dist_m": 2550
+ },
+ {
+  "id": "n9169439783",
+  "name": "G bar",
+  "kind": "pub",
+  "website": "https://www.gbar.ch",
+  "address": "Route de Romanel",
+  "dist_m": 2563
+ },
+ {
+  "id": "n12848462564",
+  "name": "Les Berges de Vidy",
+  "kind": "restaurant",
+  "website": "https://www.campinglausannevidy.ch/fr/restaurant",
+  "address": "Chemin du Camping 3",
+  "dist_m": 2586
+ },
+ {
+  "id": "n8380255820",
+  "name": "Eclipse Pizza",
+  "kind": "restaurant",
+  "website": "https://www.eclipsepizza.ch",
+  "address": "Chemin de Somais",
+  "dist_m": 2622
+ },
+ {
+  "id": "n12592958382",
+  "name": "Feuilles de Vigne",
+  "kind": "restaurant",
+  "website": "https://feuillesdevigne.online/",
+  "address": "Avenue de Lavaux",
+  "dist_m": 2630
+ },
+ {
+  "id": "w419707856",
+  "name": "Café Théâtre de la Voirie",
+  "kind": "theatre",
+  "website": "https://theatredelavoirie.ch/",
+  "address": "",
+  "dist_m": 2699
+ },
+ {
+  "id": "n2469119721",
+  "name": "L'Ananas",
+  "kind": "restaurant",
+  "website": "https://www.asia-ananas.ch",
+  "address": "",
+  "dist_m": 2722
+ },
+ {
+  "id": "n847533632",
+  "name": "Votra Lausanne",
+  "kind": "restaurant",
+  "website": "https://votralausanne.ch",
+  "address": "Chemin Isabelle-de-Montolieu 113",
+  "dist_m": 2775
+ },
+ {
+  "id": "n4258596209",
+  "name": "Pully",
+  "kind": "ferry_terminal",
+  "website": "https://www.cgn.ch/fr/",
+  "address": "",
+  "dist_m": 3015
+ },
+ {
+  "id": "n8754768291",
+  "name": "Squash Lausanne",
+  "kind": "sports_centre",
+  "website": "https://www.squashlausanne.ch",
+  "address": "Rue du Chêne 7",
+  "dist_m": 3133
+ },
+ {
+  "id": "n12010262869",
+  "name": "Lucioles",
+  "kind": "attraction",
+  "website": "https://fr.wikipedia.org/wiki/Parc_Louis-Bourget#Lucioles",
+  "address": "",
+  "dist_m": 3320
+ },
+ {
+  "id": "w643194377",
+  "name": "@biopôle",
+  "kind": "cafe",
+  "website": "https://www.biopole.ch/service/le-cafe-biopole/",
+  "address": "Route de la Corniche 1a",
+  "dist_m": 3340
+ },
+ {
+  "id": "n6199405438",
+  "name": "Let's go",
+  "kind": "fitness_centre",
+  "website": "https://www.letsgofitness.ch/fr/club/epalinges/",
+  "address": "",
+  "dist_m": 3412
+ },
+ {
+  "id": "n6459218315",
+  "name": "Giga Tacos",
+  "kind": "fast_food",
+  "website": "https://www.gigatacos.ch/",
+  "address": "",
+  "dist_m": 3602
+ },
+ {
+  "id": "n1635770331",
+  "name": "La Principessa",
+  "kind": "restaurant",
+  "website": "https://laprincipessa.ch/",
+  "address": "Rte. d'Arnier 4-6",
+  "dist_m": 3704
+ },
+ {
+  "id": "n266499583",
+  "name": "TopShop",
+  "kind": "convenience",
+  "website": "https://www.migrolino.ch/fr/standorte/socar-paudex/",
+  "address": "Route du Simplon 20",
+  "dist_m": 3710
+ },
+ {
+  "id": "w35482047",
+  "name": "La Grange",
+  "kind": "theatre",
+  "website": "https://www.grange-unil.ch/",
+  "address": "",
+  "dist_m": 3711
+ },
+ {
+  "id": "w23391490",
+  "name": "Piscine de Renens",
+  "kind": "sports_centre",
+  "website": "https://www.aquasplash.ch/",
+  "address": "",
+  "dist_m": 3728
+ },
+ {
+  "id": "n13048940340",
+  "name": "Restaurent Le Tournoi",
+  "kind": "restaurant",
+  "website": "https://www.restaurantletournoi.com/",
+  "address": "Avenue des Baumettes 25",
+  "dist_m": 3749
+ },
+ {
+  "id": "w646970269",
+  "name": "Centre sportif universitaire de Dorigny",
+  "kind": "sports_centre",
+  "website": "https://sport.unil.ch/?mid=127",
+  "address": "",
+  "dist_m": 3753
+ },
+ {
+  "id": "w283907512",
+  "name": "Salle de spectacles",
+  "kind": "theatre",
+  "website": "https://www.sallespectacles.renens.ch/",
+  "address": "Rue de Lausanne 37",
+  "dist_m": 3793
+ },
+ {
+  "id": "n10048020691",
+  "name": "Restaurant self-service de l'Unithèque, \"Le Réfectoire\"",
+  "kind": "restaurant",
+  "website": "http://nino-unil.ch/menu-de-la-semaine/",
+  "address": "",
+  "dist_m": 3871
+ },
+ {
+  "id": "n9877493317",
+  "name": "Centre Sport et Santé",
+  "kind": "restaurant",
+  "website": "https://www.unil.ch/restos/fr/home/menuinst/ou-se-restaurer/self-service-du-css.html",
+  "address": "Route Cantonale",
+  "dist_m": 3875
+ },
+ {
+  "id": "w1343493539",
+  "name": "Salle Smart Pavillion",
+  "kind": "fitness_centre",
+  "website": "https://sport.unil.ch/",
+  "address": "",
+  "dist_m": 3928
+ },
+ {
+  "id": "n10048003928",
+  "name": "Restaurant self-service de Géopolis",
+  "kind": "restaurant",
+  "website": "https://geopolis.sv-restaurant.ch/fr/plan-des-menus/",
+  "address": "",
+  "dist_m": 3962
+ },
+ {
+  "id": "n864613725",
+  "name": "Trattoria du Commerce",
+  "kind": "restaurant",
+  "website": "https://www.trattoriaducommerce.ch/",
+  "address": "Rue de Lausanne 23",
+  "dist_m": 4010
+ },
+ {
+  "id": "n1184069447",
+  "name": "Green Club",
+  "kind": "sports_centre",
+  "website": "https://green-club.ch/",
+  "address": "",
+  "dist_m": 4154
+ },
+ {
+  "id": "n2523496972",
+  "name": "Maaxy Kebab",
+  "kind": "fast_food",
+  "website": "https://www.just-eat.ch/speisekarte/maaxy-kebab",
+  "address": "",
+  "dist_m": 4227
+ },
+ {
+  "id": "n1219746608",
+  "name": "Let's Go Fitness",
+  "kind": "fitness_centre",
+  "website": "https://www.letsgofitness.ch/fr/club/lutry/",
+  "address": "",
+  "dist_m": 4435
+ },
+ {
+  "id": "n9094754186",
+  "name": "Ganesh Store",
+  "kind": "supermarket",
+  "website": "https://www.restotaillepied.ch/",
+  "address": "Route de Taillepied 109",
+  "dist_m": 4446
+ },
+ {
+  "id": "n11876885456",
+  "name": "Perilla Café",
+  "kind": "restaurant",
+  "website": "https://www.perilla-cafe.ch/",
+  "address": "Avenue du Tir-Fédéral 56",
+  "dist_m": 4492
+ },
+ {
+  "id": "n13723040316",
+  "name": "Luna d'oro",
+  "kind": "restaurant",
+  "website": "https://www.lunadoro.ch/",
+  "address": "",
+  "dist_m": 4558
+ },
+ {
+  "id": "n13723873101",
+  "name": "Luna d'Oro",
+  "kind": "restaurant",
+  "website": "https://www.lunadoro.ch/",
+  "address": "Allée des Cèdres A8",
+  "dist_m": 4558
+ },
+ {
+  "id": "n13723890201",
+  "name": "Kiosque des Cèdres Balaj",
+  "kind": "kiosk",
+  "website": "kiosque_balaj",
+  "address": "Allée des Cèdres A10",
+  "dist_m": 4572
+ },
+ {
+  "id": "n281285158",
+  "name": "Lutry",
+  "kind": "ferry_terminal",
+  "website": "https://www.cgn.ch/fr/",
+  "address": "",
+  "dist_m": 4694
+ },
+ {
+  "id": "n13719261401",
+  "name": "Fleur-t",
+  "kind": "florist",
+  "website": "fleurtfleuriste",
+  "address": "Route de la Maladière 4",
+  "dist_m": 4756
+ }
+]
