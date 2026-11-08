@@ -1,0 +1,34 @@
+name: Fetch opening-hours text from websites
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_snippets.py"
+      - ".github/workflows/fetch-snippets.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch websites
+        run: python3 scripts/fetch_snippets.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/snippets.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Fetch opening-hours text $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
