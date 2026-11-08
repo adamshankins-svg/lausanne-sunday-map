@@ -1,8 +1,14 @@
 // Generated monthly by scripts/fetch_lausanne_tourisme.py from Lausanne Tourisme listings
 // (https://www.lausanne-tourisme.ch). Keyed by OpenStreetMap id. Used only where OpenStreetMap has no hours.
 window.LT_HOURS = {
-"ts": "2026-11-08T17:43+00:00",
+"ts": "2026-11-08T18:00+00:00",
 "places": {
+"n299029320": {
+"name": "Pharmacie de Montelly",
+"lt_name": "Brasserie de Montelly",
+"oh": "Mo off; Tu-Sa 08:30-24:00; Su off",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/brasserie-de-montelly/"
+},
 "n310387725": {
 "name": "L'Union",
 "lt_name": "Restaurant l'Union",
@@ -33,12 +39,6 @@ window.LT_HOURS = {
 "oh": "Mo-Su 10:30-23:15",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/cafe-de-la-poste/"
 },
-"n560715501": {
-"name": "Café de Beaulieu",
-"lt_name": "L'Auberge de Beaulieu",
-"oh": "Mo-Th 11:00-24:00; Fr,Sa 11:00-02:00; Su 11:00-18:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/lauberge-de-beaulieu/"
-},
 "n568735467": {
 "name": "Au Monopole",
 "lt_name": "Le Monopole",
@@ -68,12 +68,6 @@ window.LT_HOURS = {
 "lt_name": "Pasta e Sfizi",
 "oh": "Mo 11:30-15:00,18:00-23:30; Tu 11:30-15:00,18:30-23:30; We-Fr 11:30-17:00,18:30-23:30; Sa 11:30-23:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/pasta-e-sfizi/"
-},
-"n718707720": {
-"name": "Restaurant du Tennis",
-"lt_name": "Tennis Club Stade Lausanne",
-"oh": "Mo-Su 00:00-24:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/tennis-club-stade-lausanne/"
 },
 "n826027336": {
 "name": "Le Lapin Vert",
@@ -141,12 +135,6 @@ window.LT_HOURS = {
 "oh": "Mo-Sa 09:00-22:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/farmacia-angelucci/"
 },
-"n1244856724": {
-"name": "Coop",
-"lt_name": "Parking Coop Caroline",
-"oh": "Mo-Su 00:00-24:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/parking-coop-caroline/"
-},
 "n1244887747": {
 "name": "MGM",
 "lt_name": "MGM Café",
@@ -158,6 +146,12 @@ window.LT_HOURS = {
 "lt_name": "Au Canard Pékinois",
 "oh": "Mo-Sa 12:00-14:00,19:00-22:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/au-canard-pekinois/"
+},
+"n1263103448": {
+"name": "La Couronne d'Or",
+"lt_name": "Couronne d’or",
+"oh": "Mo 16:00-23:00; Tu,We 08:00-24:00; Th,Fr 08:00-01:00; Sa 09:00-01:00; Su 11:00-22:00",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/couronne-dor/"
 },
 "n1263305516": {
 "name": "Abyssinia",
@@ -176,6 +170,12 @@ window.LT_HOURS = {
 "lt_name": "Les Gosses du Québec",
 "oh": "Mo-Th 15:00-01:00; Fr,Sa 15:00-02:00; Su 15:00-01:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/les-gosses-du-quebec/"
+},
+"n1272007314": {
+"name": "Kiosk de Montelly",
+"lt_name": "Brasserie de Montelly",
+"oh": "Mo off; Tu-Sa 08:30-24:00; Su off",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/brasserie-de-montelly/"
 },
 "n1273479255": {
 "name": "Basta",
@@ -219,12 +219,6 @@ window.LT_HOURS = {
 "oh": "Mo-Sa 11:30-14:30,18:30-24:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/le-petit-boeuf/"
 },
-"n1423114737": {
-"name": "Restaurant Mirabeau",
-"lt_name": "Restaurant de l'hôtel du Mirabeau",
-"oh": "Mo-Su 11:30-14:00,18:30-10:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/restaurant-de-lhotel-du-mirabeau/"
-},
 "n1433812389": {
 "name": "Cafe du Vieil Ouchy",
 "lt_name": "Café du Vieil Ouchy",
@@ -239,15 +233,21 @@ window.LT_HOURS = {
 },
 "n1539636449": {
 "name": "Café de Grancy",
-"lt_name": "Marché de Grancy",
-"oh": "Mo 07:00-12:00; Tu,We off; Th 07:00-12:00; Fr-Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/marche-de-grancy/"
+"lt_name": "Café de Grancy",
+"oh": "Mo-Fr 08:00-24:00; Sa,Su 09:00-24:00",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/cafe-de-grancy/"
 },
-"n1539645226": {
-"name": "Les Trois Rois",
-"lt_name": "Brasserie Les Trois Rois",
-"oh": "Mo off; Tu,We 12:00-13:30,19:00-21:30; Th,Fr 12:00-13:30,18:30-21:30; Sa 12:00-13:30,19:00-21:30; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/les-trois-rois/"
+"n1541511286": {
+"name": "Horloge de la Palud",
+"lt_name": "Aux spécialités de la Palud",
+"oh": "Mo-Fr 09:00-19:00; Sa 08:00-18:00; Su off",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/aux-specialites-de-la-palud/"
+},
+"n1552749724": {
+"name": "Maison tricot",
+"lt_name": "Maison Loulou",
+"oh": "Mo-Sa 08:30-18:30; Su off",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/maison-loulou/"
 },
 "n1552814775": {
 "name": "Keyann",
@@ -278,18 +278,6 @@ window.LT_HOURS = {
 "lt_name": "Laxmi",
 "oh": "Mo-Sa 11:30-14:00,18:30-23:00; Su 18:30-23:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/laxmi/"
-},
-"n1752258942": {
-"name": "Coop",
-"lt_name": "Parking Coop Caroline",
-"oh": "Mo-Su 00:00-24:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/parking-coop-caroline/"
-},
-"n1752259088": {
-"name": "Globus supermarket",
-"lt_name": "Globus",
-"oh": "Mo-Fr 09:00-19:00; Sa 09:00-18:00; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/globus/"
 },
 "n1752259173": {
 "name": "Manor",
@@ -429,24 +417,6 @@ window.LT_HOURS = {
 "oh": "Mo-Fr 11:30-14:30,18:30-23:00; Sa,Su 11:30-23:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/thai-au-lac/"
 },
-"n3200642078": {
-"name": "Le Relais du Grand Mont",
-"lt_name": "Parking-relais Grand-Mont",
-"oh": "Mo-Su 00:00-24:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/parking-relais-grand-mont/"
-},
-"n3210514145": {
-"name": "Le.Club",
-"lt_name": "MAD Club",
-"oh": "Mo-We off; Th 23:00-05:00; Fr,Sa 23:00-06:00; Su 23:00-05:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/mad-club/"
-},
-"n3269502173": {
-"name": "Pulloff Théâtres",
-"lt_name": "Pulloff Théâtres",
-"oh": "Mo-Su 00:00-24:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/pulloff-theatres/"
-},
 "n3271076966": {
 "name": "Brasserie Saint-Laurent",
 "lt_name": "Brasserie Saint-Laurent",
@@ -458,18 +428,6 @@ window.LT_HOURS = {
 "lt_name": "That's Amore",
 "oh": "Mo-Sa 11:00-15:00,18:30-22:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/thats-amore/"
-},
-"n3522220737": {
-"name": "Junod",
-"lt_name": "Visite du Musée de l'Horlogerie Junod",
-"oh": "Mo-Sa 10:00-12:00,14:00-17:00; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/visite-du-musee-de-lhorlogerie-junod/"
-},
-"n3522220739": {
-"name": "Le Saint-François",
-"lt_name": "Kiosque Saint-François",
-"oh": "Mo-Fr 07:00-19:30; Sa 08:00-18:30; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/kiosque-saint-francois/"
 },
 "n3526785884": {
 "name": "Fanfan",
@@ -513,12 +471,6 @@ window.LT_HOURS = {
 "oh": "Mo,Tu off; We 14:30-22:00; Th,Fr 14:30-23:30; Sa 09:30-22:30; Su 09:30-20:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/le-montriond/"
 },
-"n3871115488": {
-"name": "La cuisine",
-"lt_name": "Kung-Fu Cuisine",
-"oh": "Mo-Sa 08:00-23:00; Su 10:30-23:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/kung-fu-cuisine/"
-},
 "n4111161679": {
 "name": "La Mamma Osteria",
 "lt_name": "La Mamma Osteria",
@@ -537,12 +489,6 @@ window.LT_HOURS = {
 "oh": "Mo-Su 11:45-14:15,17:45-22:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/restaurant-take-away-golden-india/"
 },
-"n4190617087": {
-"name": "Bulldog Bar & Resto",
-"lt_name": "Bulldog Bar",
-"oh": "Mo-We 09:00-24:00; Th 09:00-01:00; Fr,Sa 09:00-02:00; Su 10:00-24:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/bulldog-bar/"
-},
 "n4241126394": {
 "name": "Ming Xuan",
 "lt_name": "Restaurant Ming Xuan",
@@ -554,6 +500,12 @@ window.LT_HOURS = {
 "lt_name": "A la Bossette",
 "oh": "Mo off; Tu,We 11:00-24:00; Th,Fr 11:00-01:00,16:00-01:00; Sa 15:30-01:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/a-la-bossette/"
+},
+"n4395837036": {
+"name": "La Croix d'Ouchy",
+"lt_name": "La Croix d’Ouchy",
+"oh": "Mo off; Tu-Fr 11:00-24:00; Sa 18:00-24:00; Su off",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/la-croix-douchy/"
 },
 "n4423753491": {
 "name": "Archeolab",
@@ -596,6 +548,12 @@ window.LT_HOURS = {
 "lt_name": "Pinte du Lac de Sauvabelin",
 "oh": "Mo-Th 09:00-19:00; Fr,Sa 09:00-23:00; Su 09:00-21:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/auberge-du-lac-de-sauvabelin/"
+},
+"n5024202449": {
+"name": "Saveur PimenThé",
+"lt_name": "Saveurs PimenThé",
+"oh": "Mo 11:30-18:30; Tu-Fr 09:00-18:30; Sa 08:30-17:30; Su off",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/saveur-pimenthe/"
 },
 "n5051689525": {
 "name": "Rumah",
@@ -644,24 +602,6 @@ window.LT_HOURS = {
 "lt_name": "Aux Merveilleux de Fred",
 "oh": "Mo off; Tu-Fr 07:30-18:30; Sa 08:00-18:30; Su 09:00-18:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/aux-merveilleux-de-fred/"
-},
-"n5651565964": {
-"name": "Chausseurs de Grancy",
-"lt_name": "Café de Grancy",
-"oh": "Mo-Fr 08:00-24:00; Sa,Su 09:00-24:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/cafe-de-grancy/"
-},
-"n5651566879": {
-"name": "Kebab de Grancy",
-"lt_name": "Café de Grancy",
-"oh": "Mo-Fr 08:00-24:00; Sa,Su 09:00-24:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/cafe-de-grancy/"
-},
-"n5678906240": {
-"name": "Anne-Sophie Pic au Beau-Rivage Palace",
-"lt_name": "PIC au Beau-Rivage Palace",
-"oh": "Mo,Tu off; We-Sa 12:00-13:30,18:30-21:30; Su 12:00-13:30",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/restaurant-anne-sophie-pic/"
 },
 "n5727243523": {
 "name": "My Sandwiches",
@@ -741,29 +681,11 @@ window.LT_HOURS = {
 "oh": "Mo-Fr 10:00-19:00; Sa 09:00-18:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/uchitomi/"
 },
-"n6057288143": {
-"name": "Cocooning",
-"lt_name": "Cocooning biocosmetics",
-"oh": "Mo-Fr 09:30-12:45,13:30-18:30; Sa 09:30-17:00; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/cocooning-biocosmetics/"
-},
-"n6057288146": {
-"name": "Davidson",
-"lt_name": "Jouets Davidson",
-"oh": "Mo-Fr 09:00-18:30; Sa 09:00-17:00; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/jouets-davidson/"
-},
 "n6344959572": {
 "name": "La Mise en Bière",
 "lt_name": "La Mise en Bière",
 "oh": "Mo-Th 16:00-22:00; Fr,Sa 16:00-24:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/la-mise-en-biere/"
-},
-"n6464693670": {
-"name": "MadHouse",
-"lt_name": "Le Rooftop du MadHouse",
-"oh": "Mo-We 15:00-24:00; Th 15:00-01:00; Fr 15:00-02:00; Sa 14:00-02:00; Su 15:00-24:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/le-rooftop-du-madhouse/"
 },
 "n6571058788": {
 "name": "La Bavaria",
@@ -777,23 +699,17 @@ window.LT_HOURS = {
 "oh": "Mo-Fr 11:00-20:00; Sa 11:00-18:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/prince-degypte/"
 },
+"n6640587804": {
+"name": "Lucien Moutarlier",
+"lt_name": "Pâtisserie-Confiserie Moutarlier",
+"oh": "Mo-Fr 08:00-18:30; Sa 07:30-17:30; Su off",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/patisserie-confiserie-moutarlier/"
+},
 "n6640587806": {
 "name": "MYO",
 "lt_name": "Myò Sushi Bar",
 "oh": "Mo off; Tu-Sa 11:30-14:00,18:30-22:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/myo-sushi-bar/"
-},
-"n6640587810": {
-"name": "Café Louve",
-"lt_name": "Librairie de la Louve",
-"oh": "Mo 13:30-18:30; Tu-Fr 11:00-18:30; Sa 10:00-18:00; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/librairie-de-la-louve/"
-},
-"n6762006598": {
-"name": "Espace Culturel des Terreaux",
-"lt_name": "Centre culturel des Terreaux",
-"oh": "Mo-Su 00:00-24:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/centre-culturel-des-terreaux/"
 },
 "n7071696119": {
 "name": "Quai 14",
@@ -806,18 +722,6 @@ window.LT_HOURS = {
 "lt_name": "Pré Fleuri",
 "oh": "Mo off; Tu-Fr 10:00-14:00,18:00-23:00; Sa 12:30-15:00,18:00-24:00; Su 12:30-15:00,18:00-23:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/pre-fleuri/"
-},
-"n7148035731": {
-"name": "On the Way",
-"lt_name": "Bagel on the Way",
-"oh": "Mo-Fr 10:30-21:00; Sa,Su 11:00-21:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/bagel-on-the-way/"
-},
-"n7148067639": {
-"name": "Evade",
-"lt_name": "Evade Escape Game",
-"oh": "Mo-Th 10:00-22:00; Fr,Sa 10:00-23:00; Su 10:00-22:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/evade-escape-game/"
 },
 "n7185203988": {
 "name": "À côté de la plaque",
@@ -915,12 +819,6 @@ window.LT_HOURS = {
 "oh": "Mo,Tu 11:30-22:00; We-Sa 11:30-24:00; Su 11:30-22:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/belga/"
 },
-"n8730243605": {
-"name": "Pâtisseries Japonaises OSIO",
-"lt_name": "Osio",
-"oh": "Mo off; Tu-Fr 08:00-19:00; Sa 09:00-19:00; Su 09:00-14:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/osio/"
-},
 "n8859861239": {
 "name": "La Générale",
 "lt_name": "La Générale",
@@ -932,12 +830,6 @@ window.LT_HOURS = {
 "lt_name": "Un Po’ Di Più",
 "oh": "Mo-Th 11:45-14:30,18:45-23:00; Fr,Sa 12:00-14:30,18:45-23:30; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/un-po-di-piu/"
-},
-"n8892915811": {
-"name": "LaseRed",
-"lt_name": "LaseRed - Action Escape Game & Laser Game",
-"oh": "Mo-Su 09:00-22:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/lasered-action-escape-game-laser-game/"
 },
 "n8910462534": {
 "name": "La Bouche-rit",
@@ -953,9 +845,9 @@ window.LT_HOURS = {
 },
 "n9043774278": {
 "name": "La Louve",
-"lt_name": "Librairie de la Louve",
-"oh": "Mo 13:30-18:30; Tu-Fr 11:00-18:30; Sa 10:00-18:00; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/librairie-de-la-louve/"
+"lt_name": "La Louve Friperie",
+"oh": "Mo off; Tu,We 11:00-18:00; Th off; Fr,Sa 11:00-18:00; Su off",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/la-louve-friperie/"
 },
 "n9045124049": {
 "name": "Luncheonette",
@@ -998,12 +890,6 @@ window.LT_HOURS = {
 "lt_name": "Chloé Rose",
 "oh": "Mo 12:00-18:30; Tu-Fr 11:00-18:30; Sa 11:00-18:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/chloe-rose/"
-},
-"n9483113232": {
-"name": "Palud",
-"lt_name": "Palud: Marché des Artisans-Créateurs",
-"oh": "Mo-Th off; Fr 10:00-18:30; Sa,Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/marche-des-artisans-createurs/"
 },
 "n9483113249": {
 "name": "Le Cercle du Thé",
@@ -1137,12 +1023,6 @@ window.LT_HOURS = {
 "oh": "Mo off; Tu-Th 11:30-21:30; Fr,Sa 12:00-22:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/umamido-grancy/"
 },
-"n10239858863": {
-"name": "Centre Aquatique",
-"lt_name": "Piscines du Centre aquatique de la Vaudoise aréna",
-"oh": "Mo-Fr 07:00-22:00; Sa,Su 08:00-20:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/piscines-du-centre-aquatique-de-la-vaudoise-arena/"
-},
 "n10274021515": {
 "name": "Épicerie du Prieuré",
 "lt_name": "Épicerie du Prieuré",
@@ -1178,12 +1058,6 @@ window.LT_HOURS = {
 "lt_name": "La Esquina",
 "oh": "Mo 18:00-23:00; Tu-Th 11:30-14:00,18:00-23:00; Fr 11:30-14:00,18:00-24:00; Sa 18:00-23:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/la-esquina/"
-},
-"n11172075027": {
-"name": "Lucette Healthy Food",
-"lt_name": "Lucette",
-"oh": "Mo-Fr 11:00-19:00; Sa 09:00-15:00; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/lucette/"
 },
 "n11187531927": {
 "name": "Le Fraisier",
@@ -1287,12 +1161,6 @@ window.LT_HOURS = {
 "oh": "Mo-Th 09:00-24:00; Fr,Sa 09:00-02:00; Su 09:00-23:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/food-halle-15/"
 },
-"n12339382789": {
-"name": "O Mylos - Greek Street Food",
-"lt_name": "O Mylos",
-"oh": "Mo off; Tu-Sa 11:30-14:00,18:30-21:30; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/o-mylos/"
-},
 "n12341071783": {
 "name": "Ponti",
 "lt_name": "Café Ponti",
@@ -1316,6 +1184,12 @@ window.LT_HOURS = {
 "lt_name": "Bibibowl",
 "oh": "Mo-Sa 11:00-15:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/bibibowl/"
+},
+"n12609537728": {
+"name": "DéCi comptoir gourmand",
+"lt_name": "DéCi Comptoir Gourmand",
+"oh": "Mo,Tu off; We-Sa 11:30-23:00; Su off",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/deci-comptoir-gourmand/"
 },
 "n12612354152": {
 "name": "La Table du Lausanne Palace",
@@ -1377,17 +1251,11 @@ window.LT_HOURS = {
 "oh": "Mo-We 10:00-18:00; Th 10:00-20:00; Fr-Su 10:00-18:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/plateforme-10/"
 },
-"n13196253908": {
-"name": "La Terrasse",
-"lt_name": "La Terrasse du Beau-Rivage Palace",
-"oh": "Mo-Fr 06:30-10:30; Sa,Su 07:00-11:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/la-terrasse-du-beau-rivage-palace/"
-},
 "n13196265987": {
 "name": "Café Beau-Rivage",
-"lt_name": "PIC au Beau-Rivage Palace",
-"oh": "Mo,Tu off; We-Sa 12:00-13:30,18:30-21:30; Su 12:00-13:30",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/restaurant-anne-sophie-pic/"
+"lt_name": "Café Beau-Rivage",
+"oh": "Mo-Su 12:00-14:00,19:00-22:00",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/cafe-beau-rivage/"
 },
 "n13196318804": {
 "name": "Restaurant du Musée Olympique (TOM Café)",
@@ -1431,23 +1299,11 @@ window.LT_HOURS = {
 "oh": "Mo off; Tu,We 09:30-18:00; Th 09:30-20:00; Fr-Su 09:30-18:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/le-nabi/"
 },
-"n13470344401": {
-"name": "Foca Focaccia Coffee & More",
-"lt_name": "Foca",
-"oh": "Mo-Fr 09:00-14:00,18:00-22:00; Sa 09:00-21:00; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/foca/"
-},
 "n13527325268": {
 "name": "Amici",
 "lt_name": "Ristorante Amici",
 "oh": "Mo-Fr 09:30-14:45,18:00-24:00; Sa,Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/ristorante-amici/"
-},
-"n13628469901": {
-"name": "Piquenique",
-"lt_name": "Piquenique by Deli Social",
-"oh": "Mo-Fr 07:00-18:00; Sa 09:00-15:00; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/piquenique/"
 },
 "n13725443345": {
 "name": "Mounira par Man'ouchy",
@@ -1509,35 +1365,17 @@ window.LT_HOURS = {
 "oh": "Mo,Tu off; We-Sa 14:00-18:00; Su 10:00-18:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/espace-des-inventions/"
 },
-"w44176010": {
-"name": "Pyxis - Maison de la culture et de l'exploration numérique",
-"lt_name": "Pyxis",
-"oh": "Mo-We 08:00-14:00; Th,Fr 08:00-14:00,16:30-23:00; Sa,Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/pyxis/"
-},
 "w44359353": {
 "name": "Le Café de Chavannes",
 "lt_name": "Café de Chavannes",
 "oh": "Mo-We 08:00-11:00; Th-Sa 08:00-24:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/cafe-de-chavannes/"
 },
-"w44385858": {
-"name": "Portes Saint-François",
-"lt_name": "Les Portes St-François",
-"oh": "Mo-Fr 09:00-19:00; Sa 09:00-18:00; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/les-portes-st-francois/"
-},
 "w44387251": {
 "name": "Sushi bar Myō",
 "lt_name": "Myò Sushi Bar",
 "oh": "Mo off; Tu-Sa 11:30-14:00,18:30-22:00; Su off",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/myo-sushi-bar/"
-},
-"w44421305": {
-"name": "Le Kiosque",
-"lt_name": "Kiosque Saint-François",
-"oh": "Mo-Fr 07:00-19:30; Sa 08:00-18:30; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/kiosque-saint-francois/"
 },
 "w44742439": {
 "name": "La Pinte de Sauvabelin",
@@ -1617,35 +1455,23 @@ window.LT_HOURS = {
 "oh": "Mo-Sa 11:30-14:30,18:00-22:30; Su 12:00-14:00,18:00-22:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/cafe-dalat/"
 },
-"w303240607": {
-"name": "Dôme de la Colline de Montriond",
-"lt_name": "Le Montriond",
-"oh": "Mo,Tu off; We 14:30-22:00; Th,Fr 14:30-23:30; Sa 09:30-22:30; Su 09:30-20:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/le-montriond/"
-},
 "w384558521": {
 "name": "La Ferme des Tilleuls",
 "lt_name": "Café des Tilleuls",
 "oh": "Mo 10:30-14:30; Tu,We 10:30-18:30; Th,Fr 10:30-22:30; Sa,Su 10:30-18:30",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/cafe-des-tilleuls/"
 },
-"w442695818": {
-"name": "Aquatis",
-"lt_name": "AQUATIS Aquarium-Vivarium Lausanne",
-"oh": "Mo-Su 10:00-18:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/aquatis-aquarium-vivarium-lausanne/"
+"w956197558": {
+"name": "Musée monétaire cantonal",
+"lt_name": "Musée cantonal d’archéologie et d’histoire",
+"oh": "Mo off; Tu-Su 10:00-17:00",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/musee-cantonal-darcheologie-et-dhistoire/"
 },
-"w765244460": {
-"name": "Vaudoise Aréna",
-"lt_name": "Piscines du Centre aquatique de la Vaudoise aréna",
-"oh": "Mo-Fr 07:00-22:00; Sa,Su 08:00-20:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/piscines-du-centre-aquatique-de-la-vaudoise-arena/"
-},
-"w766106047": {
-"name": "L'aréna",
-"lt_name": "Piscines du Centre aquatique de la Vaudoise aréna",
-"oh": "Mo-Fr 07:00-22:00; Sa,Su 08:00-20:00",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/piscines-du-centre-aquatique-de-la-vaudoise-arena/"
+"r12865617": {
+"name": "Musée cantonal d'archéologie et d'histoire",
+"lt_name": "Musée cantonal d’archéologie et d’histoire",
+"oh": "Mo off; Tu-Su 10:00-17:00",
+"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/musee-cantonal-darcheologie-et-dhistoire/"
 },
 "r13916847": {
 "name": "Marché du centre-ville de Lausanne",
