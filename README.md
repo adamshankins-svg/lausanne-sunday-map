@@ -26,6 +26,14 @@ Most data comes from OpenStreetMap volunteers. If a place shows wrong hours, use
 
 `data/curated.js` holds about 85 hand-researched places, such as station shops, museums and Christmas markets, with notes and source badges. Edit it in any text editor and reload the page. Hours use [OpenStreetMap syntax](https://wiki.openstreetmap.org/wiki/Key:opening_hours).
 
+## Where the hours come from
+
+1. **OpenStreetMap** (most places). A GitHub job refreshes `data/osm_snapshot.js` every Monday, and the page can also download fresh data itself ("Update now").
+2. **All the Places** (chain branches with no hours in OpenStreetMap, such as Denner, k kiosk, Brezelkönig, avec and petrol stations). This is chains' own store-finder data, released under CC0. The same weekly job matches it to the map and writes `data/chain_hours.js`.
+3. **Website research** (`data/researched_hours.js`): hours read from about 60 independent places' own websites on 8 November 2026. Each entry links to the page it came from. These hours don't update themselves, so recheck them now and then. A second job, `fetch-snippets.yml`, collects hours text from places' websites into `research/snippets.json` to make that easier. Run it from the repository's Actions tab.
+
+A place's details always say which source its hours came from. Hours from 2 and 3 only fill gaps; they never override OpenStreetMap.
+
 ## Files
 
 - `index.html`: the whole app
