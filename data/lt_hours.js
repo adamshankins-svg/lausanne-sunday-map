@@ -237,12 +237,6 @@ window.LT_HOURS = {
 "oh": "Mo-Fr 08:00-24:00; Sa,Su 09:00-24:00",
 "url": "https://www.lausanne-tourisme.ch/fr/decouvrir/cafe-de-grancy/"
 },
-"n1541511286": {
-"name": "Horloge de la Palud",
-"lt_name": "Aux spécialités de la Palud",
-"oh": "Mo-Fr 09:00-19:00; Sa 08:00-18:00; Su off",
-"url": "https://www.lausanne-tourisme.ch/fr/decouvrir/aux-specialites-de-la-palud/"
-},
 "n1552749724": {
 "name": "Maison tricot",
 "lt_name": "Maison Loulou",

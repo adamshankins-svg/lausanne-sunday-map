@@ -7,7 +7,7 @@ Reads the site's place pages listed in its sitemap (robots.txt allows this), tak
 schema.org openingHoursSpecification each page publishes, converts the hours valid today
 to OpenStreetMap opening_hours syntax, and matches each listing to a place on the map
 (within 150 m and with a similar name). Writes data/lt_hours.js keyed by OpenStreetMap id.
-Polite: 3 requests at a time with a short pause. Standard library only.
+Polite: one request at a time with a short pause. Standard library only.
 """
 import json
 import math
@@ -140,7 +140,7 @@ def main():
     sm = get(SITEMAP)
     urls = re.findall(r"<loc>([^<]+)</loc>", sm)
     print(f"{len(urls)} Lausanne Tourisme place pages")
-    with ThreadPoolExecutor(max_workers=3) as ex:
+    with ThreadPoolExecutor(max_workers=1) as ex:
         pages = list(ex.map(read_page, urls))
     failed = [p["url"] for p in pages if p.get("error") and p["error"] != "no structured data"]
     if failed:
@@ -158,6 +158,8 @@ def main():
     els = json.loads(s[s.index("{"):s.rindex("}") + 1])["els"]
     out = {}
     for oid, lat, lon, t in els:
+        if t.get("tourism") == "attraction":       # monuments and clocks, not businesses
+            continue
         best, bs = None, 0
         for p in lt:
             d = haversine(lat, lon, p["lat"], p["lon"])
