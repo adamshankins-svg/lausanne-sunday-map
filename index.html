@@ -221,6 +221,9 @@ button{cursor:pointer}
 <script src="vendor/suncalc.js"></script>
 <script src="vendor/opening_hours.js"></script>
 <script src="data/curated.js"></script>
+<script src="data/osm_snapshot.js"></script>
+<script src="data/chain_hours.js"></script>
+<script src="data/researched_hours.js"></script>
 <script>
 (() => {
 "use strict";
@@ -377,6 +380,15 @@ function build(osmEls) {
     out.push(p);
   }
   for (const o of osm) if (!used.has(o.id)) out.push(o);
+  const chain = (window.CHAIN_HOURS && window.CHAIN_HOURS.places) || {};
+  const research = (window.RESEARCHED_HOURS && window.RESEARCHED_HOURS.places) || {};
+  for (const p of out) {
+    if (p.opening_hours || !p.osm) continue;
+    const key = p.osm[0] + p.osm.split("/")[1];
+    const c = chain[key], r = research[key];
+    if (c && parseOH(c.oh)) Object.assign(p, {opening_hours: c.oh, hoursSource: "chain", hoursBrand: c.brand, hoursUrl: c.url, hoursDate: c.collected});
+    else if (r && parseOH(r.oh)) Object.assign(p, {opening_hours: r.oh, hoursSource: "research", hoursUrl: r.url, hoursDate: r.checked, hoursNote: r.note});
+  }
   out.forEach((p, i) => {
     p.i = i; p.oh = parseOH(p.opening_hours); p.ohErr = p.opening_hours && p.oh === false;
     if (p.oh === false) p.oh = null;
@@ -618,8 +630,11 @@ function renderDetail(p) {
   if (p.researchHours) notes.push(`Our research listed different hours (${esc(p.researchHours.replace("Mo-Sa unknown; ", ""))}). Showing OpenStreetMap’s instead.`);
   if (p.osmHours) notes.push(`OpenStreetMap lists different hours: ${esc(p.osmHours)}. Showing the verified hours.`);
   if (p.ohErr) notes.push(`Listed hours could not be read: “${esc(p.opening_hours)}”`);
-  const src = p.source === "osm" ? `From OpenStreetMap${p.check_date ? `, hours checked ${esc(p.check_date)}` : ""}`
-    : `<span class="badge ${p.confidence}">${SOURCE_LABEL[p.confidence] || "Research"}</span>${p.source === "research+osm" ? " · matched to OpenStreetMap" : ""}`;
+  const hsrc = p.hoursSource === "chain" ? `Hours from ${esc(p.hoursBrand || "the chain")}’s own store data${p.hoursDate ? ` (collected ${esc(p.hoursDate)})` : ""} via <a href="https://www.alltheplaces.xyz" target="_blank" rel="noopener">All the Places</a>${p.hoursUrl ? ` · <a href="${esc(p.hoursUrl)}" target="_blank" rel="noopener">source</a>` : ""}.<br>`
+    : p.hoursSource === "research" ? `Hours researched from <a href="${esc(p.hoursUrl)}" target="_blank" rel="noopener">the place’s website</a> on ${esc(p.hoursDate)}; not yet in OpenStreetMap.<br>` : "";
+  if (p.hoursNote) notes.push(esc(p.hoursNote));
+  const src = hsrc + (p.source === "osm" ? `Place from OpenStreetMap${p.check_date && !p.hoursSource ? `, hours checked ${esc(p.check_date)}` : ""}`
+    : `<span class="badge ${p.confidence}">${SOURCE_LABEL[p.confidence] || "Research"}</span>${p.source === "research+osm" ? " · matched to OpenStreetMap" : ""}`);
   const links = [`<a class="primary" href="https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}" target="_blank" rel="noopener">Directions</a>`];
   if (p.website) links.push(`<a href="${esc(/^https?:/.test(p.website) ? p.website : "https://" + p.website)}" target="_blank" rel="noopener">Website</a>`);
   if (p.phone) links.push(`<a href="tel:${esc(p.phone.replace(/[^\d+]/g, ""))}">Call</a>`);
@@ -728,6 +743,7 @@ async function download(manual) {
       if (els.length < 200) throw new Error(`${new URL(ep).host} returned only ${els.length} places`);
       const cache = {ts: Date.now(), host: new URL(ep).host, els};
       if (!store.set("osm", cache)) console.warn("Could not cache OSM data (storage full or blocked).");
+      OSM = cache;
       clearTimeout(timer); downloading = false;
       const keep = S.selected != null ? P[S.selected]?.id : null;
       build(els); computeDay(); S.selected = keep ? (P.find(p => p.id === keep)?.i ?? null) : null;
@@ -741,7 +757,7 @@ async function download(manual) {
 }
 let OSM = null;
 function renderFoot(msg) {
-  const c = store.get("osm", null);
+  const c = OSM;
   const when = c ? new Date(c.ts).toLocaleString("en-GB", {day: "numeric", month: "short", hour: "2-digit", minute: "2-digit"}) : null;
   $("#pfoot").innerHTML = msg ? esc(msg)
     : `${P.length.toLocaleString("en-GB")} places within ${RADIUS_M / 1000} km of Place Bel-Air. ${when ? `OpenStreetMap data from ${when}.` : "OpenStreetMap data not downloaded yet."} <button class="link" id="upd">Update now</button>`;
@@ -751,6 +767,10 @@ function renderFoot(msg) {
 // ================= Boot =================
 syncFilters();
 OSM = store.get("osm", null);
+if (window.OSM_SNAPSHOT && window.OSM_SNAPSHOT.els) {
+  const snapTs = Date.parse(window.OSM_SNAPSHOT.ts);
+  if (!OSM || snapTs > OSM.ts) OSM = {ts: snapTs, host: "weekly snapshot", els: window.OSM_SNAPSHOT.els};
+}
 build(OSM ? OSM.els : []);
 computeDay(); renderDays();
 for (const p of P) { p.st = stateOf(p); p.vis = visible(p); }

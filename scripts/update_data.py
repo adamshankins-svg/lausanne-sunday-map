@@ -33,6 +33,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 MAX_SPIDER_BYTES = 80_000_000
 MATCH_M = 120
+# International spiders whose names don't match the brand (Valora runs k kiosk, Brezelkönig, avec…).
+EXTRA_SPIDERS = {"valora", "mcdonalds", "burger_king", "subway", "eni", "caffe_nero", "starbucks_reserve"}
 
 KEEP = ["name", "amenity", "shop", "tourism", "leisure", "sport", "cuisine", "opening_hours", "website",
         "contact:website", "phone", "contact:phone", "addr:street", "addr:housenumber", "addr:postcode",
@@ -74,6 +76,17 @@ def name_score(a, b):
     if ta <= tb or tb <= ta:
         return 0.9
     return len(ta & tb) / max(len(ta), len(tb))
+
+
+def brand_match(t, atp_brand):
+    """The chain's brand words must all appear in the OSM brand or name, e.g. "Denner" in "Denner Express"."""
+    b = set(tokens(atp_brand))
+    if not b:
+        return False
+    for v in (t.get("brand"), t.get("name")):
+        if v and b <= set(tokens(v)):
+            return True
+    return False
 
 
 def slug(s):
@@ -136,6 +149,8 @@ def atp_features(wanted_slugs):
             spiders.append(s)
         elif not country and any(base == w or base.startswith(w + "_") for w in wanted_slugs):
             spiders.append(s)
+        elif s in EXTRA_SPIDERS:
+            spiders.append(s)
     log(f"All the Places run {run}: {len(spiders)} spiders to check")
     feats = []
     lat0, lon0 = CENTER
@@ -165,6 +180,7 @@ def atp_features(wanted_slugs):
             feats.append({"lat": lat, "lon": lon, "spider": s, "name": p.get("name") or p.get("brand") or "",
                           "brand": p.get("brand") or "", "wd": p.get("brand:wikidata") or "",
                           "oh": p["opening_hours"], "url": p.get("website") or p.get("@source_uri") or "",
+                          "kind": "amenity" if p.get("amenity") else "shop" if p.get("shop") else "",
                           "collected": (fc.get("dataset_attributes") or {}).get("spider:collection_time", "")[:10]})
             n += 1
         if n:
@@ -196,9 +212,14 @@ def main():
             d = haversine(lat, lon, f["lat"], f["lon"])
             if d > MATCH_M or d >= bd:
                 continue
-            same_wd = t.get("brand:wikidata") and t.get("brand:wikidata") == f["wd"]
-            score = max(name_score(t.get("name"), f["name"]), name_score(t.get("brand") or t.get("name"), f["brand"]))
-            if same_wd or score >= 0.8:
+            # Shops and restaurants are never the same thing (e.g. a café next to an optician).
+            osm_kind = "amenity" if t.get("amenity") else "shop" if t.get("shop") else ""
+            if osm_kind and f["kind"] and osm_kind != f["kind"]:
+                continue
+            same_wd = bool(t.get("brand:wikidata")) and t.get("brand:wikidata") == f["wd"]
+            if not (same_wd or brand_match(t, f["brand"] or f["name"])):
+                continue
+            if True:
                 best, bd = f, d
         if best:
             chain[oid] = {"name": t.get("name"), "oh": best["oh"], "brand": best["brand"] or best["name"],
