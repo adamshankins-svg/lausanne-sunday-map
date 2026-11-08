@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Open in Lausanne</title>
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<style>
+:root{
+  --ink:#1B2730; --ink-2:#4A5862; --ink-3:#7C8891; --line:#E1E6E9; --fog:#F3F5F6; --paper:#fff;
+  --lake:#1F5673; --lake-2:#2C7299; --open:#22803A; --warn:#A35F00; --closed:#B3261E;
+  --panel:372px; --r:12px;
+  --sh:0 1px 2px rgba(20,35,45,.08),0 4px 16px rgba(20,35,45,.10);
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  color:var(--ink); -webkit-font-smoothing:antialiased;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;overflow:hidden}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--lake-2);outline-offset:2px}
+.app{display:grid;grid-template-columns:1fr var(--panel);height:100vh;height:100dvh}
+#mapwrap{position:relative;min-width:0}
+#map{position:absolute;inset:0;background:#EEF0EE}
+
+/* ---------- Search ---------- */
+.top{position:absolute;left:12px;top:12px;right:190px;z-index:3;display:flex;flex-direction:column;gap:8px;pointer-events:none}
+.search{max-width:520px}
+.search{pointer-events:auto;position:relative}
+.search input{width:100%;height:46px;border:0;border-radius:var(--r);padding:0 44px 0 44px;font-size:16px;background:var(--paper);box-shadow:var(--sh)}
+.search input::placeholder{color:var(--ink-3)}
+.search svg.mag{position:absolute;left:14px;top:13px;width:20px;height:20px;color:var(--ink-3)}
+.search .clear{position:absolute;right:8px;top:8px;width:30px;height:30px;border:0;background:none;border-radius:50%;color:var(--ink-3);font-size:20px;line-height:1;display:none}
+.search.has .clear{display:block}
+.results{margin-top:6px;background:var(--paper);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden;display:none;max-height:60vh;overflow-y:auto}
+.search.open .results{display:block}
+.results button{display:grid;grid-template-columns:12px 1fr auto;gap:2px 10px;width:100%;text-align:left;border:0;background:none;padding:10px 14px;border-top:1px solid var(--fog);align-items:center}
+.results button:first-child{border-top:0}
+.results button[aria-selected=true],.results button:hover{background:var(--fog)}
+.results .nm{font-weight:600;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.results .sub{grid-column:2/4;font-size:12px;color:var(--ink-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.results .none{padding:14px;font-size:14px;color:var(--ink-2)}
+.dot{width:12px;height:12px;border-radius:50%;background:var(--c);flex:none}
+.dot.ring{background:#fff;box-shadow:inset 0 0 0 2.5px var(--c)}
+.dot.grey{background:#B6BEC3}
+
+/* ---------- Category chips ---------- */
+.chips{pointer-events:auto;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;display:inline-flex;align-items:center;gap:7px;height:32px;padding:0 12px 0 10px;border-radius:16px;border:0;background:var(--paper);box-shadow:var(--sh);font-size:13px;font-weight:500;color:var(--ink)}
+.chip .n{color:var(--ink-3);font-variant-numeric:tabular-nums;font-weight:400}
+.chip[aria-pressed=false]{background:rgba(255,255,255,.75);color:var(--ink-3)}
+.chip[aria-pressed=false] .dot{background:#C9D0D4}
+
+/* ---------- Timeline ---------- */
+.timeline{position:absolute;left:12px;right:12px;bottom:30px;z-index:3;background:var(--lake);color:#fff;border-radius:16px;box-shadow:var(--sh);padding:12px 16px 10px;display:grid;grid-template-columns:auto 1fr;gap:4px 18px;align-items:end;max-width:900px;margin:0 auto}
+.tl-left{display:flex;flex-direction:column;gap:2px;min-width:150px}
+.tl-day{appearance:none;border:0;background:rgba(255,255,255,.14);color:#fff;border-radius:8px;padding:4px 26px 4px 10px;font-size:13px;font-weight:500;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='white' stroke-width='1.6' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 9px center;max-width:200px}
+.tl-day option{color:var(--ink)}
+.tl-time{font-size:34px;font-weight:700;letter-spacing:-.02em;line-height:1.05;font-variant-numeric:tabular-nums}
+.tl-time.any{font-size:22px;line-height:1.9}
+.tl-count{font-size:13px;opacity:.85}
+.tl-right{display:flex;flex-direction:column;gap:6px;min-width:0}
+.tl-graph{position:relative;height:46px}
+#hist{position:absolute;inset:0 0 6px 0;width:100%;height:40px}
+#hist rect{fill:rgba(255,255,255,.28)}
+#hist rect.on{fill:#fff}
+#slider{position:absolute;left:0;right:0;bottom:-6px;width:100%;margin:0;height:24px;background:transparent;-webkit-appearance:none;appearance:none}
+#slider::-webkit-slider-runnable-track{height:2px;background:rgba(255,255,255,.35)}
+#slider::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;background:#fff;margin-top:-8px;box-shadow:0 1px 4px rgba(0,0,0,.35)}
+#slider::-moz-range-track{height:2px;background:rgba(255,255,255,.35)}
+#slider::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:#fff;border:0}
+.timeline.any #slider{opacity:.35}
+.tl-axis{display:flex;justify-content:space-between;font-size:11px;opacity:.65;font-variant-numeric:tabular-nums;margin-top:6px}
+.tl-actions{display:flex;gap:6px}
+.tl-actions button{border:0;background:rgba(255,255,255,.14);color:#fff;border-radius:8px;padding:4px 10px;font-size:13px}
+.tl-actions button[aria-pressed=true]{background:#fff;color:var(--lake)}
+.tl-actions button:hover{background:rgba(255,255,255,.24)}
+.tl-actions button[aria-pressed=true]:hover{background:#fff}
+
+/* ---------- Panel ---------- */
+.panel{background:var(--paper);border-left:1px solid var(--line);display:flex;flex-direction:column;min-height:0;z-index:4}
+.p-head{padding:16px 18px 12px;border-bottom:1px solid var(--line)}
+.p-head h1{font-size:20px;margin:0;letter-spacing:-.01em}
+.p-head p{margin:2px 0 0;font-size:13px;color:var(--ink-3)}
+.filters{display:flex;flex-direction:column;gap:8px;margin-top:12px;font-size:13px}
+.seg{display:inline-flex;background:var(--fog);border-radius:8px;padding:2px}
+.seg button{border:0;background:none;border-radius:6px;padding:4px 10px;font-size:13px;color:var(--ink-2)}
+.seg button[aria-pressed=true]{background:#fff;color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.row label{display:inline-flex;align-items:center;gap:6px;color:var(--ink-2)}
+.legend{display:flex;gap:14px;color:var(--ink-3);font-size:12px}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.legend .dot{--c:var(--ink-2);width:10px;height:10px}
+.p-body{flex:1;overflow-y:auto;min-height:0}
+.p-sub{display:flex;justify-content:space-between;align-items:baseline;padding:12px 18px 4px;font-size:12px;color:var(--ink-3)}
+#list{list-style:none;margin:0;padding:0 0 8px}
+#list li{display:grid;grid-template-columns:12px 1fr;gap:1px 12px;padding:9px 18px;cursor:pointer;align-items:center}
+#list li:hover,#list li:focus-visible{background:var(--fog);outline:none}
+#list .dot{grid-row:1/3;align-self:start;margin-top:4px}
+#list .nm{font-size:14px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#list .meta{font-size:12px;color:var(--ink-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.st-open{color:var(--open)} .st-unknown,.st-likely{color:var(--warn)} .st-closed{color:var(--closed)}
+.empty{padding:24px 18px;color:var(--ink-2);font-size:14px;line-height:1.5}
+.p-foot{border-top:1px solid var(--line);padding:10px 18px;font-size:12px;color:var(--ink-3);line-height:1.5}
+.p-foot button.link,.linkbtn{border:0;background:none;padding:0;color:var(--lake-2);text-decoration:underline;text-underline-offset:2px;font-size:inherit}
+.help{margin:8px 18px 14px;background:var(--fog);border-radius:10px;padding:10px 12px;font-size:12.5px;line-height:1.5;color:var(--ink-2)}
+.help a{color:var(--lake-2)}
+
+/* ---------- Detail ---------- */
+.detail{padding:14px 18px 20px}
+.back{border:0;background:none;color:var(--lake-2);padding:0;font-size:14px;margin-bottom:12px}
+.detail h2{font-size:22px;line-height:1.2;margin:0 0 4px;letter-spacing:-.01em}
+.detail .kind{display:flex;align-items:center;gap:8px;color:var(--ink-2);font-size:14px}
+.detail .status{margin:14px 0 4px;font-size:16px;font-weight:600}
+.detail .status-sub{font-size:13px;color:var(--ink-2)}
+.week{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px;font-variant-numeric:tabular-nums}
+.week td{padding:5px 0;border-top:1px solid var(--fog);vertical-align:top}
+.week td:first-child{width:96px;color:var(--ink-3)}
+.week tr.sel td{font-weight:650;color:var(--ink)}
+.facts{font-size:14px;line-height:1.5;color:var(--ink-2)}
+.note{margin:10px 0;background:var(--fog);border-radius:8px;padding:8px 10px;font-size:13px;line-height:1.45;color:var(--ink-2)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.actions a{display:inline-flex;align-items:center;height:34px;padding:0 12px;border-radius:8px;background:var(--fog);color:var(--ink);text-decoration:none;font-size:13px;font-weight:500}
+.actions a.primary{background:var(--lake);color:#fff}
+.src{font-size:12px;color:var(--ink-3);line-height:1.5}
+.badge{display:inline-block;padding:1px 7px;border-radius:5px;font-size:11.5px;font-weight:600;background:var(--fog);color:var(--ink-2)}
+.badge.V{background:#E3F2E6;color:#1E6B31}
+
+/* ---------- Map bits ---------- */
+.maplibregl-popup.tip .maplibregl-popup-content{padding:5px 9px;border-radius:7px;font-size:12.5px;font-weight:600;box-shadow:var(--sh)}
+.maplibregl-popup.tip .maplibregl-popup-tip{display:none}
+.maplibregl-ctrl-group{border-radius:10px!important;box-shadow:var(--sh)!important}
+.basemap{position:absolute;right:12px;top:12px;z-index:3}
+.basemap select{appearance:none;border:0;border-radius:10px;background:#fff;box-shadow:var(--sh);padding:7px 28px 7px 12px;font-size:13px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%234A5862' stroke-width='1.6' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center}
+.maplibregl-ctrl-top-right{top:50px}
+.toast{position:absolute;left:50%;top:70px;transform:translateX(-50%);z-index:5;background:var(--ink);color:#fff;font-size:13px;padding:8px 14px;border-radius:10px;box-shadow:var(--sh);display:none;max-width:90%}
+.toast.show{display:block}
+.loading{position:absolute;inset:0;display:grid;place-items:center;z-index:2;pointer-events:none;color:var(--ink-3);font-size:14px}
+
+@media (max-width:860px){
+  .app{grid-template-columns:1fr;grid-template-rows:1fr auto}
+  .panel{position:fixed;left:0;right:0;bottom:0;height:46vh;border-left:0;border-top:1px solid var(--line);border-radius:16px 16px 0 0;box-shadow:0 -4px 20px rgba(0,0,0,.12);transform:translateY(calc(100% - 64px));transition:transform .25s ease}
+  .panel.up{transform:none}
+  .p-head{cursor:pointer}
+  .p-head h1{font-size:17px}
+  .timeline{bottom:76px;padding:10px 12px 8px;gap:2px 12px}
+  .tl-time{font-size:30px}
+  .tl-left{min-width:118px}
+  .basemap{top:104px}
+  .basemap select{padding:5px 26px 5px 10px;font-size:12px}
+  .maplibregl-ctrl-top-right{top:136px}
+  .top{right:12px}
+  .timeline{grid-template-columns:1fr;gap:6px}
+  .tl-left{flex-direction:row;align-items:center;gap:10px;flex-wrap:wrap;min-width:0}
+  .tl-time,.tl-time.any{font-size:24px;line-height:1.1}
+  .tl-actions{order:3}
+  .tl-actions button{padding:3px 9px}
+  .long,.tl-axis span:nth-child(2n){display:none}
+  .search{max-width:none}
+}
+@media (prefers-reduced-motion:reduce){.panel{transition:none}}
+</style>
+</head>
+<body>
+<div class="app">
+  <div id="mapwrap">
+    <div id="map" aria-label="Map of places"></div>
+    <div class="loading" id="loading">Loading map…</div>
+    <div class="top">
+      <div class="search" id="search">
+        <svg class="mag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search places, cuisines or streets" aria-label="Search places" aria-controls="results" role="combobox" aria-expanded="false">
+        <button class="clear" id="qclear" aria-label="Clear search">×</button>
+        <div class="results" id="results" role="listbox"></div>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Categories"></div>
+    </div>
+    <div class="basemap"><select id="basemap" aria-label="Background map"></select></div>
+    <div class="toast" id="toast" role="status"></div>
+    <div class="timeline" id="timeline">
+      <div class="tl-left">
+        <select class="tl-day" id="day" aria-label="Day"></select>
+        <div class="tl-time" id="time"></div>
+        <div class="tl-count" id="count"></div>
+      </div>
+      <div class="tl-right">
+        <div class="tl-actions">
+          <button id="now">Now</button>
+          <button id="any" aria-pressed="false">Any time<span class="long"> that day</span></button>
+        </div>
+        <div class="tl-graph">
+          <svg id="hist" viewBox="0 0 480 52" preserveAspectRatio="none" aria-hidden="true"></svg>
+          <input id="slider" type="range" min="0" max="1425" step="15" aria-label="Time of day">
+        </div>
+        <div class="tl-axis"><span>00:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>24:00</span></div>
+      </div>
+    </div>
+  </div>
+
+  <aside class="panel" id="panel" aria-label="Places">
+    <div class="p-head" id="phead">
+      <h1 id="ptitle">Open now</h1>
+      <p id="psub"></p>
+      <div class="filters" id="filters">
+        <div class="row"><span style="color:var(--ink-2)">No hours listed:</span>
+          <div class="seg" id="unk" role="group" aria-label="Places with no listed hours">
+            <button data-v="food">Food &amp; drink</button><button data-v="all">All</button><button data-v="none">Hide</button>
+          </div>
+        </div>
+        <div class="row"><label><input type="checkbox" id="showClosed"> Show closed places</label></div>
+        <div class="legend"><span><i class="dot"></i>Open</span><span><i class="dot ring"></i>No hours listed</span><span><i class="dot grey"></i>Closed</span></div>
+      </div>
+    </div>
+    <div class="p-body" id="pbody"></div>
+    <div class="p-foot" id="pfoot"></div>
+  </aside>
+</div>
+
+<script src="vendor/maplibre-gl.js"></script>
+<script src="vendor/suncalc.js"></script>
+<script src="vendor/opening_hours.js"></script>
+<script src="data/curated.js"></script>
+<script>
+(() => {
+"use strict";
+// ================= Settings =================
+const CENTER = [6.6303, 46.5216];               // Place Bel-Air [lon, lat]
+const RADIUS_M = 5000;
+const OVERPASS = [                                // tried in order; the Swiss instance is the most reliable from Switzerland
+  "https://overpass.osm.ch/api/interpreter",
+  "https://overpass-api.de/api/interpreter",
+  "https://overpass.private.coffee/api/interpreter",
+];
+const REFRESH_AFTER_H = 72;                       // re-download OSM data when the cache is older than this
+const NOM = {lat: CENTER[1], lon: CENTER[0], address: {country_code: "ch", state: "Waadt"}};
+const FONT_FALLBACK_GLYPHS = "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf";
+const BASEMAPS = {
+  positron: {label: "Light", style: "https://tiles.openfreemap.org/styles/positron"},
+  swiss:    {label: "swisstopo light", style: "https://vectortiles.geo.admin.ch/styles/ch.swisstopo.lightbasemap.vt/style.json"},
+  liberty:  {label: "Colourful", style: "https://tiles.openfreemap.org/styles/liberty"},
+  grey:     {label: "swisstopo grey (classic)", style: {version: 8, glyphs: FONT_FALLBACK_GLYPHS,
+              sources: {st: {type: "raster", tileSize: 256, maxzoom: 18, attribution: '© <a href="https://www.swisstopo.admin.ch">swisstopo</a>',
+                tiles: ["https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-grau/default/current/3857/{z}/{x}/{y}.jpeg"]}},
+              layers: [{id: "st", type: "raster", source: "st"}]}},
+};
+const CATS = {
+  restaurant: {label: "Restaurants", c: "#D04A5B", food: true},
+  cafe:       {label: "Cafés", c: "#A0622E", food: true},
+  bar:        {label: "Bars", c: "#7B44A3", food: true},
+  food_shop:  {label: "Groceries & bakeries", c: "#2F8A57"},
+  health:     {label: "Pharmacies & health", c: "#0B8793"},
+  culture:    {label: "Museums & culture", c: "#2F6BD0"},
+  leisure:    {label: "Leisure & events", c: "#E08A00"},
+  shop:       {label: "Other shops", c: "#8B7F75"},
+  services:   {label: "Fuel & services", c: "#52606B"},
+};
+const SOURCE_LABEL = {V: "Verified on official site", D: "From a directory", U: "Unverified research"};
+
+// ================= Helpers =================
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+const fold = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const store = {
+  get(k, d) { try { const v = localStorage.getItem("lsm." + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem("lsm." + k, JSON.stringify(v)); return true; } catch { return false; } },
+};
+const hhmm = m => `${String(Math.floor(m / 60) % 25).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
+const fmtIv = iv => iv.map(([a, b]) => `${hhmm(a)}–${hhmm(Math.min(b, 1440))}`).join(", ");
+function haversine(lat1, lon1, lat2, lon2) {
+  const R = 6371000, r = Math.PI / 180, dp = (lat2 - lat1) * r, dl = (lon2 - lon1) * r;
+  const a = Math.sin(dp / 2) ** 2 + Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.sin(dl / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+}
+function toast(msg, ms = 4000) { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(toast.t); if (ms) toast.t = setTimeout(() => t.classList.remove("show"), ms); }
+const dayStart = d => new Date(d.getFullYear(), d.getMonth(), d.getDate());
+
+// ================= OSM → places =================
+const FOOD_SHOPS = new Set("convenience supermarket bakery pastry kiosk newsagent tobacco florist deli greengrocer confectionery ice_cream chocolate butcher cheese wine alcohol beverages farm seafood health_food tea coffee spices frozen_food".split(" "));
+const LABEL = {fast_food: "Fast food", ice_cream: "Ice cream", food_court: "Food court", biergarten: "Beer garden", pub: "Pub", bar: "Bar", cafe: "Café", restaurant: "Restaurant",
+  convenience: "Convenience store", supermarket: "Supermarket", bakery: "Bakery", pastry: "Pastry shop", kiosk: "Kiosk", newsagent: "Newsagent", tobacco: "Tobacco",
+  florist: "Florist", deli: "Deli", greengrocer: "Greengrocer", confectionery: "Confectionery", chocolate: "Chocolate shop", pharmacy: "Pharmacy", hospital: "Hospital",
+  clinic: "Clinic", doctors: "Doctor", cinema: "Cinema", theatre: "Theatre", arts_centre: "Arts centre", fuel: "Petrol station", ferry_terminal: "Boat landing",
+  car_rental: "Car rental", marketplace: "Market", museum: "Museum", gallery: "Gallery", attraction: "Attraction", zoo: "Zoo", aquarium: "Aquarium",
+  sports_centre: "Sports centre", fitness_centre: "Gym", swimming_pool: "Swimming pool", ice_rink: "Ice rink", bowling_alley: "Bowling", trampoline_park: "Trampoline park",
+  miniature_golf: "Mini golf", escape_game: "Escape game", water_park: "Water park", amusement_arcade: "Arcade", laundry: "Laundromat"};
+const cap = s => s ? s[0].toUpperCase() + s.slice(1) : s;
+function classify(t) {
+  const am = t.amenity, shop = t.shop, tour = t.tourism, leis = t.leisure;
+  if (["restaurant", "fast_food", "food_court"].includes(am)) return ["restaurant", LABEL[am]];
+  if (["cafe", "ice_cream"].includes(am)) return ["cafe", LABEL[am]];
+  if (["bar", "pub", "biergarten"].includes(am)) return ["bar", LABEL[am]];
+  if (["pharmacy", "hospital", "clinic", "doctors"].includes(am)) return ["health", LABEL[am] + (t.emergency === "yes" ? " · emergency" : "")];
+  if (["cinema", "theatre", "arts_centre"].includes(am) || ["museum", "gallery"].includes(tour)) return ["culture", LABEL[am || tour]];
+  if (["attraction", "zoo", "aquarium"].includes(tour)) return ["leisure", LABEL[tour]];
+  if (am === "marketplace") return ["leisure", "Market"];
+  if (leis || t.sport === "climbing") {
+    if (leis === "swimming_pool" && ["private", "no", "customers"].includes(t.access)) return null;
+    return ["leisure", t.sport === "climbing" ? "Climbing gym" : (LABEL[leis] || "Leisure")];
+  }
+  if (["fuel", "ferry_terminal", "car_rental"].includes(am) || shop === "laundry") return ["services", LABEL[am || shop]];
+  if (shop) return FOOD_SHOPS.has(shop) ? ["food_shop", LABEL[shop] || cap(shop.replace(/_/g, " "))] : ["shop", cap(shop.replace(/_/g, " "))];
+  return null;
+}
+function osmToPlace([id, lat, lon, t]) {
+  const cls = classify(t); if (!cls || !t.name) return null;
+  const type = {n: "node", w: "way", r: "relation"}[id[0]];
+  const street = [t["addr:street"], t["addr:housenumber"]].filter(Boolean).join(" ");
+  const town = [t["addr:postcode"], t["addr:city"]].filter(Boolean).join(" ");
+  return {
+    id: "osm:" + id, name: t.name, category: cls[0], sub: cls[1],
+    cuisine: t.cuisine ? t.cuisine.split(";").map(s => cap(s.trim().replace(/_/g, " "))).join(", ") : null,
+    lat, lon, address: [street, town].filter(Boolean).join(", ") || null,
+    opening_hours: t.opening_hours || null, website: t.website || t["contact:website"] || null,
+    phone: t.phone || t["contact:phone"] || null, brand: t.brand || null,
+    check_date: t["check_date:opening_hours"] || t.check_date || null,
+    osm: `${type}/${id.slice(1)}`, source: "osm", confidence: "osm",
+  };
+}
+const STOP = new Set("le la les l de du des d et sa sarl gmbh ag the chez lausanne cafe restaurant pharmacie musee cinema".split(" "));
+const tokens = n => fold(n).replace(/\(.*?\)/g, " ").match(/[a-z0-9]+/g)?.filter(t => !STOP.has(t)) || [];
+function nameScore(a, b) {
+  const ta = tokens(a), tb = tokens(b); if (!ta.length || !tb.length) return 0;
+  const sa = new Set(ta), sb = new Set(tb);
+  if ([...sa].every(x => sb.has(x)) || [...sb].every(x => sa.has(x))) return 0.9;
+  const inter = [...sa].filter(x => sb.has(x)).length;
+  return inter / Math.max(sa.size, sb.size);
+}
+
+// ================= Hours =================
+const ohCache = new Map();
+function parseOH(s) {
+  if (!s) return null;
+  if (ohCache.has(s)) return ohCache.get(s);
+  let o = null; try { o = new opening_hours(s, NOM); } catch { o = false; }
+  ohCache.set(s, o); return o;
+}
+function intervals(oh, day) {
+  const e = new Date(day); e.setDate(e.getDate() + 1);
+  try { return oh.getOpenIntervals(day, e).map(i => [Math.round((i[0] - day) / 6e4), Math.round((i[1] - day) / 6e4), !!i[2]]); }
+  catch { return null; }
+}
+function sameSunday(a, b) {
+  const s = new Date(2026, 10, 15);   // a normal Sunday
+  return JSON.stringify(intervals(a, s)) === JSON.stringify(intervals(b, s));
+}
+
+// ================= Build dataset =================
+let P = [];
+function build(osmEls) {
+  const osm = (osmEls || []).map(osmToPlace).filter(Boolean)
+    .filter(p => haversine(CENTER[1], CENTER[0], p.lat, p.lon) <= RADIUS_M);
+  const used = new Set(), out = [];
+  for (const c of (window.CURATED || [])) {
+    if (haversine(CENTER[1], CENTER[0], c.lat, c.lon) > RADIUS_M) continue;
+    const p = {...c, id: "cur:" + c.id, source: "research", cuisine: null, phone: null, osm: null};
+    let best = null, bs = 0, bd = 1e9;
+    for (const o of osm) {
+      if (used.has(o.id)) continue;
+      const d = haversine(c.lat, c.lon, o.lat, o.lon); if (d > 300) continue;
+      const s = nameScore(c.name, o.name);
+      if (s >= 0.8 && (s > bs + 0.05 || (Math.abs(s - bs) <= 0.05 && d < bd))) { best = o; bs = s; bd = d; }
+    }
+    if (best) {
+      used.add(best.id);
+      Object.assign(p, {lat: best.lat, lon: best.lon, osm: best.osm, source: "research+osm", cuisine: best.cuisine, phone: best.phone, check_date: best.check_date});
+      p.website = p.website || best.website; p.address = p.address || best.address;
+      const a = parseOH(p.opening_hours), b = parseOH(best.opening_hours);
+      if (b && (!a || c.confidence !== "V")) {
+        if (p.opening_hours && p.opening_hours !== best.opening_hours) p.researchHours = p.opening_hours;
+        p.opening_hours = best.opening_hours; p.hoursFrom = "osm";
+      } else if (a && b && p.opening_hours !== best.opening_hours) {
+        if (sameSunday(a, b)) { p.opening_hours = best.opening_hours; p.hoursFrom = "osm-agrees"; }
+        else p.osmHours = best.opening_hours;
+      }
+    }
+    out.push(p);
+  }
+  for (const o of osm) if (!used.has(o.id)) out.push(o);
+  out.forEach((p, i) => {
+    p.i = i; p.oh = parseOH(p.opening_hours); p.ohErr = p.opening_hours && p.oh === false;
+    if (p.oh === false) p.oh = null;
+    p.dist = haversine(CENTER[1], CENTER[0], p.lat, p.lon);
+    p.text = fold([p.name, p.sub, p.cuisine, p.address, p.brand, CATS[p.category]?.label].join(" "));
+    if (!CATS[p.category]) p.category = "shop";
+  });
+  P = out;
+}
+
+// ================= State =================
+const now0 = new Date();
+const S = {
+  day: now0.getDay() === 0 ? dayStart(now0) : (() => { const d = dayStart(now0); d.setDate(d.getDate() + 7 - d.getDay()); return d; })(),
+  minute: now0.getDay() === 0 ? Math.floor((now0.getHours() * 60 + now0.getMinutes()) / 15) * 15 : 12 * 60,
+  any: false,
+  cats: Object.assign(Object.fromEntries(Object.keys(CATS).map(k => [k, true])), store.get("cats", {})),
+  unk: store.get("unk", "food"),
+  showClosed: store.get("closed", false),
+  selected: null,
+};
+function computeDay() { for (const p of P) p.iv = p.oh ? intervals(p.oh, S.day) : null; }
+function stateOf(p) {
+  if (!p.oh || !p.iv) return (p.source !== "osm" && !p.ohErr && S.day.getDay() === 0) ? "likely" : "unknown";
+  if (S.any) { let u = false; for (const iv of p.iv) { if (!iv[2]) return "open"; u = true; } return u ? "unknown" : "closed"; }
+  for (const iv of p.iv) if (S.minute >= iv[0] && S.minute < iv[1]) return iv[2] ? "unknown" : "open";
+  return "closed";
+}
+function visible(p) {
+  if (!S.cats[p.category]) return false;
+  if (p.st === "open" || p.st === "likely") return true;
+  if (p.st === "unknown") return S.unk === "all" || (S.unk === "food" && CATS[p.category].food);
+  return S.showClosed;
+}
+function statusText(p, short) {
+  const st = p.st;
+  if (st === "likely") return short ? "Said to open Sundays" : "Said to open on Sundays; exact hours not confirmed";
+  if (!p.oh) return p.ohErr ? "Hours listed but unreadable" : "No hours listed";
+  const known = (p.iv || []).filter(i => !i[2]);
+  if (S.any) return known.length ? (short ? fmtIv(known) : "Open " + fmtIv(known)) : st === "unknown" ? "Hours for this day not listed" : "Closed this day";
+  const cur = (p.iv || []).find(i => S.minute >= i[0] && S.minute < i[1]);
+  if (cur && !cur[2]) return `Open · until ${cur[1] >= 1440 ? "midnight" : hhmm(cur[1])}`;
+  if (cur && cur[2]) return "Hours for this day not listed";
+  const later = known.find(i => i[0] > S.minute);
+  return later ? `Closed · opens ${hhmm(later[0])}` : "Closed for the day";
+}
+
+// ================= Map =================
+let map, fontStack = ["Noto Sans Regular"], mapReady = false;
+const basemapKey = BASEMAPS[store.get("basemap")] ? store.get("basemap") : "positron";
+function initMap() {
+  map = new maplibregl.Map({container: "map", style: BASEMAPS[basemapKey].style, center: CENTER, zoom: 14.3, minZoom: 10, maxZoom: 19,
+    attributionControl: {compact: true, customAttribution: 'Places © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}});
+  map.addControl(new maplibregl.NavigationControl({showCompass: false}), "top-right");
+  map.addControl(new maplibregl.GeolocateControl({positionOptions: {enableHighAccuracy: true}, trackUserLocation: false}), "top-right");
+  let styleOk = false;
+  map.on("style.load", () => { styleOk = true; $("#loading").style.display = "none"; addLayers(); });
+  setTimeout(() => { if (!styleOk) { toast("The background map didn’t load. Showing places on a plain background.", 6000); map.setStyle(blankStyle()); } }, 9000);
+  map.on("moveend", () => renderPanel());
+}
+function blankStyle() { return {version: 8, glyphs: FONT_FALLBACK_GLYPHS, sources: {}, layers: [{id: "bg", type: "background", paint: {"background-color": "#EEF0EE"}}]}; }
+function pickFont() {
+  const fonts = new Set();
+  const walk = x => Array.isArray(x) ? x.forEach(walk) : (typeof x === "string" && / /.test(x) && fonts.add(x));
+  for (const l of map.getStyle().layers || []) if (l.layout && l.layout["text-font"]) walk(l.layout["text-font"]);
+  const list = [...fonts];
+  const f = list.find(x => /regular/i.test(x) && !/italic|condensed/i.test(x)) || list.find(x => !/italic/i.test(x)) || list[0];
+  return [f || "Noto Sans Regular"];
+}
+const catColor = ["match", ["get", "cat"], ...Object.entries(CATS).flatMap(([k, v]) => [k, v.c]), "#777"];
+function addLayers() {
+  fontStack = pickFont();
+  if (!map.getStyle().glyphs) { try { map.setGlyphs(FONT_FALLBACK_GLYPHS); fontStack = ["Noto Sans Regular"]; } catch {} }
+  map.addSource("places", {type: "geojson", data: geojson()});
+  map.addSource("sel", {type: "geojson", data: selGeojson()});
+  const r = k => ["interpolate", ["linear"], ["zoom"], 11, 2.5 * k, 14, 4.5 * k, 16, 6.5 * k, 18, 9 * k];
+  map.addLayer({id: "p-closed", type: "circle", source: "places", filter: ["==", ["get", "st"], "closed"],
+    paint: {"circle-radius": r(0.7), "circle-color": "#AEB7BC", "circle-stroke-color": "#fff", "circle-stroke-width": 1}});
+  map.addLayer({id: "p-unknown", type: "circle", source: "places", filter: ["in", ["get", "st"], ["literal", ["unknown", "likely"]]],
+    paint: {"circle-radius": r(0.85), "circle-color": "#fff", "circle-stroke-color": catColor, "circle-stroke-width": ["interpolate", ["linear"], ["zoom"], 12, 1.5, 17, 2.5]}});
+  map.addLayer({id: "p-open", type: "circle", source: "places", filter: ["==", ["get", "st"], "open"],
+    paint: {"circle-radius": r(1), "circle-color": catColor, "circle-stroke-color": "#fff", "circle-stroke-width": ["interpolate", ["linear"], ["zoom"], 12, 1, 17, 2]}});
+  map.addLayer({id: "p-sel", type: "circle", source: "sel",
+    paint: {"circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 9, 18, 16], "circle-color": "rgba(0,0,0,0)", "circle-stroke-color": "#1B2730", "circle-stroke-width": 2.5}});
+  map.addLayer({id: "p-label", type: "symbol", source: "places", minzoom: 15.6, filter: ["!=", ["get", "st"], "closed"],
+    layout: {"text-field": ["get", "name"], "text-font": fontStack, "text-size": 12, "text-anchor": "top", "text-offset": [0, 0.75],
+      "text-max-width": 9, "text-optional": true, "symbol-sort-key": ["match", ["get", "st"], "open", 0, 1]},
+    paint: {"text-color": "#2B3740", "text-halo-color": "rgba(255,255,255,.95)", "text-halo-width": 1.6}});
+  mapReady = true;
+}
+function geojson() {
+  return {type: "FeatureCollection", features: P.filter(p => p.vis).map(p => ({type: "Feature", id: p.i,
+    geometry: {type: "Point", coordinates: [p.lon, p.lat]}, properties: {i: p.i, cat: p.category, st: p.st, name: p.name}}))};
+}
+function selGeojson() {
+  const p = S.selected != null ? P[S.selected] : null;
+  return {type: "FeatureCollection", features: p ? [{type: "Feature", geometry: {type: "Point", coordinates: [p.lon, p.lat]}, properties: {}}] : []};
+}
+function pushMap() { if (!mapReady) return; map.getSource("places")?.setData(geojson()); map.getSource("sel")?.setData(selGeojson()); }
+
+// hover + click
+function wireMapEvents() {
+  const tip = new maplibregl.Popup({closeButton: false, closeOnClick: false, className: "tip", offset: 10});
+  const layers = ["p-open", "p-unknown", "p-closed"];
+  map.on("mousemove", e => {
+    if (!mapReady) return;
+    const f = map.queryRenderedFeatures(e.point, {layers}).sort((a, b) => layers.indexOf(a.layer.id) - layers.indexOf(b.layer.id))[0];
+    map.getCanvas().style.cursor = f ? "pointer" : "";
+    if (f) tip.setLngLat(f.geometry.coordinates).setText(f.properties.name).addTo(map); else tip.remove();
+  });
+  map.on("click", e => {
+    if (!mapReady) return;
+    const pad = 6, box = [[e.point.x - pad, e.point.y - pad], [e.point.x + pad, e.point.y + pad]];
+    const f = map.queryRenderedFeatures(box, {layers}).sort((a, b) => layers.indexOf(a.layer.id) - layers.indexOf(b.layer.id))[0];
+    if (f) { tip.remove(); select(f.properties.i, false); }
+  });
+}
+
+// ================= Refresh everything =================
+function refresh() {
+  const counts = {}; let openN = 0;
+  for (const p of P) {
+    p.st = stateOf(p); p.vis = visible(p);
+    if (p.st === "open") { counts[p.category] = (counts[p.category] || 0) + 1; if (S.cats[p.category]) openN++; }
+  }
+  renderChips(counts); renderTimeline(openN); renderHist(); pushMap(); renderPanel();
+  if ($("#q").value.trim()) runSearch();
+}
+
+// ================= Chips =================
+function renderChips(counts) {
+  $("#chips").innerHTML = Object.entries(CATS).map(([k, c]) =>
+    `<button class="chip" data-k="${k}" aria-pressed="${!!S.cats[k]}"><i class="dot" style="--c:${c.c}"></i>${c.label} <span class="n">${counts[k] || 0}</span></button>`).join("");
+}
+$("#chips").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  const k = b.dataset.k, all = Object.values(S.cats).every(Boolean);
+  if (e.altKey || e.metaKey) { for (const c in S.cats) S.cats[c] = c === k; }
+  else if (all) { for (const c in S.cats) S.cats[c] = c === k; }       // first click on a full set focuses one category
+  else { S.cats[k] = !S.cats[k]; if (!Object.values(S.cats).some(Boolean)) for (const c in S.cats) S.cats[c] = true; }
+  store.set("cats", S.cats); refresh();
+});
+
+// ================= Timeline =================
+const holidayProbe = new opening_hours("PH off", NOM);
+function holidayName(d) { const n = new Date(d); n.setHours(12); try { if (holidayProbe.getState(n)) return null; const c = holidayProbe.getComment(n); return c ? c.split("/")[c.split("/").length > 1 ? 1 : 0].trim() : null; } catch { return null; } }
+function renderDays() {
+  const t = dayStart(new Date()), opts = [];
+  for (let i = 0; i < 21; i++) {
+    const d = new Date(t); d.setDate(d.getDate() + i);
+    const hol = holidayName(d);
+    let label = d.toLocaleDateString("en-GB", {weekday: "short", day: "numeric", month: "short"});
+    if (i === 0) label = "Today, " + label; else if (i === 1) label = "Tomorrow, " + label;
+    if (hol) label += " · " + hol;
+    opts.push(`<option value="${+d}">${esc(label)}</option>`);
+  }
+  if (!opts.some(o => o.includes(`"${+S.day}"`))) opts.push(`<option value="${+S.day}">${S.day.toLocaleDateString("en-GB", {weekday: "short", day: "numeric", month: "short"})}</option>`);
+  $("#day").innerHTML = opts.join(""); $("#day").value = String(+S.day);
+}
+function renderTimeline(openN) {
+  $("#timeline").classList.toggle("any", S.any);
+  $("#time").textContent = S.any ? "Any time" : hhmm(S.minute);
+  $("#time").classList.toggle("any", S.any);
+  $("#any").setAttribute("aria-pressed", S.any);
+  $("#slider").value = S.minute;
+  $("#count").textContent = `${openN.toLocaleString("en-GB")} open${S.any ? " that day" : ""}`;
+  $("#day").value = String(+S.day);
+}
+function renderHist() {
+  const slots = new Array(48).fill(0);
+  for (const p of P) {
+    if (!S.cats[p.category] || !p.iv) continue;
+    for (const [a, b, u] of p.iv) if (!u) for (let k = Math.max(0, Math.floor(a / 30)); k < Math.min(48, Math.ceil(b / 30)); k++) slots[k]++;
+  }
+  const max = Math.max(1, ...slots), w = 480 / 48, cur = Math.floor(S.minute / 30);
+  $("#hist").innerHTML = slots.map((n, k) => { const h = n ? Math.max(2, Math.round(50 * n / max)) : 0;
+    return `<rect x="${k * w + 1}" y="${52 - h}" width="${w - 2}" height="${h}" rx="1.5" class="${!S.any && k === cur ? "on" : ""}"><title>${hhmm(k * 30)} · ${n} open</title></rect>`; }).join("");
+}
+let sT;
+$("#slider").addEventListener("input", e => { S.minute = +e.target.value; S.any = false; $("#time").textContent = hhmm(S.minute); $("#time").classList.remove("any"); clearTimeout(sT); sT = setTimeout(refresh, 40); });
+$("#hist").addEventListener("click", e => { const r = e.currentTarget.getBoundingClientRect(); S.minute = Math.min(1425, Math.round((e.clientX - r.left) / r.width * 96) * 15); S.any = false; refresh(); });
+$("#any").onclick = () => { S.any = !S.any; refresh(); };
+$("#now").onclick = () => { const n = new Date(); S.day = dayStart(n); S.minute = Math.floor((n.getHours() * 60 + n.getMinutes()) / 15) * 15; S.any = false; renderDays(); computeDay(); refresh(); };
+$("#day").onchange = e => { S.day = new Date(+e.target.value); computeDay(); refresh(); };
+
+// ================= Filters =================
+for (const b of document.querySelectorAll("#unk button")) b.onclick = () => { S.unk = b.dataset.v; store.set("unk", S.unk); syncFilters(); refresh(); };
+$("#showClosed").onchange = e => { S.showClosed = e.target.checked; store.set("closed", S.showClosed); refresh(); };
+function syncFilters() { document.querySelectorAll("#unk button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === S.unk)); $("#showClosed").checked = S.showClosed; }
+
+// ================= Panel: list + detail =================
+function dayWord() { const t = dayStart(new Date()); return +S.day === +t ? "today" : S.day.toLocaleDateString("en-GB", {weekday: "long", day: "numeric", month: "long"}); }
+function renderPanel() {
+  if (S.selected != null) return renderDetail(P[S.selected]);
+  $("#phead").style.display = ""; $("#filters").style.display = "";
+  const isNow = !S.any && +S.day === +dayStart(new Date()) && Math.abs(S.minute - (new Date().getHours() * 60 + new Date().getMinutes())) < 20;
+  $("#ptitle").textContent = S.any ? `Open ${dayWord()}` : isNow ? "Open now" : `Open at ${hhmm(S.minute)}`;
+  $("#psub").textContent = S.any || isNow ? (S.any ? "At some point in the day" : dayWord() === "today" ? "" : dayWord()) : cap(dayWord());
+  if (!mapReady && !P.length) { $("#pbody").innerHTML = ""; return; }
+  const b = mapReady ? map.getBounds() : null, c = mapReady ? map.getCenter() : {lng: CENTER[0], lat: CENTER[1]};
+  const rank = {open: 0, likely: 1, unknown: 2, closed: 3};
+  const items = P.filter(p => p.vis && (!b || b.contains([p.lon, p.lat])))
+    .map(p => [p, (p.lat - c.lat) ** 2 + ((p.lon - c.lng) * 0.688) ** 2])
+    .sort((x, y) => (rank[x[0].st] - rank[y[0].st]) || (x[1] - y[1])).map(x => x[0]);
+  const LIMIT = 120;
+  let html = `<div class="p-sub"><span>${items.length ? `${items.length.toLocaleString("en-GB")} in this area${items.length > LIMIT ? `, ${LIMIT} nearest the centre listed` : ""}` : ""}</span></div>`;
+  if (!items.length) html += `<div class="empty">Nothing here at this time. Zoom out, turn on more categories, or try “Any time that day”.</div>`;
+  else html += `<ul id="list">${items.slice(0, LIMIT).map(p => `<li tabindex="0" data-i="${p.i}"><i class="dot ${p.st === "open" ? "" : p.st === "closed" ? "grey" : "ring"}" style="--c:${CATS[p.category].c}"></i>
+      <span class="nm">${esc(p.name)}</span><span class="meta"><span class="st-${p.st}">${esc(statusText(p, true))}</span> · ${esc(p.cuisine || p.sub || CATS[p.category].label)}</span></li>`).join("")}</ul>`;
+  html += `<div class="help"><b>Need a pharmacy or doctor?</b> The on-call pharmacy changes daily: <a href="https://garde.svph.ch" target="_blank" rel="noopener">garde.svph.ch</a>. On-call doctors, 24/7: <a href="tel:0848133133">0848 133 133</a>. Emergencies: <a href="tel:144">144</a>.</div>`;
+  $("#pbody").innerHTML = html;
+}
+$("#pbody").addEventListener("click", e => {
+  const li = e.target.closest("li[data-i]"); if (li) return select(+li.dataset.i, true);
+  if (e.target.closest(".back")) { S.selected = null; pushMap(); renderPanel(); }
+});
+$("#pbody").addEventListener("keydown", e => { if (e.key === "Enter") { const li = e.target.closest("li[data-i]"); if (li) select(+li.dataset.i, true); } });
+
+function weekRows(p) {
+  if (!p.oh) return "";
+  const mon = new Date(S.day); mon.setDate(mon.getDate() - ((mon.getDay() + 6) % 7));
+  let rows = "";
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(mon); d.setDate(d.getDate() + i);
+    const iv = intervals(p.oh, d) || [], known = iv.filter(x => !x[2]);
+    const hol = holidayName(d);
+    const txt = known.length ? fmtIv(known) : iv.length ? "Not listed" : "Closed";
+    rows += `<tr class="${+d === +S.day ? "sel" : ""}"><td>${d.toLocaleDateString("en-GB", {weekday: "short", day: "numeric"})}${hol ? " ·&nbsp;holiday" : ""}</td><td>${txt}</td></tr>`;
+  }
+  return `<table class="week">${rows}</table>`;
+}
+function renderDetail(p) {
+  $("#phead").style.display = window.innerWidth <= 860 ? "" : "none";
+  $("#filters").style.display = "none";
+  $("#ptitle").textContent = p.name; $("#psub").textContent = "";
+  const lat = p.lat, lon = p.lon;
+  const notes = [];
+  if (p.note) notes.push(esc(p.note));
+  if (p.researchHours) notes.push(`Our research listed different hours (${esc(p.researchHours.replace("Mo-Sa unknown; ", ""))}). Showing OpenStreetMap’s instead.`);
+  if (p.osmHours) notes.push(`OpenStreetMap lists different hours: ${esc(p.osmHours)}. Showing the verified hours.`);
+  if (p.ohErr) notes.push(`Listed hours could not be read: “${esc(p.opening_hours)}”`);
+  const src = p.source === "osm" ? `From OpenStreetMap${p.check_date ? `, hours checked ${esc(p.check_date)}` : ""}`
+    : `<span class="badge ${p.confidence}">${SOURCE_LABEL[p.confidence] || "Research"}</span>${p.source === "research+osm" ? " · matched to OpenStreetMap" : ""}`;
+  const links = [`<a class="primary" href="https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}" target="_blank" rel="noopener">Directions</a>`];
+  if (p.website) links.push(`<a href="${esc(/^https?:/.test(p.website) ? p.website : "https://" + p.website)}" target="_blank" rel="noopener">Website</a>`);
+  if (p.phone) links.push(`<a href="tel:${esc(p.phone.replace(/[^\d+]/g, ""))}">Call</a>`);
+  links.push(p.osm ? `<a href="https://www.openstreetmap.org/${esc(p.osm)}" target="_blank" rel="noopener">Fix on OpenStreetMap</a>`
+                   : `<a href="https://www.openstreetmap.org/note/new#map=19/${lat}/${lon}" target="_blank" rel="noopener">Add to OpenStreetMap</a>`);
+  $("#pbody").innerHTML = `<div class="detail">
+    <button class="back">← Back to list</button>
+    <h2>${esc(p.name)}</h2>
+    <div class="kind"><i class="dot" style="--c:${CATS[p.category].c}"></i>${esc([p.sub, p.cuisine].filter(Boolean).join(" · ") || CATS[p.category].label)}</div>
+    <div class="status st-${p.st}">${esc(statusText(p, false))}</div>
+    <div class="status-sub">${S.any ? cap(dayWord()) : `${cap(dayWord())} at ${hhmm(S.minute)}`}</div>
+    ${weekRows(p)}
+    <div class="facts">${p.address ? esc(p.address) + "<br>" : ""}${(p.dist / 1000).toFixed(1)} km from Place Bel-Air</div>
+    ${notes.map(n => `<div class="note">${n}</div>`).join("")}
+    <div class="actions">${links.join("")}</div>
+    <div class="src">${src}</div></div>`;
+  $("#pbody").scrollTop = 0;
+}
+function select(i, fly) {
+  S.selected = i; const p = P[i];
+  pushMap(); renderPanel();
+  if (window.innerWidth <= 860) $("#panel").classList.add("up");
+  if (fly && mapReady) map.easeTo({center: [p.lon, p.lat], zoom: Math.max(map.getZoom(), 16.2), duration: 600, padding: window.innerWidth <= 860 ? {bottom: window.innerHeight * 0.4} : {}});
+}
+$("#phead").addEventListener("click", e => { if (window.innerWidth <= 860 && !e.target.closest("button,input,label,select")) $("#panel").classList.toggle("up"); });
+
+// ================= Search =================
+let sel = -1, found = [];
+function runSearch() {
+  const q = fold($("#q").value.trim());
+  $("#search").classList.toggle("has", !!q);
+  if (!q) { $("#search").classList.remove("open"); $("#q").setAttribute("aria-expanded", "false"); return; }
+  const terms = q.split(/\s+/);
+  const rank = {open: 0, likely: 1, unknown: 2, closed: 3};
+  found = P.filter(p => terms.every(t => p.text.includes(t))).map(p => {
+    const n = fold(p.name); const s = n.startsWith(q) ? 0 : n.includes(q) ? 1 : n.split(/\s+/).some(w => w.startsWith(terms[0])) ? 2 : 3;
+    return [p, s];
+  }).sort((a, b) => a[1] - b[1] || rank[a[0].st] - rank[b[0].st] || a[0].dist - b[0].dist).slice(0, 12).map(x => x[0]);
+  sel = found.length ? 0 : -1;
+  $("#results").innerHTML = found.length ? found.map((p, k) => `<button role="option" data-i="${p.i}" aria-selected="${k === sel}">
+      <i class="dot ${p.st === "open" ? "" : p.st === "closed" ? "grey" : "ring"}" style="--c:${CATS[p.category].c}"></i>
+      <span class="nm">${esc(p.name)}</span><span class="st-${p.st}" style="font-size:12px;white-space:nowrap">${esc(statusText(p, true))}</span>
+      <span class="sub">${esc([p.cuisine || p.sub, p.address].filter(Boolean).join(" · "))}${S.cats[p.category] ? "" : " · category hidden"}</span></button>`).join("")
+    : `<div class="none">No places match “${esc($("#q").value.trim())}”. Try a shorter word or a street name.</div>`;
+  $("#search").classList.add("open"); $("#q").setAttribute("aria-expanded", "true");
+}
+function pick(i) {
+  const p = P[i];
+  if (!S.cats[p.category]) { S.cats[p.category] = true; store.set("cats", S.cats); }
+  $("#search").classList.remove("open");
+  if (!p.vis) { if (p.st === "closed") S.showClosed = true; else if (p.st === "unknown") S.unk = "all"; syncFilters(); }
+  refresh(); select(i, true);
+}
+$("#q").addEventListener("input", runSearch);
+$("#q").addEventListener("focus", () => { if ($("#q").value.trim()) runSearch(); });
+$("#q").addEventListener("keydown", e => {
+  const btns = [...document.querySelectorAll("#results button")];
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") { e.preventDefault(); if (!btns.length) return; sel = (sel + (e.key === "ArrowDown" ? 1 : -1) + btns.length) % btns.length; btns.forEach((b, k) => b.setAttribute("aria-selected", k === sel)); btns[sel].scrollIntoView({block: "nearest"}); }
+  else if (e.key === "Enter" && sel >= 0 && found[sel]) { e.preventDefault(); pick(found[sel].i); $("#q").blur(); }
+  else if (e.key === "Escape") { $("#search").classList.remove("open"); $("#q").blur(); }
+});
+$("#results").addEventListener("mousedown", e => { const b = e.target.closest("button[data-i]"); if (b) { e.preventDefault(); pick(+b.dataset.i); $("#q").blur(); } });
+$("#q").addEventListener("blur", () => setTimeout(() => $("#search").classList.remove("open"), 120));
+$("#qclear").onclick = () => { $("#q").value = ""; runSearch(); $("#q").focus(); };
+document.addEventListener("keydown", e => { if (e.key === "/" && document.activeElement.tagName !== "INPUT") { e.preventDefault(); $("#q").focus(); } });
+
+// ================= Basemap =================
+$("#basemap").innerHTML = Object.entries(BASEMAPS).map(([k, v]) => `<option value="${k}">${v.label}</option>`).join("");
+$("#basemap").value = basemapKey;
+$("#basemap").onchange = e => { store.set("basemap", e.target.value); mapReady = false; map.setStyle(BASEMAPS[e.target.value].style, {diff: false}); };
+
+// ================= OSM data: cache + download =================
+function overpassQuery() {
+  const a = `around:${RADIUS_M},${CENTER[1]},${CENTER[0]}`;
+  return `[out:json][timeout:90];(
+  nwr(${a})["amenity"~"^(restaurant|cafe|bar|pub|biergarten|fast_food|ice_cream|food_court)$"];
+  nwr(${a})["shop"]["opening_hours"];
+  nwr(${a})["shop"~"^(convenience|supermarket|bakery|pastry|kiosk|newsagent|tobacco|florist|deli|greengrocer|confectionery|ice_cream|chocolate)$"];
+  nwr(${a})["amenity"~"^(pharmacy|hospital|cinema|theatre|arts_centre|fuel|ferry_terminal|car_rental|marketplace)$"];
+  nwr(${a})["amenity"~"^(clinic|doctors)$"]["opening_hours"];
+  nwr(${a})["tourism"~"^(museum|gallery|attraction|zoo|aquarium)$"];
+  nwr(${a})["leisure"~"^(sports_centre|fitness_centre|swimming_pool|ice_rink|bowling_alley|trampoline_park|miniature_golf|escape_game|water_park|amusement_arcade)$"];
+  nwr(${a})["sport"="climbing"]["leisure"];
+  nwr(${a})["shop"="laundry"];
+);out center tags;`;
+}
+const KEEP = ["name", "amenity", "shop", "tourism", "leisure", "sport", "cuisine", "opening_hours", "website", "contact:website", "phone", "contact:phone",
+  "addr:street", "addr:housenumber", "addr:postcode", "addr:city", "brand", "emergency", "access", "check_date:opening_hours", "check_date"];
+function compact(json) {
+  return json.elements.filter(e => e.tags && e.tags.name).map(e => {
+    const t = {}; for (const k of KEEP) if (e.tags[k]) t[k] = e.tags[k];
+    const c = e.center || e; return [e.type[0] + e.id, +c.lat.toFixed(6), +c.lon.toFixed(6), t];
+  });
+}
+let downloading = false;
+async function download(manual) {
+  if (downloading) return; downloading = true; renderFoot("Downloading places from OpenStreetMap…");
+  let lastErr = "";
+  for (const ep of OVERPASS) {
+    const ac = new AbortController(), timer = setTimeout(() => ac.abort(), 45000);
+    try {
+      const r = await fetch(ep, {method: "POST", body: new URLSearchParams({data: overpassQuery()}), signal: ac.signal});
+      if (r.status === 429) { lastErr = `${new URL(ep).host} is busy (429)`; break; }
+      if (!r.ok) throw new Error(`${new URL(ep).host} answered ${r.status}`);
+      const els = compact(await r.json());
+      if (els.length < 200) throw new Error(`${new URL(ep).host} returned only ${els.length} places`);
+      const cache = {ts: Date.now(), host: new URL(ep).host, els};
+      if (!store.set("osm", cache)) console.warn("Could not cache OSM data (storage full or blocked).");
+      clearTimeout(timer); downloading = false;
+      const keep = S.selected != null ? P[S.selected]?.id : null;
+      build(els); computeDay(); S.selected = keep ? (P.find(p => p.id === keep)?.i ?? null) : null;
+      refresh(); renderFoot(); if (manual) toast(`Updated: ${P.length.toLocaleString("en-GB")} places`);
+      return;
+    } catch (e) { lastErr = e.name === "AbortError" ? `${new URL(ep).host} timed out` : e.message; }
+    clearTimeout(timer);
+  }
+  downloading = false;
+  renderFoot(); toast(`Couldn’t download OpenStreetMap data (${lastErr}). ${OSM ? "Showing the saved copy." : "Showing researched places only."}`, 8000);
+}
+let OSM = null;
+function renderFoot(msg) {
+  const c = store.get("osm", null);
+  const when = c ? new Date(c.ts).toLocaleString("en-GB", {day: "numeric", month: "short", hour: "2-digit", minute: "2-digit"}) : null;
+  $("#pfoot").innerHTML = msg ? esc(msg)
+    : `${P.length.toLocaleString("en-GB")} places within ${RADIUS_M / 1000} km of Place Bel-Air. ${when ? `OpenStreetMap data from ${when}.` : "OpenStreetMap data not downloaded yet."} <button class="link" id="upd">Update now</button>`;
+  const u = $("#upd"); if (u) u.onclick = () => download(true);
+}
+
+// ================= Boot =================
+syncFilters();
+OSM = store.get("osm", null);
+build(OSM ? OSM.els : []);
+computeDay(); renderDays();
+for (const p of P) { p.st = stateOf(p); p.vis = visible(p); }
+initMap(); wireMapEvents();
+map.on("style.load", () => { pushMap(); });
+refresh(); renderFoot();
+if (!OSM || Date.now() - OSM.ts > REFRESH_AFTER_H * 3600e3) download(false);
+window.__app = {P: () => P, S, refresh, build, computeDay};   // for debugging in the console
+})();
+</script>
+</body>
+</html>
