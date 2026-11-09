@@ -1,6 +1,6 @@
 // Generated weekly by scripts/update_data.py from All the Places (CC0), chains' own store data.
 window.CHAIN_HOURS = {
-"ts": "2026-11-08T14:57+00:00",
+"ts": "2026-11-09T12:47+00:00",
 "run": "2026-10-31-13-32-34",
 "places": {
 "n266499584": {
